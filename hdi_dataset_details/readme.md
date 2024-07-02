@@ -21,6 +21,7 @@ More information about these labels are available in the annotation guide. The n
 
 ![images](images/entities_count.png)
 
+All sentences are extracted from full-text articles obtained from PubMed Central. Full-text are extracted using NCBI Entrez e-utils, and sentence-tokenized using NLTK tokenizer. This method was chosen to reflect a realistic data extraction process from the PubMed database.
 
 This dataset was annotated by 3 pharmacists, selected out from a pool of 6 after two test phases. Inter-annotator agreement, in the form of Pairwise F1 score, is shown below.
 

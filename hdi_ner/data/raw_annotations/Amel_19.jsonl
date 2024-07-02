@@ -1,0 +1,172 @@
+{"id":4161,"text":"Both authors contributed equally to this manuscript.","label":[],"Comments":[]}
+{"id":4162,"text":"The fruit of Schisandra chinensis (SC) is a well-known traditional herb used for pharmacological purposes in Asian countries (e.g., Korea, China, and Japan).","label":[[4,9,"Herb part"],[13,38,"Herb name"],[109,114,"Ethnic group"]],"Comments":[]}
+{"id":4163,"text":"In animal studies, SC extract supplementation had beneficial effects on muscle strength and lactate level.","label":[[3,17,"Study"],[19,29,"Herb name"],[72,87,"Parameter"],[92,105,"Parameter"]],"Comments":[]}
+{"id":4164,"text":"However, the effect of SC extract supplementation on skeletal muscle strength and lactate at rest in humans remains unclear.","label":[[23,33,"Herb name"],[53,77,"Parameter"],[82,89,"Parameter"]],"Comments":[]}
+{"id":4165,"text":"The purpose of this study was to evaluate the effect of SC extract supplementation on quadriceps muscle strength (QMS) and lactate at rest in adult women.","label":[[56,66,"Herb name"],[86,118,"Parameter"],[123,130,"Parameter"],[148,153,"Sex"]],"Comments":[]}
+{"id":4166,"text":"Forty five healthy post-menopausal middle-aged women (61.9 ± 8.4 years) were randomly divided into the SC (n = 24) or the placebo group (n = 21).","label":[[0,10,"Cohort"],[11,34,"Pathology"],[47,52,"Sex"],[54,70,"Age"],[103,105,"Herb name"]],"Comments":[]}
+{"id":4167,"text":"The SC group consumed 1000 mg of SC extract per day, whereas the placebo group consumed 1000 mg of starch per day for 12 weeks.","label":[[4,6,"Herb name"],[22,29,"Amount"],[33,43,"Herb name"],[44,51,"Frequency"],[88,95,"Amount"],[99,105,"Herb name"],[106,113,"Frequency"],[114,126,"Duration"]],"Comments":[]}
+{"id":4168,"text":"The difference in muscle mass, physical function, and biomarkers and the relative changes between baseline and 12 weeks were evaluated.","label":[[18,29,"Parameter"],[111,119,"Duration"]],"Comments":[]}
+{"id":4169,"text":"We used two-factor repeated measures analysis of variance (ANOVA) to determine interaction (group × time) effects for variables.","label":[],"Comments":[]}
+{"id":4170,"text":"Statistical significance was accepted at p < 0.05.","label":[],"Comments":[]}
+{"id":4171,"text":"In ANOVA results, QMS (p = 0.001) and lactate level (p = 0.038) showed significant interactions.","label":[[38,51,"Parameter"]],"Comments":[]}
+{"id":4172,"text":"With paired t-tests, QMS was significantly increased (p < 0.001) and lactate level at rest was significantly decreased (p < 0.05) after 12 weeks in the SC group.","label":[[21,24,"Parameter"],[69,82,"Parameter"],[136,144,"Duration"],[152,154,"Target"]],"Comments":[]}
+{"id":4173,"text":"However, no interactions were found between the other variables.","label":[],"Comments":[]}
+{"id":4174,"text":"Supplementation of SC extract may help to improve QMS as well as decrease lactate level at rest in adult women.","label":[[19,29,"Herb name"],[50,53,"Parameter"],[74,87,"Parameter"],[105,110,"Sex"]],"Comments":[]}
+{"id":4175,"text":"We believe that SC extract is a health supplement that can support healthy life in this population.","label":[[16,26,"Herb name"],[67,74,"Pathology"]],"Comments":[]}
+{"id":4176,"text":"Schisandra chinensis (SC) extract has an extensive history as a medicinal herb in traditional Asian medicine for the treatment of diabetes mellitus, chronic cough, thirst, night sweating, hypertension, and obesity [1,2].","label":[[0,33,"Herb name"],[94,99,"Ethnic group"],[130,147,"Pathology"],[149,162,"Pathology"],[164,170,"Pathology"],[172,186,"Pathology"],[188,200,"Pathology"],[206,213,"Pathology"]],"Comments":[]}
+{"id":4177,"text":"Several studies have reported that SC extract has effectively inhibited the damage of large arterial [3,4].","label":[[35,45,"Herb name"],[76,100,"Pathology"]],"Comments":[]}
+{"id":4178,"text":"It has also been implicated in increasing endurance, accuracy of movement, and physical working capacity, as well as the control of arterial blood pressure [1] and the improvement of metabolic markers [2,5].","label":[[132,155,"Parameter"]],"Comments":[]}
+{"id":4179,"text":"Loss of muscle mass and strength are predictors of all-cause mortality, coronary heart disease (CHD), stroke, hospitalization, and disability in the middle-aged and elderly population [6,7].","label":[[0,32,"Pathology"],[72,100,"Pathology"],[102,108,"Pathology"],[131,141,"Pathology"]],"Comments":[]}
+{"id":4180,"text":"Muscle strength and quantity can be used as markers of muscle quality; however, muscle strength is more important when estimating mortality risk [8,9].","label":[[0,28,"Parameter"],[80,95,"Parameter"]],"Comments":[]}
+{"id":4181,"text":"For example, decreased muscle strength was strongly associated with aging, protein-energy wasting, and physical inactivity in the middle-aged and the elderly [10].","label":[[23,38,"Parameter"],[75,97,"Pathology"]],"Comments":[]}
+{"id":4182,"text":"Furthermore, decreased leg muscle strength, specifically, was associated with an increased risk of mobility loss, physical disability within instrumental activities of daily living (IADLs), and functional limitation [11,12].","label":[[23,42,"Parameter"],[99,112,"Pathology"],[114,133,"Pathology"]],"Comments":[]}
+{"id":4183,"text":"Recent animal studies have reported beneficial effects of SC extract, for example, its supplementation appears to decrease protein degradation and increase protein synthesis, as well as display antioxidant and anti-inflammatory effects on skeletal muscle fibers [13,14].","label":[[7,21,"Study"],[58,68,"Herb name"],[239,261,"Target"]],"Comments":[]}
+{"id":4184,"text":"Additionally, SC extract was also found to improve mass and strength in skeletal muscle, as well as endurance in mice [13,14,15].","label":[[14,24,"Herb name"],[51,87,"Parameter"]],"Comments":[]}
+{"id":4185,"text":"However, in humans, SC extract may not be as effective as in animals.","label":[[20,31,"Herb name"]],"Comments":[]}
+{"id":4186,"text":"Our first hypothesis is that the supplementation of SC extract in humans can increase muscle strength.","label":[[52,62,"Herb name"],[86,101,"Parameter"]],"Comments":[]}
+{"id":4187,"text":"Blood lactate (BL) levels have been widely used as an indicator of muscle fatigue during the physical stress of the human body, such as acute exercise [16,17,18].","label":[[0,18,"Parameter"],[67,81,"Pathology"]],"Comments":[]}
+{"id":4188,"text":"However, reliable cross-sectional and follow-up studies in adults have shown that high levels of resting BL are associated with a high risk of type 2 diabetes, CHD, and stroke [19,20].","label":[[18,55,"Study"],[105,107,"Parameter"],[143,158,"Pathology"],[160,163,"Pathology"],[169,175,"Pathology"]],"Comments":[]}
+{"id":4189,"text":"Meanwhile, a recent study by Cao et al.","label":[],"Comments":[]}
+{"id":4190,"text":"reported that long-term SC supplementation could prevent increased lactate after exercise [15].","label":[[24,26,"Herb name"],[67,74,"Target"]],"Comments":[]}
+{"id":4191,"text":"However, it is still unclear the effect SC extract has on lactate level at rest and on skeletal muscle strength in humans.","label":[[40,50,"Herb name"],[58,71,"Parameter"],[87,111,"Parameter"]],"Comments":[]}
+{"id":4192,"text":"Our second hypothesis is that SC extract supplementation in humans reduces lactate at rest.","label":[[30,40,"Herb name"],[75,82,"Parameter"]],"Comments":[]}
+{"id":4193,"text":"Thus, we aimed to investigate the effect of SC extract on quadriceps muscle strength (QMS) and lactate level at rest, in healthy post-menopausal middle-aged women.","label":[[44,54,"Herb name"],[58,90,"Parameter"],[95,102,"Parameter"],[121,144,"Pathology"],[157,162,"Sex"]],"Comments":[]}
+{"id":4194,"text":"This randomized, double-blind, placebo-controlled trial was performed in the Regional Clinical Trial Center, Dong-A University Hospital, Korea.","label":[[5,55,"Study"],[86,100,"Study"]],"Comments":[]}
+{"id":4195,"text":"The 65 subjects were recruited by poster advertisements in the hospital or community welfare center.","label":[[4,15,"Cohort"]],"Comments":[]}
+{"id":4196,"text":"The inclusion criteria for this study were as follows: healthy post-menopausal middle-aged women, with a body mass index (BMI) of 18.5–30.0 kg\/m Additionally, subjects were deemed unsuitable and also excluded if they possessed an aspartate aminotransferase and alanine aminotransferase > 60 IU\/L, were hepatitis C positive, or participated in regular physical activity programs or other clinical studies within the last 3 months.","label":[[55,78,"Pathology"],[91,96,"Sex"],[105,126,"Parameter"],[130,144,"Amount"],[230,256,"Parameter"],[261,285,"Parameter"],[286,295,"Amount"],[302,322,"Pathology"],[387,403,"Study"]],"Comments":[]}
+{"id":4197,"text":"As a result of this, 13 subjects were excluded in this study.","label":[],"Comments":[]}
+{"id":4198,"text":"The 52 participants (55–78 yrs) were randomly divided into an SC group (n = 26) and a placebo group (n = 26), at a ratio of 1:1 by block randomization.","label":[[4,19,"Cohort"],[21,30,"Age"],[62,64,"Herb name"]],"Comments":[]}
+{"id":4199,"text":"During the 12-week period, 7 subjects dropped out due to the following: adherence rates of 2 subjects in the SC group were unclear, and 5 subjects in the placebo group withdrew consent (n = 3) or experienced symptoms of abdominal pain (n = 2).","label":[[11,18,"Duration"],[109,111,"Herb name"],[220,234,"Pathology"]],"Comments":[]}
+{"id":4200,"text":"The final study consisted of 45 adult women (SC group = 24, placebo group = 21), confirmed as healthy via medical evaluation through a clinical interview with the family doctor and without chronic disease, cancer, heart disease, and cerebrovascular disease.","label":[[29,43,"Cohort"],[38,43,"Sex"],[94,101,"Pathology"],[206,212,"Pathology"],[214,227,"Pathology"],[233,256,"Pathology"]],"Comments":[]}
+{"id":4201,"text":"The study was approved by the Institutional Review Board of Dong-A University Hospital (DAUHIRB-14-147) and was registered in the UMIN Clinical Trial Registry (UMIN 000024169;  The physical function test used the maximum value, after taking measurements of five different physical parameters twice, between 8:00–10:00 a.m.","label":[[135,149,"Study"]],"Comments":[]}
+{"id":4202,"text":"These measurement parameters and methods are as follows: grip strength was measured using an isometric dynamometer (TKK-5401, Tokyo, Japan) with the dominant arm.","label":[[57,70,"Parameter"]],"Comments":[]}
+{"id":4203,"text":"The measurement of one leg standing duration was terminated when the lifted lower limb touched the floor, or the position of the supporting lower limb shifted.","label":[],"Comments":[]}
+{"id":4204,"text":"The walking test measured the time taken to walk a 4 m straight distance while walking at a comfortable pace.","label":[],"Comments":[]}
+{"id":4205,"text":"The walking distance was designed to be a total of 7 m, by adding 1.5 m from the start and the finish line as acceleration and deceleration zones [22,23,24].","label":[],"Comments":[]}
+{"id":4206,"text":"The chair stand test involved measuring the time taken for the subject to rise 5 times, as fast as possible, from sitting in a chair to standing [25].","label":[],"Comments":[]}
+{"id":4207,"text":"Isokinetic muscle strength in the quadriceps was measured using an isokinetic dynamometer (Biodex Medical Systems 3, Inc., Shirley, NY, USA) in the dominant leg.","label":[[11,26,"Parameter"]],"Comments":[]}
+{"id":4208,"text":"Before testing, the subjects performed a warm-up exercise consisting of 5 submaximal knee extensions of the leg at 60 degrees\/second.","label":[],"Comments":[]}
+{"id":4209,"text":"In the main test session, subjects performed 5 isokinetic knee extensions of the leg at an angular velocity of 60 degrees\/second, and subjects recovered passively for 2 min between sets of measurements [26,27].","label":[],"Comments":[]}
+{"id":4210,"text":"The subject’s knee joint center, measured using the femoral epicondyles as a joint center reference, was aligned with the axis of the isokinetic dynamometer.","label":[],"Comments":[]}
+{"id":4211,"text":"The leg was secured against the knee attachment pad, while the trunk, waist, and mid-thigh were secured with straps to the chair to reduce movement of these segments.","label":[],"Comments":[]}
+{"id":4212,"text":"SC in powdered form were provided by Bioport Korea Inc. (Gigang, Korea); the lot number (BPK-SC-001) was the same as that used in another animal study [28].","label":[[0,2,"Herb name"],[138,150,"Study"]],"Comments":[]}
+{"id":4213,"text":"Simply, the collected SC (100 kg) was extracted in 20% ethanol at 90 °C for 4 h and filtered with an 80-mesh filter.","label":[[22,24,"Herb name"]],"Comments":[]}
+{"id":4214,"text":"The extract was lyophilised and yielded 23.2% reddish brown powders.","label":[],"Comments":[]}
+{"id":4215,"text":"The SC contained 4.92 ± 0.06 mg\/g of schizandrin as a specific ingredient by high-performance liquid chromatography analysis [28].","label":[[4,6,"Herb name"],[17,33,"Amount"],[37,48,"Herb name"]],"Comments":[]}
+{"id":4216,"text":"The SC provided by the company has been proven effective through animal studies [3,4,13,28], and the safety of the human body has been confirmed by the Regional Clinical Trials Center, Dong-A University, Busan, Korea.","label":[[4,6,"Herb name"],[65,79,"Study"],[161,176,"Study"]],"Comments":[]}
+{"id":4217,"text":"Previous animal studies showed that the optimal dose for the effects of SC extract on muscle strength was 250 mg\/kg [13,28].","label":[[9,23,"Study"],[72,82,"Herb name"],[86,101,"Parameter"],[106,115,"Amount"]],"Comments":[]}
+{"id":4218,"text":"In this study, participant weight ranged from 49.4–68.0 kg.","label":[],"Comments":[]}
+{"id":4219,"text":"SC intake was based on the lowest body weight, and the value was about 1000 mg per day.","label":[[0,2,"Herb name"],[71,78,"Amount"],[79,86,"Frequency"]],"Comments":[]}
+{"id":4220,"text":"The equation for human equivalent dose (HED) is as follows: HED (mg\/kg) = Animal does mg\/kg km ratio [29].","label":[],"Comments":[]}
+{"id":4221,"text":"All participants were randomized to receive placebo or SC pills containing 1000 mg of natural extract (twice per day, two pills per dose, each containing 250 mg).","label":[[55,57,"Herb name"],[75,82,"Amount"],[103,116,"Frequency"],[118,160,"Amount"]],"Comments":[]}
+{"id":4222,"text":"Participants were instructed to take each treatment pill as prescribed after 30 min of breakfast and dinner for 12 weeks and to complete a daily diary of compliance.","label":[[108,120,"Duration"],[139,144,"Frequency"]],"Comments":[]}
+{"id":4223,"text":"All participants were trained to maintain their daily physical activity and advised to not consume other dietary supplements during the intervention.","label":[[48,53,"Frequency"]],"Comments":[]}
+{"id":4224,"text":"Patients and clinical personnel were blinded to the treatment assigned until all data was collected at the 12-week visit.","label":[[107,114,"Duration"]],"Comments":[]}
+{"id":4225,"text":"Fasting venous blood samples were collected from all participants, at baseline and at 12 weeks.","label":[[86,94,"Duration"]],"Comments":[]}
+{"id":4226,"text":"Fasting was maintained for 12 h, and blood samples were collected between 8:00–9:00 a.m. on the following day.","label":[[23,31,"Duration"]],"Comments":[]}
+{"id":4227,"text":"Plasma samples were obtained by centrifugation and stored at −80 °C.","label":[],"Comments":[]}
+{"id":4228,"text":"Serum creatine kinase (CK) and lactate dehydrogenase (LDH) were measured from serum frozen with a commercial kit, according to the manufacturer’s recommendations (Wiener Lab., Rosario, Argentina) [30].","label":[[0,26,"Parameter"],[31,58,"Parameter"]],"Comments":[]}
+{"id":4229,"text":"Lactate and pyruvate concentration were determined by the fluorometric method of Maughan [31], which is based on the enzymatic reactions of NAD+ reduction (lactate) or NADH oxidation (pyruvate).","label":[[0,7,"Parameter"],[12,20,"Parameter"],[156,163,"Parameter"],[184,192,"Parameter"]],"Comments":[]}
+{"id":4230,"text":"The SPSS statistical package version 23.0 for Windows (SPSS, Inc., Chicago, IL, USA) was used to perform all statistical evaluations.","label":[],"Comments":[]}
+{"id":4231,"text":"We used two-factor repeated measures ANOVA to determine interaction (group × time) effects for all outcome variables.","label":[],"Comments":[]}
+{"id":4232,"text":"When significant group × time interactions were identified, paired t-tests were performed to detect differences between time points.","label":[],"Comments":[]}
+{"id":4233,"text":"Statistical significance was accepted at the p < 0.05 level.","label":[],"Comments":[]}
+{"id":4234,"text":"All variables are presented as the mean ± standard deviation.","label":[],"Comments":[]}
+{"id":4235,"text":"The mean SC extract supplementation and placebo compliance were 97.3% (90.2−100%) in the SC group and 95.8% (86.7–100%) in the placebo group.","label":[[9,19,"Herb name"],[89,91,"Herb name"]],"Comments":[]}
+{"id":4236,"text":"There were no significant differences between the groups for height, weight, or BMI at baseline (Table 1).","label":[[80,83,"Parameter"]],"Comments":[]}
+{"id":4237,"text":"ASM\/height QMS is presented in Figure 1.","label":[[0,3,"Parameter"],[11,14,"Parameter"]],"Comments":[]}
+{"id":4238,"text":"There was a significant interaction (p = 0.001) effect for group by time on QMS.","label":[[76,79,"Parameter"]],"Comments":[]}
+{"id":4239,"text":"While QMS significantly increased (p < 0.001) in the SC group from pre- to post-test, this value did not change in the placebo group.","label":[[6,9,"Parameter"],[53,55,"Herb name"]],"Comments":[]}
+{"id":4240,"text":"Lactate level is presented in Figure 2.","label":[[0,13,"Parameter"]],"Comments":[]}
+{"id":4241,"text":"There was a significant interaction (p = 0.038) effect for group by time on lactate level.","label":[[76,89,"Parameter"]],"Comments":[]}
+{"id":4242,"text":"While lactate level significantly decreased (p = 0.045) in the SC group from pre- to post-test, this value did not change in the placebo group.","label":[[6,19,"Parameter"],[63,65,"Herb name"]],"Comments":[]}
+{"id":4243,"text":"Maintaining a high level of muscle strength can be an important means of preventing frailty and hospitalization, as well as physical disability and function limitation in IADLs [11,12,32,33].","label":[[28,43,"Parameter"],[84,91,"Pathology"],[124,143,"Pathology"]],"Comments":[]}
+{"id":4244,"text":"Adequate nutritional supplementation is an important element of any strategy for the preservation of skeletal muscle mass, muscle strength, and muscle protein synthesis during aging [34,35,36].","label":[[101,121,"Parameter"],[123,138,"Parameter"]],"Comments":[]}
+{"id":4245,"text":"SC is one of the most well-known herbal medicines and has been extensively used in Asia, including Japan, China, and Korea [37].","label":[[0,2,"Herb name"]],"Comments":[]}
+{"id":4246,"text":"Nevertheless, human studies on the use of SC extract are limited.","label":[[14,27,"Study"],[42,52,"Herb name"]],"Comments":[]}
+{"id":4247,"text":"A randomized, double-blind, placebo-controlled study by Kim et al.","label":[[0,52,"Study"]],"Comments":[]}
+{"id":4248,"text":"reported that SC extract supplementation for 12 weeks was effective against menopausal symptoms, especially hot flushes, sweating, and heart palpitations [38].","label":[[14,24,"Herb name"],[41,53,"Duration"],[76,95,"Pathology"],[108,119,"Pathology"],[121,129,"Pathology"],[135,153,"Pathology"]],"Comments":[]}
+{"id":4249,"text":"However, another randomized, double-blind, placebo-controlled study of obese women by Song et al.","label":[[17,67,"Study"],[71,76,"Pathology"],[77,82,"Sex"]],"Comments":[]}
+{"id":4250,"text":"reported that SC extract supplementation for 12 weeks had no effect on significant obesity-related parameters [2].","label":[[14,24,"Herb name"],[41,53,"Duration"],[83,90,"Pathology"]],"Comments":[]}
+{"id":4251,"text":"Therefore, the effect of SC extract on humans is not yet clear.","label":[[25,35,"Herb name"]],"Comments":[]}
+{"id":4252,"text":"Recently, two studies have shown that SC supplementation increased calf muscle strength as well as muscle mass in mice [13,28].","label":[[38,40,"Herb name"],[72,87,"Parameter"]],"Comments":[]}
+{"id":4253,"text":"Our study, however, is the first to investigate the association between muscle strength and SC extract in humans.","label":[[72,87,"Parameter"],[92,102,"Herb name"]],"Comments":[]}
+{"id":4254,"text":"In addition, the results of our study showed that supplementation of SC extract for 12 weeks in humans improved muscle strength (mean 7.7% for QMS).","label":[[69,79,"Herb name"],[80,92,"Duration"],[112,127,"Parameter"]],"Comments":[]}
+{"id":4255,"text":"Trapani et al.","label":[],"Comments":[]}
+{"id":4256,"text":"reported that the contractive strength of muscles is determined by the activity of adenosine triphosphatase (ATPase) [39].","label":[[83,116,"Target"]],"Comments":[]}
+{"id":4257,"text":"In addition, SC extract supplementation has been shown to increase ATPase activity in gastrocnemius and soleus muscles in mice [13].","label":[[13,23,"Herb name"],[67,73,"Target"]],"Comments":[]}
+{"id":4258,"text":"This may be the theoretical basis for the mechanism of increase in muscle strength by SC extract supplementation.","label":[[67,82,"Parameter"],[86,96,"Herb name"]],"Comments":[]}
+{"id":4259,"text":"However, our study did not investigate the activity of ATPase.","label":[[55,61,"Target"]],"Comments":[]}
+{"id":4260,"text":"This needs to be established through further study.","label":[],"Comments":[]}
+{"id":4261,"text":"Skeletal muscle mass tended to increase in this study, but it was not statistically significant.","label":[[0,20,"Parameter"]],"Comments":[]}
+{"id":4262,"text":"A change in muscle strength is known to have a positive relationship with changes in muscle mass [40,41,42].","label":[[12,27,"Parameter"],[85,96,"Parameter"]],"Comments":[]}
+{"id":4263,"text":"However, it is not a strong relationship, and individual differences may be present in adults [40,42].","label":[],"Comments":[]}
+{"id":4264,"text":"In previous animal experiments with a positive effect on skeletal muscle and biomarkers, SC extract supplementation recommended a dose of 500 mg\/kg (2430 mg\/day when converted to 60 kg human) [13].","label":[[12,30,"Study"],[57,72,"Target"],[89,99,"Herb name"],[138,147,"Amount"],[149,156,"Amount"],[156,160,"Frequency"]],"Comments":[]}
+{"id":4265,"text":"In our study, the SC extract supplement was 1000 mg per day.","label":[[18,28,"Herb name"],[44,51,"Amount"],[52,59,"Frequency"]],"Comments":[]}
+{"id":4266,"text":"The SC extract we provided may not be sufficient enough to induce a positive effect on skeletal muscle metabolism [13].","label":[[4,14,"Herb name"],[87,113,"Target"]],"Comments":[]}
+{"id":4267,"text":"In our study, ASM and other physical performance variables did not change after 12 weeks.","label":[[14,17,"Parameter"],[80,88,"Duration"]],"Comments":[]}
+{"id":4268,"text":"A few studies reported that leg muscle strength is related to hand grip strength, gait speed, chair stand, and balance in adults [43,44,45].","label":[[28,47,"Parameter"],[62,80,"Parameter"]],"Comments":[]}
+{"id":4269,"text":"In spite of this, our SC group had no changes in other physical performance variables, except leg muscle strength.","label":[[22,24,"Herb name"],[94,113,"Parameter"]],"Comments":[]}
+{"id":4270,"text":"This result differs from the increase in skeletal muscle found in mice after SC extract supplementation.","label":[[41,56,"Target"],[77,87,"Herb name"]],"Comments":[]}
+{"id":4271,"text":"Therefore, a clear relationship between physical performance variables and SC extract supplementation should be demonstrated through further studies.","label":[[75,85,"Herb name"]],"Comments":[]}
+{"id":4272,"text":"Resting lactate level was measured at baseline and after 12 weeks, and results are presented in Figure 2.","label":[[8,21,"Parameter"],[57,65,"Duration"]],"Comments":[]}
+{"id":4273,"text":"There was a significant interaction (p = 0.038) effect for group by time on resting lactate level.","label":[[84,97,"Parameter"]],"Comments":[]}
+{"id":4274,"text":"In the SC group, the lactate level at rest was significantly decreased (p < 0.05), but had no change in the placebo group after 12 weeks.","label":[[7,9,"Herb name"],[21,34,"Parameter"],[128,136,"Duration"]],"Comments":[]}
+{"id":4275,"text":"A follow-up study by Matsushita et al.","label":[[2,17,"Study"]],"Comments":[]}
+{"id":4276,"text":"reported that resting lactate levels were associated with body fat, blood pressure, serum lipids, insulin, and high sensitivity C-reactive protein in adults [20].","label":[[22,36,"Parameter"],[58,66,"Parameter"],[68,82,"Parameter"],[84,96,"Parameter"],[98,105,"Parameter"],[128,146,"Parameter"]],"Comments":[]}
+{"id":4277,"text":"In other cross-sectional and follow-up studies, a high lactate level at rest was associated with chronic diseases such as type 2 diabetes and hypertension [19,46].","label":[[9,46,"Study"],[55,68,"Parameter"],[122,137,"Pathology"],[142,154,"Pathology"]],"Comments":[]}
+{"id":4278,"text":"It was associated with a high risk of coronary heart disease (CHD), stroke, and all-cause mortality [20].","label":[[38,66,"Pathology"],[68,74,"Pathology"]],"Comments":[]}
+{"id":4279,"text":"The normal range of lactic acid at rest is not yet clear.","label":[[20,31,"Parameter"]],"Comments":[]}
+{"id":4280,"text":"The normal range for lactate in the study of Matsushita et al.","label":[[21,28,"Parameter"]],"Comments":[]}
+{"id":4281,"text":"was 2.3–5.3 mg\/dL [20], which was also similar in Juraschek et al.’s study [46].","label":[[4,17,"Amount"]],"Comments":[]}
+{"id":4282,"text":"However, in our subjects, the lactate level at rest was as high as 8.7 mg\/dL.","label":[[30,43,"Parameter"],[67,76,"Amount"]],"Comments":[]}
+{"id":4283,"text":"Recently, animal study suggests that SC intake could lower the lactate level caused by exercise [15].","label":[[10,22,"Study"],[37,39,"Herb name"],[63,76,"Parameter"]],"Comments":[]}
+{"id":4284,"text":"SC was also effective for menopausal symptoms in middle-aged women [38].","label":[[0,2,"Herb name"],[26,45,"Pathology"],[61,66,"Sex"]],"Comments":[]}
+{"id":4285,"text":"However, the effect of SC on lactic acid at rest was still unclear.","label":[[23,25,"Herb name"],[29,40,"Parameter"]],"Comments":[]}
+{"id":4286,"text":"Our study is the first to demonstrate the effect of SC supplementation on resting lactate.","label":[[52,54,"Herb name"],[82,89,"Parameter"]],"Comments":[]}
+{"id":4287,"text":"The exact mechanism to explain the effect of SC extract supplementation on the lactate level is not yet known.","label":[[45,55,"Herb name"],[79,92,"Parameter"]],"Comments":[]}
+{"id":4288,"text":"The results of Zagari et al.","label":[],"Comments":[]}
+{"id":4289,"text":"have shown the association between high lactate production and reduced oxidative metabolism [47].","label":[[40,47,"Parameter"]],"Comments":[]}
+{"id":4290,"text":"They also reported that mitochondria play a central role in lactate metabolism [47].","label":[[60,67,"Parameter"]],"Comments":[]}
+{"id":4291,"text":"An animal study by Chiu et al.","label":[[3,15,"Study"]],"Comments":[]}
+{"id":4292,"text":"reported that long-term SC treatment could enhance the renal mitochondrial antioxidant status, as well as improve mitochondrial function [48].","label":[[24,26,"Herb name"],[55,93,"Target"]],"Comments":[]}
+{"id":4293,"text":"We thought of the possibility that the improvement of lactate metabolism may be due to the improvement of mitochondrial function by SC extract supplementation.","label":[[54,72,"Target"],[132,142,"Herb name"]],"Comments":[]}
+{"id":4294,"text":"Nevertheless, further studies are needed to clarify the association between SC supplementation and lactate concentration.","label":[[76,94,"Herb name"],[99,120,"Parameter"]],"Comments":[]}
+{"id":4295,"text":"CK catalyzes ATP dependent phosphorylation of creatine, and LDH is involved in the metabolism of pyruvate in skeletal muscle [49,50].","label":[[0,2,"Parameter"],[13,54,"Target"],[60,63,"Parameter"],[97,124,"Target"]],"Comments":[]}
+{"id":4296,"text":"CK and LDH are reported to serve as markers of acute or chronic muscular damage and cell necrosis [51,52].","label":[[0,2,"Parameter"],[7,10,"Parameter"],[47,79,"Pathology"],[84,97,"Pathology"]],"Comments":[]}
+{"id":4297,"text":"Additionally, activation of CK and LDH may increase symptoms such as pain, fatigue, and a decline in muscular strength during high-intensity, long-distance exercise due to damaged skeletal muscles [51,52].","label":[[28,30,"Parameter"],[35,38,"Parameter"],[69,73,"Pathology"],[75,82,"Pathology"],[101,118,"Parameter"],[172,196,"Pathology"]],"Comments":[]}
+{"id":4298,"text":"Recently, in an animal study, SC was shown to effectively delay CK and LDH increases after acute exercise [13], but another animal study did not shown in this effect [53].","label":[[16,28,"Study"],[30,32,"Herb name"],[64,66,"Parameter"],[71,74,"Parameter"],[124,136,"Study"]],"Comments":[]}
+{"id":4299,"text":"In our study, SC extract supplementation did not alter CK, LDH, or pyruvate at rest in humans.","label":[[14,24,"Herb name"],[55,57,"Parameter"],[59,62,"Parameter"],[67,75,"Parameter"]],"Comments":[]}
+{"id":4300,"text":"Our research has some limitations.","label":[],"Comments":[]}
+{"id":4301,"text":"Firstly, participants’ physical activity and diet were not examined during the intervention period.","label":[],"Comments":[]}
+{"id":4302,"text":"We trained subjects to not to alter lifestyles (participation in physical activity programs, or intake of other healthy supplementation) that could affect the study during the intervention.","label":[],"Comments":[]}
+{"id":4303,"text":"Secondly, the subjects did not include men, so the effects of SC on muscle strength and resting lactic acid could not be seen in both men and women.","label":[[39,42,"Sex"],[62,64,"Sex"],[68,83,"Parameter"],[96,107,"Parameter"],[134,137,"Sex"],[142,147,"Sex"]],"Comments":[]}
+{"id":4304,"text":"Thirdly, the sample size was relatively small.","label":[],"Comments":[]}
+{"id":4305,"text":"In conclusion, SC extract supplementation increased QMS and decreased lactate level at rest in adult women.","label":[[15,41,"Herb name"],[52,55,"Parameter"],[70,83,"Parameter"],[101,106,"Sex"]],"Comments":[]}
+{"id":4306,"text":"SC extract is thought to be a health food that supports the healthy life of post-menopausal middle-aged women.","label":[[0,10,"Herb name"],[76,91,"Pathology"],[104,109,"Sex"]],"Comments":[]}
+{"id":4307,"text":"Our results illustrate the potential of SC extract supplementation in the prevention of declining muscle strength.","label":[[40,50,"Herb name"],[88,113,"Pathology"]],"Comments":[]}
+{"id":4308,"text":"Further studies are required to cement this link and investigate whether this influences physical performance.","label":[],"Comments":[]}
+{"id":4309,"text":"We are grateful to all study participants and for the technical support of Dong-A University, Dong-A Hospital, and Dong Ju College research staff.","label":[],"Comments":[]}
+{"id":4310,"text":"Conceptualization, H.P.","label":[],"Comments":[]}
+{"id":4311,"text":"and S.H.","label":[],"Comments":[]}
+{"id":4312,"text":"; methodology, H.P.","label":[],"Comments":[]}
+{"id":4313,"text":"; software, J.P.; validation, J.P., S.H., and H.P.","label":[],"Comments":[]}
+{"id":4314,"text":"; formal analysis, J.P. and S.H.","label":[],"Comments":[]}
+{"id":4315,"text":"; investigation, J.P.; resources, S.H.","label":[],"Comments":[]}
+{"id":4316,"text":"; data curation, J.P.; writing—original draft preparation, J.P., S.H., and H.P.","label":[],"Comments":[]}
+{"id":4317,"text":"; writing—review and editing, H.P and S.H.","label":[],"Comments":[]}
+{"id":4318,"text":"; visualization, J.P.; project administration, H.P.","label":[],"Comments":[]}
+{"id":4319,"text":"; funding acquisition, S.H.","label":[],"Comments":[]}
+{"id":4320,"text":"All authors have read and agreed to the published version of the manuscript.","label":[],"Comments":[]}
+{"id":4321,"text":"This work was supported by the Dong-A University research fund.","label":[],"Comments":[]}
+{"id":4322,"text":"The authors declare no conflict of interest.","label":[],"Comments":[]}
+{"id":4323,"text":"Comparisons of quadriceps muscles strength at baseline and 12 weeks after age adjustment.","label":[[15,42,"Parameter"],[59,67,"Duration"]],"Comments":[]}
+{"id":4324,"text":"SC: Schisandra chinensis; ES: effect size; *** p < 0.001 versus baseline interventions.","label":[[0,24,"Herb name"]],"Comments":[]}
+{"id":4325,"text":"Comparisons of lactate concentration at baseline and 12 weeks after age adjustment.","label":[[15,36,"Parameter"],[53,61,"Duration"]],"Comments":[]}
+{"id":4326,"text":"SC: Schisandra chinensis; ES: effect size; * p < 0.05 versus between baseline and after intervention.","label":[[0,24,"Herb name"]],"Comments":[]}
+{"id":4327,"text":"The characteristics of the subjects.","label":[],"Comments":[]}
+{"id":4328,"text":"Values are means ± SD; SC: Schisandra chinesis.","label":[[23,46,"Herb name"]],"Comments":[]}
+{"id":4329,"text":"Comparisons of appendicular skeletal mass and physical performance variables at baseline and at 12 weeks, after age adjustement.","label":[[15,41,"Parameter"],[96,104,"Duration"]],"Comments":[]}
+{"id":4330,"text":"Values are means ± SD; SC: Schisandra chinesis; ASM: appendicular skeletal mass.","label":[[23,46,"Herb name"],[48,79,"Parameter"]],"Comments":[]}
+{"id":4331,"text":"Comparisons of blood variables at baseline and 12 weeks, after age adjustment.","label":[[47,55,"Duration"]],"Comments":[]}
+{"id":4332,"text":"Values are means ± SD; SC: Schisandra chinesis.","label":[[23,46,"Herb name"]],"Comments":[]}

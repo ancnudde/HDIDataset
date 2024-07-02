@@ -1,0 +1,112 @@
+{
+    "0": {
+        "precision": {
+            "Drug": 93.51
+        },
+        "recall": {
+            "Drug": 96.65
+        },
+        "fscore": {
+            "Drug": 95.05
+        }
+    },
+    "1": {
+        "precision": {
+            "Drug": 94.54
+        },
+        "recall": {
+            "Drug": 96.65
+        },
+        "fscore": {
+            "Drug": 95.58
+        }
+    },
+    "2": {
+        "precision": {
+            "Drug": 97.71
+        },
+        "recall": {
+            "Drug": 95.53
+        },
+        "fscore": {
+            "Drug": 96.61
+        }
+    },
+    "3": {
+        "precision": {
+            "Drug": 93.51
+        },
+        "recall": {
+            "Drug": 96.65
+        },
+        "fscore": {
+            "Drug": 95.05
+        }
+    },
+    "4": {
+        "precision": {
+            "Drug": 94.62
+        },
+        "recall": {
+            "Drug": 98.32
+        },
+        "fscore": {
+            "Drug": 96.44
+        }
+    },
+    "5": {
+        "precision": {
+            "Drug": 96.05
+        },
+        "recall": {
+            "Drug": 94.97
+        },
+        "fscore": {
+            "Drug": 95.51
+        }
+    },
+    "6": {
+        "precision": {
+            "Drug": 93.55
+        },
+        "recall": {
+            "Drug": 97.21
+        },
+        "fscore": {
+            "Drug": 95.34
+        }
+    },
+    "7": {
+        "precision": {
+            "Drug": 95.58
+        },
+        "recall": {
+            "Drug": 96.65
+        },
+        "fscore": {
+            "Drug": 96.11
+        }
+    },
+    "8": {
+        "precision": {
+            "Drug": 91.49
+        },
+        "recall": {
+            "Drug": 96.09
+        },
+        "fscore": {
+            "Drug": 93.73
+        }
+    },
+    "9": {
+        "precision": {
+            "Drug": 94.54
+        },
+        "recall": {
+            "Drug": 96.65
+        },
+        "fscore": {
+            "Drug": 95.58
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "shots": [
+        {
+            "query": "Effect of probenecid on the apparent volume of distribution and elimination of cloxacillin.",
+            "answer": "{\"DRUGS\": [\"cloxacillin\",\"probenecid\"]}"
+        },
+        {
+            "query": "This cluster of metabolic abnormalities has been termed the insulin resistance or cardiovascular dysmetabolic syndrome. ",
+            "answer": "{\"DRUGS\": []}"
+        },
+        {
+            "query": "Combinations of clindamycin and gentamicin were indifferent for 29 strains and synergistic for 33 strains. ",
+            "answer": "{\"DRUGS\": [\"clindamycin\",\"gentamicin\"]}"
+        },
+        {
+            "query": "Two studies were conducted in HIV-infected subjects to assess the potential for azithromycin to interact with zidovudine and dideoxyinosine. ",
+            "answer": "{\"DRUGS\": [\"zidovudine\",\"azithromycin\",\"dideoxyinosine\"]}"
+        },
+        {
+            "query": "Retention was calculated by the balance technique and by the comparative slaughter technique. ",
+            "answer": "{\"DRUGS\": []}"
+        }
+    ]
+}

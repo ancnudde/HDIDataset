@@ -1,0 +1,867 @@
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Table 2  Pharmacokinetic parameters (mean ± SD) of..." with entities "[[51, 60, 'Drug'], [65, 83, 'Drug'], [113, 122, 'D...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In contrast, there were significant increases of 1..." with entities "[[132, 136, 'Target'], [144, 149, 'Herb name'], [1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The effects of PCE↔CIP presented significantly red..." with entities "[[15, 18, 'Herb name'], [19, 22, 'Drug'], [74, 77,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "YM was also administered, with various metabolic e..." with entities "[[0, 2, 'Herb name'], [80, 83, 'Amount'], [178, 18...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Further, when comparing 600 and 1,200 mg·day Analy..." with entities "[[24, 40, 'Amount'], [137, 149, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "10 gTotal CL int value was extracted from Zhang et..." with entities "[[4, 16, 'Parameter']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "ABCB1, ATP‐binding cassette subfamily B member 1; ..." with entities "[[0, 5, 'Target'], [85, 119, 'Target'], [121, 164,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Tripterygium wilfordii Hook F. is an ivy-like vine..." with entities "[[0, 29, 'Herb name'], [79, 86, 'Ethnic group'], [...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Clinical evidence              Both Lingzhi and Yu..." with entities "[[36, 42, 'Herb name'], [48, 54, 'Herb name'], [83...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Since inhibition of CYP isoenzymes is the first st..." with entities "[[20, 34, 'Target'], [204, 207, 'Target']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Inhibitory effect of rifampin on the (B) OATP1B1- ..." with entities "[[21, 29, 'Drug'], [41, 48, 'Target'], [58, 65, 'T...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Physiologically based pharmacokinetic (PBPK) model..." with entities "[[243, 266, 'Target']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Individual trough concentrations of the anti-estro..." with entities "[[40, 62, 'Drug'], [78, 91, 'Herb name'], [96, 109...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Relative ATP content of SCHH from donor XVN treate..." with entities "[[0, 20, 'Parameter'], [57, 61, 'Parameter'], [63,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "As a consequence, convincing clinical evidence pro..." with entities "[[246, 256, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The limit of quantification for fexofenadine and p..." with entities "[[32, 44, 'Drug'], [49, 64, 'Drug'], [74, 82, 'Amo...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "She claimed that the herbal treatment was a replac..." with entities "[[64, 80, 'Drug'], [121, 129, 'Pathology']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "However, clinical efficacy has also been demonstra..." with entities "[[63, 73, 'Herb name'], [74, 86, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "This result is consistent with a recent randomized..." with entities "[[41, 76, 'Study']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In this study, chemical profile of H. sabdariffa L..." with entities "[[35, 50, 'Herb name'], [52, 67, 'Extraction proce...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "To better understand the interaction mechanism bet..." with entities "[[55, 57, 'Drug'], [62, 64, 'Herb name'], [224, 22...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "RCT, randomized clinical trial; HS, H. sabdariffa,..." with entities "[[0, 30, 'Study'], [32, 72, 'Herb name'], [75, 106...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Structures of some of the proposed compounds ident..." with entities "[[61, 82, 'Extraction process'], [86, 103, 'Herb n...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Inclusion criteria included females, aged 18–40 ye..." with entities "[[28, 35, 'Sex'], [42, 53, 'Age'], [76, 83, 'Durat...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Clinical examination revealed apyrexia, mild hypot..." with entities "[[30, 56, 'Pathology'], [105, 117, 'Parameter'], [...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The two small-scale dried CAWs were mixed in the r..." with entities "[[20, 30, 'Herb name'], [55, 61, 'Amount'], [62, 7...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Therefore, input parameters related to elimination..." with entities "[[54, 63, 'Drug'], [96, 99, 'Parameter'], [104, 11...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Compared with the vehicle control group, there wer..." with entities "[[106, 109, 'Target'], [117, 124, 'Herb name'], [1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Dosing regimens for Lomatium in the natural medici..." with entities "[[20, 28, 'Herb name'], [91, 98, 'Amount'], [106, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "A 2008 review by Mahady assigned all known case re..." with entities "[[59, 70, 'Herb name'], [80, 92, 'Pathology']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "A study where GTE was administered to TAM-intoxica..." with entities "[[14, 17, 'Herb name'], [38, 41, 'Drug'], [92, 110...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "found that phenols were not detected in blood samp..." with entities "[[11, 18, 'Herb name'], [114, 125, 'Herb name'], [...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "When comparing low‐hyperforin (0.5%) versus high‐h..." with entities "[[19, 29, 'Herb name'], [49, 59, 'Herb name'], [65...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In terms of the mRNA expression of CYP2C11, we obs..." with entities "[[35, 42, 'Target'], [94, 101, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Echinacea is generally used to stimulate the immun..." with entities "[[0, 9, 'Herb name'], [78, 89, 'Pathology'], [101,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Meanwhile, recombinant CYP3A4 enzyme was used to e..." with entities "[[11, 36, 'Parameter'], [82, 88, 'Parameter'], [11...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In HEK293 cells overexpressing drug transporters, ..." with entities "[[54, 93, 'Herb name'], [95, 98, 'Herb name'], [10...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Twelve healthy volunteers between the ages of 60 a..." with entities "[[0, 25, 'Cohort'], [46, 48, 'Age'], [53, 55, 'Age...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "On the other hand, to make use of the hyperforin‐d..." with entities "[[38, 48, 'Herb name'], [72, 75, 'Target'], [125, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The drug has a marketing authorisation in Germany ..." with entities "[[83, 119, 'Pathology'], [150, 157, 'Amount']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Polygonum cuspidatum, a widely used TCM indicated ..." with entities "[[0, 20, 'Herb name'], [54, 91, 'Pathology'], [93,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Terminalia chebula (myrobalan) of the Combretaceae..." with entities "[[0, 30, 'Herb name'], [38, 49, 'Herb name'], [73,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "5 , 6 Interestingly, S. sphenanthera alleviated ta..." with entities "[[21, 36, 'Herb name'], [48, 58, 'Drug'], [67, 76,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "We also used other resources, such as Clinical Tri..." with entities "[[38, 53, 'Study'], [70, 87, 'Study']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The dosage schedules were 120 mg G. biloba, 240 mg..." with entities "[[26, 32, 'Amount'], [33, 42, 'Herb name'], [44, 5...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The induction of PXR‐related metabolic enzymes and..." with entities "[[17, 20, 'Target'], [86, 91, 'Frequency'], [100, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In the current study, we characterized the effects..." with entities "[[54, 57, 'Herb name'], [61, 73, 'Parameter'], [17...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Since schisantherin A is also a major constituent ..." with entities "[[6, 21, 'Herb name'], [53, 76, 'Herb name'], [114...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Even though, the pharmacokinetic HDIs between PCE ..." with entities "[[46, 49, 'Herb name'], [54, 57, 'Drug'], [103, 10...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Increase in CD3+, CD4+, CD4+/CD8+ and decrease in ..." with entities "[[12, 16, 'Parameter'], [18, 22, 'Parameter'], [24...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In contrast, significant decreases of 86.3 ± 1.5 %..." with entities "[[136, 139, 'Target'], [147, 152, 'Herb name'], [1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Although there are some limitations, to our knowle..." with entities "[[127, 140, 'Parameter'], [144, 148, 'Herb name'],...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Furthermore, some herbal supplements are frequentl..." with entities "[[18, 36, 'Herb name'], [68, 82, 'Pathology'], [21...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In line with that, the prediction differences for ..." with entities "[[80, 89, 'Drug'], [94, 103, 'Drug'], [137, 142, '...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "When digoxin is combined with drugs such as P-gP i..." with entities "[[5, 12, 'Drug'], [44, 50, 'Target'], [63, 67, 'Ta...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Co-administration of St John's wort over a 15-day ..." with entities "[[21, 35, 'Herb name'], [43, 56, 'Duration'], [81,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Red ginseng extract (RGE)—one of the most popular ..." with entities "[[0, 25, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Hypoprothrombinaemia may have also been increased ..." with entities "[[0, 20, 'Pathology'], [53, 72, 'Herb name'], [118...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The rabbits in group-II were administered a simila..." with entities "[[60, 71, 'Drug'], [97, 105, 'Herb name'], [107, 1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Significant increases of 123.9 ± 2.9 % (P = 0.002)..." with entities "[[132, 136, 'Target'], [152, 157, 'Herb name'], [1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "For herbal extracts that are already in use, HDI s..." with entities "[[11, 19, 'Extraction process'], [45, 56, 'Study']...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "50 The associated IndC 50 was around 3 μg mL−1 of ..." with entities "[[18, 25, 'Parameter'], [37, 46, 'Amount'], [50, 7...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Curcumin metabolism and its interactions with drug..." with entities "[[0, 8, 'Herb name'], [202, 222, 'Herb name'], [24...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Table 1  Warfarin pharmacokinetic parameters of (S..." with entities "[[9, 17, 'Drug'], [48, 69, 'Drug'], [134, 142, 'Dr...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "MenoAct851is a novel PHF developed at the National..." with entities "[[0, 10, 'Herb name'], [188, 194, 'Ethnic group']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "[45] for rats ingesting rooibos tea for two weeks ..." with entities "[[24, 35, 'Herb name'], [36, 49, 'Duration'], [91,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "We also observed significant decreases of 67.6 ± 1..." with entities "[[127, 129, 'Target'], [145, 150, 'Herb name'], [1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Diabetes is a complex metabolic disorder associate..." with entities "[[0, 8, 'Pathology'], [22, 40, 'Pathology'], [84, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Moreover, it significantly reduces serum levels of..." with entities "[[52, 76, 'Parameter'], [81, 88, 'Parameter']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Raloxifene is extensively metabolized by intestina..." with entities "[[0, 10, 'Drug'], [41, 88, 'Parameter'], [108, 117...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Inhibitory effect of Rb1 (A,D), Rb2 (B,E), and Rc ..." with entities "[[21, 24, 'Herb name'], [32, 35, 'Herb name'], [47...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The rifampicin‐mediated induction of P‐glycoprotei..." with entities "[[4, 14, 'Drug'], [37, 51, 'Target'], [107, 113, '...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "According to a previous report which investigated ..." with entities "[[77, 86, 'Herb name'], [100, 109, 'Herb name'], [...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Four months after her initial presentation, the li..." with entities "[[0, 11, 'Duration'], [88, 91, 'Parameter'], [95, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In a similar crossover study, GBE did not signific..." with entities "[[1, 28, 'Study'], [30, 33, 'Herb name'], [66, 68,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "All records, for which a relevance to the subject ..." with entities "[[79, 102, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "N‐in‐one approach (cocktail‐approach) for elucidat..." with entities "[[72, 75, 'Target']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Reactions were initiated at 95 °C for 10 min, foll..." with entities "[[28, 30, 'Amount'], [31, 33, 'Parameter'], [34, 4...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Normalized prothrombin time (INR): 0.90 (0.80–1.20..." with entities "[[0, 33, 'Parameter'], [35, 51, 'Amount']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "41 Thus, specific k i values for Schisandra lignan..." with entities "[[33, 51, 'Herb name'], [55, 58, 'Parameter'], [82...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Positive control experiments were conducted with k..." with entities "[[97, 113, 'Drug'], [118, 134, 'Target'], [136, 14...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Panax notoginseng saponins (PNS)-based drugs are o..." with entities "[[0, 32, 'Herb name'], [69, 76, 'Drug'], [80, 96, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "41 , 42 Nevertheless, assigning the best‐fit model..." with entities "[[94, 97, 'Parameter'], [123, 142, 'Parameter'], [...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Cl/F was determined from dose/ AUC0–∞." with entities "[[0, 4, 'Parameter'], [31, 37, 'Parameter']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The concomitant administration of substrates, meta..." with entities "[[67, 77, 'Target'], [83, 111, 'Target'], [136, 13...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In addition, the assessment of TPC and TFC content..." with entities "[[91, 102, 'Herb name'], [129, 138, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "These substances in combination were considered a ..." with entities "[[69, 90, 'Pathology']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Inhibition of intestinal UDP‐glucuronosyl transfer..." with entities "[[14, 61, 'Target'], [115, 142, 'Study'], [323, 34...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "OATP1B1- and OATP1B3-mediated valsartan uptake was..." with entities "[[0, 7, 'Target'], [13, 20, 'Target'], [30, 39, 'D...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In contrast, there were significant increases of 1..." with entities "[[113, 117, 'Target'], [136, 141, 'Herb name'], [1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Given the in vitro study8 reporting the inhibitory..." with entities "[[13, 24, 'Study'], [61, 64, 'Herb name'], [84, 88...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "St John's Wort (SJW) is widely used in the treatme..." with entities "[[0, 20, 'Herb name'], [170, 173, 'Herb name'], [2...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Schisandrin A is a substrate for CYP3A enzymes 11 ..." with entities "[[0, 13, 'Herb name'], [33, 46, 'Parameter'], [59,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Plasma calibration standards were 1–1000 ng/mL and..." with entities "[[0, 28, 'Parameter'], [34, 46, 'Amount'], [51, 78...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "A significant 1.4-fold (P = 0.03) increase in the ..." with entities "[[75, 81, 'Target'], [115, 120, 'Herb name'], [147...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "However, as it does not affect the AUC(0,t" with entities "[[35, 38, 'Parameter']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The decrease of the PXR- and AhR-driven ABCG2 expr..." with entities "[[20, 23, 'Target'], [29, 32, 'Target'], [40, 45, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "(2010) not only reported a similar EC As mentioned..." with entities "[[94, 100, 'Target'], [120, 124, 'Target'], [160, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Neurotoxic symptoms including ataxia, dizziness, n..." with entities "[[0, 19, 'Pathology'], [30, 36, 'Pathology'], [38,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Overview of PK interaction studies with low‐hyperf..." with entities "[[44, 54, 'Herb name'], [55, 58, 'Herb name'], [72...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "When racemic warfarin was used as the substrate (1..." with entities "[[5, 21, 'Drug'], [78, 98, 'Drug'], [202, 252, 'Dr...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "[ HEK293 cells overexpressing the OCT1, OCT2, OAT1..." with entities "[[34, 38, 'Target'], [40, 44, 'Target'], [46, 50, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In response to repeated calls from the World Healt..." with entities "[[76, 89, 'Ethnic group'], [121, 134, 'Ethnic grou...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Subjects continued to fast until after the 4‐hour ..." with entities "[[22, 26, 'Parameter'], [43, 49, 'Duration'], [101...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Lycium barbarum L., also known as goji berry and w..." with entities "[[0, 17, 'Herb name'], [34, 44, 'Herb name'], [70,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Formed through the CYP3A4-mediated metabolism in i..." with entities "[[70, 73, 'Drug'], [119, 122, 'Drug'], [197, 200, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "TABLE 9  TDI of P450 activity in HLM with CAW-R61J..." with entities "[[9, 29, 'Parameter'], [42, 50, 'Herb name'], [66,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "44 𝑓𝑢𝑖𝑛𝑐=11+[𝑃].100.46.log𝑃‐1.51 (4)  Stability of..." with entities "[[17, 21, 'Parameter'], [29, 34, 'Parameter'], [58...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "bPHV: prosthetic heart valve." with entities "[[1, 28, 'Pathology']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "A comparison of the warfarin-alone group with the ..." with entities "[[20, 28, 'Drug'], [86, 89, 'Drug'], [92, 99, 'Her...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "(Chaihu), Cyperus rotundus L. (Fuzi) and St. John’..." with entities "[[1, 7, 'Herb name'], [10, 28, 'Herb name'], [31, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "It should be noted that the previous published cas..." with entities "[[47, 62, 'Study'], [92, 99, 'Herb name'], [104, 1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Such was the case with milk thistle, Citrus aurant..." with entities "[[23, 35, 'Herb name'], [37, 53, 'Herb name'], [55...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Analytes were detected by multiple reaction monito..." with entities "[[192, 195, 'Drug'], [197, 214, 'Herb name'], [220...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "After thorough mixing for 10 s, samples were centr..." with entities "[[26, 30, 'Duration'], [61, 67, 'Duration'], [71, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Dose-response of P450 mRNA and activity after trea..." with entities "[[0, 39, 'Parameter'], [61, 69, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Compared with the vehicle control group, there wer..." with entities "[[150, 156, 'Target'], [161, 167, 'Target'], [175,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "However, in our subjects, the lactate level at res..." with entities "[[30, 43, 'Parameter'], [67, 76, 'Amount']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In the Gegen×1 and Gegen×2 groups, the expression ..." with entities "[[7, 12, 'Herb name'], [19, 24, 'Herb name'], [59,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Cytotoxicity test of herbs/herbal components on MD..." with entities "[[124, 128, 'Target'], [192, 199, 'Amount']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Green tea extract was administered as a commercial..." with entities "[[0, 17, 'Extraction process'], [72, 90, 'Herb nam...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Thus, the CYP3A4‐mediated formation of its main me..." with entities "[[10, 16, 'Parameter'], [60, 81, 'Drug'], [97, 99,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "No significant differences were observed in the CY..." with entities "[[48, 54, 'Target'], [90, 95, 'Herb name'], [102, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Furthermore, according to other research, a mixtur..." with entities "[[55, 60, 'Herb name'], [62, 68, 'Herb name'], [70...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "(PDF 219 kb) Data_CYP2D6_and_CYP3A4-5_inhibition a..." with entities "[[18, 24, 'Target'], [29, 37, 'Target']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "For each enzyme, there was a dose-dependent decrea..." with entities "[[56, 67, 'Parameter'], [95, 104, 'Amount'], [108,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Separately, CA was sequentially extracted with hex..." with entities "[[12, 14, 'Herb name'], [19, 89, 'Extraction proce...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "cGouqizi: Lycium barbarum L. (also known as goji b..." with entities "[[1, 28, 'Herb name'], [44, 54, 'Herb name'], [58,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In a recently finalized risk assessment of the EMA..." with entities "[[111, 121, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In this pathway, the effect of the oligomeric and ..." with entities "[[31, 90, 'Herb name'], [115, 142, 'Parameter'], [...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The present review focuses mainly on the current a..." with entities "[[12, 18, 'Study'], [72, 75, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Curcuminoids often referred to simply as curcumin ..." with entities "[[0, 12, 'Herb name'], [41, 49, 'Herb name'], [81,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "All patients gave written informed consent before ..." with entities "[[282, 296, 'Study']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "[13]	Los Angeles, CA, USA	Knee surgery	Juice	240 m..." with entities "[[55, 58, 'Parameter'], [68, 70, 'Parameter'], [72...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The area under the plasma concentration–time curve..." with entities "[[0, 55, 'Parameter']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Simvastatin, pravastatin, and lovastatin are inhib..." with entities "[[0, 11, 'Drug'], [13, 24, 'Drug'], [30, 40, 'Drug...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The first‐order absorption model parameterised by ..." with entities "[[54, 106, 'Parameter'], [128, 158, 'Parameter'], ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "After 5 days’ administration of the proposed dosag..." with entities "[[6, 12, 'Duration'], [119, 121, 'Drug'], [126, 12...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In conclusion, repeated administration of RGE for ..." with entities "[[15, 38, 'Frequency'], [42, 45, 'Herb name'], [47...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "All datasets generated or analyzed during this stu..." with entities "[[208, 214, 'Target'], [219, 227, 'Target']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Go to: Results  Chemical Characterization of CAW-R..." with entities "[[45, 53, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "For example, numerous anionic drugs such as methot..." with entities "[[22, 34, 'Drug'], [44, 56, 'Drug'], [58, 62, 'Dru...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Her liver enzymes returned to normal values within..." with entities "[[44, 62, 'Duration'], [71, 74, 'Parameter'], [78,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Testing the influence of in vitro treatment with h..." with entities "[[25, 33, 'Study'], [49, 59, 'Herb name'], [151, 1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "We attempted to conduct a meta-analysis using five..." with entities "[[26, 39, 'Study'], [51, 57, 'Study'], [87, 91, 'H...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Compared with the vehicle control group, there wer..." with entities "[[120, 124, 'Target'], [132, 139, 'Herb name'], [1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The area under the plasma concentration–time curve..." with entities "[[0, 59, 'Parameter'], [61, 86, 'Parameter'], [91,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "T/R point estimate multiplied by 100 (90% CI) GROU..." with entities "[[55, 62, 'Drug'], [64, 68, 'Parameter'], [96, 102...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "13 , 15 TABLE 1  Input parameters for PBPK models ..." with entities "[[82, 97, 'Herb name'], [108, 151, 'Herb name'], [...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Cannabis has demonstrated therapeutic effects with..." with entities "[[0, 8, 'Herb name'], [61, 73, 'Herb name'], [91, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Since metabolic ratio can be used as a measure of ..." with entities "[[105, 110, 'Target'], [114, 121, 'Pathology'], [1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Although there was no clinical evidences of these ..." with entities "[[105, 108, 'Drug'], [256, 259, 'Drug']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The inter- and intrabatch accuracies and precision..." with entities "[[57, 60, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The area under the concentration-time curve during..." with entities "[[0, 43, 'Parameter'], [70, 74, 'Parameter']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Furthermore, the mRNA expression levels of CYP2C6 ..." with entities "[[43, 49, 'Target'], [102, 107, 'Herb name'], [125...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The amount of HS plant part extracted per serving ..." with entities "[[14, 22, 'Herb name'], [62, 68, 'Amount'], [72, 7...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Two modeling and simulation platforms were assesse..." with entities "[[102, 105, 'Parameter']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Compared with the warfarin-alone group, the co-adm..." with entities "[[18, 26, 'Drug'], [65, 70, 'Herb name'], [77, 82,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The concomitant use of APG may give rise to potent..." with entities "[[23, 26, 'Herb name'], [54, 57, 'Drug']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Hyperforin, a major constituent of St John's wort,..." with entities "[[0, 10, 'Herb name'], [35, 49, 'Herb name'], [85,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Compared with the vehicle control group, there wer..." with entities "[[82, 84, 'Target'], [123, 130, 'Herb name'], [134...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Pharmacodynamic interactions between medicinal mus..." with entities "[[80, 98, 'Study'], [235, 250, 'Pathology'], [270,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "35 Incubation medium consisted of potassium phosph..." with entities "[[34, 60, 'Extraction process'], [62, 73, 'Amount'...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Recent observations have been shown that the main ..." with entities "[[50, 63, 'Pathology'], [110, 173, 'Target'], [177...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "OS was absorbed from deposit compartment into the ..." with entities "[[0, 2, 'Drug'], [176, 184, 'Amount'], [185, 187, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Go to: Discussion  Lomatium dissectum is a plant n..." with entities "[[19, 37, 'Herb name'], [59, 66, 'Ethnic group'], ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Digoxin is used in patients with atrial fibrillati..." with entities "[[0, 7, 'Drug'], [33, 52, 'Pathology'], [56, 80, '...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "A small increase of 117 % (P = 0.02) was also obse..." with entities "[[81, 88, 'Target'], [96, 99, 'Drug'], [102, 107, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "An adaptive two-stage randomized double-blind plac..." with entities "[[0, 70, 'Study'], [116, 135, 'Herb name'], [139, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The co-administration of Lingzhi with various cyto..." with entities "[[25, 32, 'Herb name'], [147, 159, 'Pathology'], [...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Structure of the population pharmacokinetics model..." with entities "[[191, 193, 'Drug'], [195, 203, 'Amount'], [217, 2...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "ASA has an anticoagulant action and may also reduc..." with entities "[[0, 3, 'Drug'], [11, 31, 'Pathology'], [52, 65, '...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The analysis of probe metabolites from CYP‐specifi..." with entities "[[39, 42, 'Target']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Fraction of absorbed Confidence intervals Clearanc..." with entities "[[322, 333, 'Drug'], [334, 350, 'Drug'], [474, 492...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The required amount of curcumin (Sigma-Aldrich, US..." with entities "[[23, 31, 'Herb name'], [161, 167, 'Amount']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Any changes of the plasma level of CBZ-10,11 epoxi..." with entities "[[35, 38, 'Drug'], [144, 147, 'Drug']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The dried plant aqueous extract demonstrated poten..." with entities "[[5, 31, 'Extraction process'], [84, 158, 'Target'...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The solvents used may have extracted compounds not..." with entities "[[60, 68, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "To explore the pharmacodynamic interaction between..." with entities "[[51, 60, 'Herb name'], [65, 73, 'Drug'], [156, 17...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "RESULTS  The geometric mean ratios and 90% confide..." with entities "[[66, 75, 'Drug'], [81, 112, 'Herb name'], [125, 1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "It is reported that curcumin’s beneficial effects ..." with entities "[[20, 30, 'Herb name'], [53, 60, 'Pathology'], [16...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The patient had started taking an SJW preparation ..." with entities "[[34, 37, 'Herb name'], [55, 61, 'Amount'], [183, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Specifically, some combinations alleviated the dec..." with entities "[[90, 97, 'Parameter'], [99, 103, 'Parameter'], [1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Garlic (Allium sativum)was administered in two stu..." with entities "[[0, 23, 'Herb name'], [76, 82, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Compared with the combined amount of the 4′-, 6- a..." with entities "[[41, 92, 'Drug'], [107, 115, 'Drug'], [253, 258, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Thus, eight herbs, namely Radix Isatidis (Chen et ..." with entities "[[26, 40, 'Herb name'], [62, 91, 'Herb name'], [17...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In contrast, significant decreases of 66.3 ± 1.5 %..." with entities "[[137, 139, 'Target'], [147, 152, 'Herb name'], [1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The evidence for garlic, however, is somewhat equi..." with entities "[[17, 23, 'Herb name'], [86, 92, 'Herb name'], [10...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Similar increases of 250 % (P < 0.001) and 290 % (..." with entities "[[87, 92, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "When S-warfarin was used as a substrate (5 μM), th..." with entities "[[5, 15, 'Drug'], [86, 124, 'Drug'], [132, 167, 'D...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Keywords: Warfarin, Gouqizi, Lycium barbarum L., D..." with entities "[[10, 18, 'Drug'], [20, 27, 'Herb name'], [30, 46,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "5-Fluorouracil ATP binding cassette subfamily B me..." with entities "[[0, 14, 'Drug'], [74, 94, 'Parameter'], [95, 115,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "A volunteer also was excluded if she had a psychol..." with entities "[[43, 91, 'Pathology'], [104, 121, 'Pathology'], [...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Comparable ANOVA models were also applied to C  Th..." with entities "[[45, 46, 'Parameter'], [168, 172, 'Parameter'], [...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "However, there was some cytotoxicity observed with..." with entities "[[24, 36, 'Pathology'], [55, 63, 'Amount'], [64, 7...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "After holding at 95% B from 3.5 to 6 minutes, the ..." with entities "[[17, 20, 'Amount'], [23, 43, 'Duration'], [74, 77...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "On each day, drug administration took place betwee..." with entities "[[44, 69, 'Duration'], [75, 100, 'Duration'], [131...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Although no significant changes in cytochrome P450..." with entities "[[35, 50, 'Target'], [54, 63, 'Herb name'], [67, 7...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "According to pharmacoepidemiologic surveys, the pe..." with entities "[[62, 80, 'Pathology'], [145, 163, 'Drug']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Furthermore, SJW reduced paracetamol‐induced cytok..." with entities "[[13, 16, 'Herb name'], [25, 36, 'Drug'], [68, 72,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Prothrombin time (seconds): 10.2“ (8.9–13.3)." with entities "[[0, 26, 'Parameter'], [28, 44, 'Amount']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Green tea is made up of catechins, which account f..." with entities "[[0, 9, 'Herb name'], [24, 33, 'Herb name'], [74, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "A total of 9 adverse reactions occurred in the pla..." with entities "[[13, 30, 'Pathology'], [76, 92, 'Pathology'], [98...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "As concluded by the EMA/HMPC, hyperforin is mainly..." with entities "[[30, 40, 'Herb name'], [157, 174, 'Target'], [194...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Growing experimental evidence shows the cholestero..." with entities "[[127, 146, 'Pathology'], [148, 167, 'Pathology'],...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Cells were incubated with PNS for up to 24 h. Afte..." with entities "[[26, 29, 'Herb name'], [30, 44, 'Duration'], [67,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "This patient case suggests that cannabis use in co..." with entities "[[32, 40, 'Herb name'], [66, 89, 'Drug'], [165, 18...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Etravirine is a nonnucleoside reverse transcriptas..." with entities "[[0, 68, 'Drug'], [104, 121, 'Parameter'], [150, 1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The crossover design is a common study design, but..." with entities "[[5, 20, 'Study'], [105, 119, 'Study']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "EFV and NVP are non-nucleoside reverse transcripta..." with entities "[[0, 3, 'Drug'], [8, 11, 'Drug'], [16, 74, 'Drug']...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "For products that contain low‐hyperforin contents,..." with entities "[[30, 40, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Plasma concentration time profile of SITA in rats ..." with entities "[[37, 41, 'Drug'], [63, 67, 'Drug'], [69, 77, 'Amo...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In contrast, the co-administrating of Gegen with w..." with entities "[[38, 43, 'Herb name'], [49, 57, 'Drug'], [151, 15...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Profile of Mood State (POMS) results for Yerba Mat..." with entities "[[41, 56, 'Herb name'], [61, 74, 'Drug'], [123, 13...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "(3) Consuming any ergogenic aid or above habitual ..." with entities "[[50, 58, 'Herb name'], [78, 88, 'Frequency'], [10...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "It has a narrow therapeutic window, i.e., the ther..." with entities "[[113, 143, 'Parameter'], [147, 160, 'Amount'], [1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Thus, a CONSORT 2010 extension and SPIRIT-TCM exte..." with entities "[[146, 153, 'Ethnic group'], [220, 238, 'Study'], ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "CYP3A4 and CYP2C9 enzymes have been reported to me..." with entities "[[0, 6, 'Target'], [11, 17, 'Target'], [75, 83, 'H...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In addition, to ensure the quality of the clinical..." with entities "[[38, 56, 'Study']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "PBPK modeling and simulation approaches have been ..." with entities "[[167, 190, 'Parameter'], [289, 368, 'Parameter'],...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "76 , 77 Bosutinib did not inhibit its own CYP3A4‐m..." with entities "[[8, 17, 'Drug'], [42, 48, 'Target'], [78, 96, 'He...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In addition, the corresponding ten tested herbal c..." with entities "[[178, 187, 'Amount']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The standards of sodium danshensu, protocatechuic ..." with entities "[[36, 58, 'Herb name'], [60, 63, 'Herb name'], [65...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "According to recent reports, the use of psyllium c..." with entities "[[40, 48, 'Herb name'], [64, 83, 'Parameter'], [92...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The capsules were overfilled consistently, contain..." with entities "[[54, 68, 'Amount'], [69, 78, 'Herb name'], [92, 1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "A comparison of the warfarin-alone group with the ..." with entities "[[20, 28, 'Drug'], [76, 79, 'Drug'], [82, 89, 'Her...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Further analysis on the potential impact of H. ver..." with entities "[[44, 59, 'Herb name'], [93, 100, 'Study'], [189, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In the calcein-AM assay, the two saponins and the ..." with entities "[[7, 17, 'Herb name'], [25, 57, 'Herb name'], [65,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "There were no significant changes in glucose or in..." with entities "[[37, 59, 'Parameter'], [69, 83, 'Herb name'], [13...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The short-term stability was evaluated by determin..." with entities "[[89, 93, 'Duration'], [173, 177, 'Duration']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In contrast, the co-administration of Gegen with w..." with entities "[[38, 43, 'Herb name'], [49, 57, 'Drug'], [151, 15...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Furthermore, the clinically relevant pharmacokinet..." with entities "[[53, 60, 'Herb name'], [64, 76, 'Herb name'], [77...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Liver biopsies from surgical patients indicate tha..." with entities "[[103, 109, 'Target'], [153, 159, 'Target']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "As evidence of its effectiveness, herbalists point..." with entities "[[94, 103, 'Pathology'], [141, 148, 'Pathology'], ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Compared with the vehicle control group, the Dansh..." with entities "[[45, 52, 'Herb name'], [59, 66, 'Herb name'], [11...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Cells were incubated with PNS for up to 24 h. Afte..." with entities "[[26, 29, 'Herb name'], [34, 44, 'Duration'], [67,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "𝑣=𝑉𝑚𝑎𝑥." with entities "[[0, 11, 'Parameter']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "For example, the former of these two groups (i.e.,..." with entities "[[51, 54, 'Drug'], [57, 62, 'Herb name'], [105, 11...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "A comparison of the warfarin-alone group with the ..." with entities "[[20, 28, 'Drug'], [91, 94, 'Drug'], [97, 104, 'He...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The half-life for each warfarin enantiomer was cal..." with entities "[[4, 13, 'Parameter'], [23, 31, 'Drug'], [70, 95, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In comparison H. verticillata aqueous extract (dri..." with entities "[[14, 29, 'Herb name'], [30, 45, 'Extraction proce...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The mono- and dicaffeoylquinic acids were below th..." with entities "[[0, 36, 'Herb name'], [112, 120, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Satiety results of Visual Analogue Scale (VAS) for..." with entities "[[19, 46, 'Parameter'], [51, 66, 'Herb name'], [71...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Concentration-dependent inhibition of MCF-7 cell p..." with entities "[[76, 86, 'Duration'], [96, 100, 'Herb name'], [10...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "[31,32] CYP2E1 activity was estimated from 6-hyrdo..." with entities "[[8, 14, 'Target'], [43, 65, 'Drug'], [66, 79, 'Dr...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Recent identification of hyperforin, a phytochemic..." with entities "[[25, 35, 'Herb name'], [66, 86, 'Herb name'], [13...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In our experiments, the cell growth-reducing endox..." with entities "[[45, 54, 'Drug'], [74, 79, 'Amount'], [84, 88, 'A...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Compared with the mRNA expression ratio of CYP1A1 ..." with entities "[[43, 49, 'Target'], [53, 59, 'Target'], [67, 75, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Primary author, year	Condition	Sample size	Substan..." with entities "[[93, 100, 'Frequency'], [132, 135, 'Parameter'], ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "(B) Lineweaver-Burk plot of Cela’s inhibition towa..." with entities "[[28, 33, 'Herb name'], [54, 91, 'Target']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The AUC(0,∞) from time 0 to infinity was calculate..." with entities "[[4, 12, 'Parameter'], [55, 63, 'Parameter'], [66,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Such a judgment is not unreasonable considering th..." with entities "[[53, 63, 'Herb name'], [94, 126, 'Target'], [151,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In summary, 20 years after the first reports of cl..." with entities "[[37, 44, 'Study'], [91, 103, 'Herb name'], [242, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Data are represented as mean ± standard deviation ..." with entities "[[55, 63, 'Cohort'], [117, 127, 'Drug'], [129, 145...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Consequently, the plasma concentrations of methotr..." with entities "[[43, 55, 'Drug'], [82, 85, 'Herb name'], [87, 109...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In contrast, significant decreases of 11.4 ± 1.7 %..." with entities "[[136, 139, 'Target'], [148, 151, 'Drug'], [154, 1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "And, more importantly, PBPK predictions from these..." with entities "[[156, 173, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Further, publications on altered  Substantiated by..." with entities "[[84, 94, 'Herb name'], [100, 103, 'Target'], [171...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Compared with the combined amount of all five mono..." with entities "[[46, 84, 'Drug'], [99, 107, 'Drug'], [195, 198, '...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Clinical pathophysiological studies indicate that ..." with entities "[[0, 35, 'Study'], [50, 57, 'Pathology'], [85, 93,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "When R-warfarin was used as the substrate (5 μM), ..." with entities "[[5, 15, 'Drug'], [76, 114, 'Drug'], [122, 127, 'H...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "56 was used instead to verify the PBPK model of sc..." with entities "[[48, 61, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Stability of centelloids and caffeoylquinic acids ..." with entities "[[13, 24, 'Herb name'], [29, 49, 'Herb name'], [19...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "By comparing the distribution and excretion result..." with entities "[[165, 171, 'Drug']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Plasma concentration–time profile of (A) fimasarta..." with entities "[[41, 51, 'Drug'], [57, 73, 'Drug'], [79, 89, 'Dru...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "11 hTotal CL int was determined from substrate dep..." with entities "[[4, 16, 'Parameter'], [93, 99, 'Parameter'], [138...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "On the other hand, Xiao-cha-hu-tang decreased the ..." with entities "[[19, 35, 'Herb name'], [50, 70, 'Parameter'], [74...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Immunosuppressive treatment of the patient was und..." with entities "[[66, 75, 'Drug'], [76, 82, 'Amount'], [83, 94, 'F...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The major components of Epimedium sagittatum are i..." with entities "[[24, 44, 'Herb name'], [49, 56, 'Herb name'], [58...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Maxim extract and sildenafil administration  Plasm..." with entities "[[0, 5, 'Herb name'], [6, 12, 'Extraction process'...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In Traditional Chinese Medicine, people take Herba..." with entities "[[15, 22, 'Ethnic group'], [45, 59, 'Herb name'], ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Other common diseases, such as degenerative osteoa..." with entities "[[13, 21, 'Pathology'], [31, 57, 'Pathology'], [65...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "conducted a questionnaire-based survey among patie..." with entities "[[55, 63, 'Age']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "A study investigating platelet aggregation with P...." with entities "[[22, 42, 'Parameter'], [48, 58, 'Herb name'], [74...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "It revealed reduced Cmax and AUC (0.69/0.72) under..." with entities "[[20, 24, 'Parameter'], [29, 32, 'Parameter'], [34...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The main bioactive components of the herb are thou..." with entities "[[60, 78, 'Herb name'], [80, 89, 'Herb name'], [95...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Although there are no studies examining interactio..." with entities "[[61, 84, 'Herb name'], [89, 107, 'Drug'], [109, 1...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "type 1 diabetes mellitus type 2 diabetes mellitus ..." with entities "[[0, 24, 'Pathology'], [26, 49, 'Pathology'], [72,...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "On the other hand, in vivo observations revealed t..." with entities "[[54, 63, 'Herb name'], [88, 91, 'Drug']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Septilin significantly decreased the T Ferula asaf..." with entities "[[0, 8, 'Herb name'], [37, 57, 'Herb name']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The urinary metabolic ratios of DEX/3-MM and DEX/D..." with entities "[[32, 35, 'Drug'], [45, 48, 'Drug'], [101, 107, 'T...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Table 1 summarizes the metabolic ratios of DEX/DOR..." with entities "[[43, 46, 'Drug'], [55, 58, 'Drug'], [100, 116, 'H...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "The DEX/DOR was moderately increased by Asafetida;..." with entities "[[4, 7, 'Drug'], [40, 49, 'Herb name'], [73, 76, '...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "In vivo modulation of metabolic activity of CYP2D6..." with entities "[[44, 50, 'Target'], [55, 61, 'Target'], [81, 90, ...". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "However, as it does not affect the AUC(0,t" with entities "[[35, 38, 'Parameter']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Cl/F was determined from dose/ AUC0–∞." with entities "[[0, 4, 'Parameter'], [31, 37, 'Parameter']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "Prothrombin time (seconds): 10.2“ (8.9–13.3)." with entities "[[0, 26, 'Parameter'], [28, 44, 'Amount']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "𝑣=𝑉𝑚𝑎𝑥." with entities "[[0, 11, 'Parameter']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+
+WARNING:py.warnings:/home/anthony/anaconda3/envs/general/lib/python3.11/site-packages/spacy/training/iob_utils.py:149: UserWarning: [W030] Some entities could not be aligned in the text "bPHV: prosthetic heart valve." with entities "[[1, 28, 'Pathology']]". Use `spacy.training.offsets_to_biluo_tags(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities ('-') will be ignored during training.
+  warnings.warn(
+

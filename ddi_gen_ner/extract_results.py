@@ -89,7 +89,7 @@ def compute_metrics(confusion_matrix):
 
 if __name__ == '__main__':
     data = open_result_file(
-        'results/mistral/generation_system_shots=False.json')
+        'results/phi/generation_system_shots=True.json')
     parsed, failed = results_set_to_json(data)
     entities = spans_to_entities(data)
     to_compare = []

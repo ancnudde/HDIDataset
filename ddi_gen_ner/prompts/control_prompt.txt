@@ -1,2 +1,3 @@
 Summarize this text. 
-Include the name of every cited drug.
+Include the name of every cited drug. 
+Generate a JSON as answer.

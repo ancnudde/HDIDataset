@@ -72,7 +72,7 @@ if __name__ == '__main__':
     if few_shots:
         with open('prompts/few_shots.json', 'r') as fp:
             shots = json.load(fp)['shots']
-    with open('data/ddi_ner.json', 'r') as fp:
+    with open('ddi_gen_ner/data/ddi_extractive_entity_recognition.json', 'r') as fp:
         data = json.load(fp)['dataset']
     model_name_or_path = selected_model
     generative_model = AutoModelForCausalLM.from_pretrained(model_name_or_path,
@@ -81,12 +81,16 @@ if __name__ == '__main__':
                                                             revision="main")
     generative_tokenizer = AutoTokenizer.from_pretrained(model_name_or_path,
                                                          use_fast=True)
-    formatted_prompt = format_prompt(generative_tokenizer, prompt, '', shots)
+    formatted_prompt = format_prompt(generative_tokenizer,
+                                     prompt,
+                                     'TEXT HERE',
+                                     shots)
+    print(formatted_prompt)
     results = process_dataset(generative_model,
                               generative_tokenizer,
                               data,
                               prompt,
-                              shots)
+                              shots=shots)
     with open(f'results/{model_selection}/generation_{prompt_selection}_shots={few_shots}.json', 'w') as fp:
         json.dump({"results": results, "prompt": formatted_prompt}, fp)
     del generative_tokenizer

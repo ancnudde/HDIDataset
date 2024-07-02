@@ -33,8 +33,32 @@ The models where trained and tested on two disctincts datasets:
 
 Generative Entities Extraction is performed using **small versions of Large Language Models**. In this work, we tested the performances of:
 - **Mistral 7B**: TheBloke/Mistral-7B-Instruct-v0.2-GPTQ
-- **Phi3 small**: kaitchup/Phi-3-mini-4k-instruct-gptq-4bit
+- **Phi3 small**: kaitchup/Phi-3-mini-4k-instruct-gptq-4bit 
 
 The models used are 4-bit **quantized** and obtained from the HuggingFace platform. All models where used sing HuggingFace **transformers** library.
 
 The same datasets as for NER are used, but their are adapted to specificities of generative process (removed redundant occurrences, removed spans, ...; see the paper for a more detailed analysis of differences in these tasks).
+
+## Run the experiments
+
+Experiments can be run using the bash scripts at the root of each specific folder.
+
+### Named Entity Recognition
+
+`run_training_and_eval.sh` runs the training process and evaluates the performances based. Evaluation uses a k-fold validation; each fold is tested on an independant test-set after training on dev set. The script is used by passing:
+- the number of folds as first argument
+- the number associated with the config file (0 to 3) as second argument
+
+```console
+run_training_and_eval.sh n_fold config_number
+```
+
+`run_eval` only runs the evaluation process on pre-generated results files. The same arguments as the previous script are used here: 
+- the number of folds as first argument
+- the number associated with the config file (0 to 3) as second argument
+
+```console
+run_eval.sh n_fold config_number
+```
+
+The python script `extract_spacy_eval_results` give a recipe on extracting and processing results of the evaluation.

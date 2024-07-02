@@ -1,4 +1,5 @@
 import re
+import os
 import json
 import numpy as np
 import pandas as pd
@@ -6,8 +7,9 @@ import pandas as pd
 results = {}
 
 extraction_re = re.compile('(.*?) *([0-9|.]{5}) *([0-9|.]{5}) *([0-9|.]{5})')
+n_files = len(os.listdir("results_grid_search/evaluation_results_cfg_0/"))
 
-for i in range(10):
+for i in range(n_files):
     with open(f'results_grid_search/evaluation_results_cfg_0/test_run_{i}.txt', 'r') as fp:
         data = fp.readlines()
     metrics = {'precision': {}, 'recall': {}, 'fscore': {}}
@@ -40,4 +42,3 @@ mean_scores = {'precision': np.mean(scores_df['precision']),
                'F1-score': np.mean(scores_df['fscore'])}
 
 mean_scores_df = pd.DataFrame.from_dict(mean_scores)
-print(mean_scores_df)

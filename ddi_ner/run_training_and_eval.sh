@@ -11,6 +11,7 @@ do
   --output trained_models_grid_search/trained_models_cfg_$config_number/output_run_$iteration \
   --paths.train data_splits/run_$iteration/train.spacy \
   --paths.dev data_splits/run_$iteration/dev.spacy \
+  --ignore-warnings \
   --gpu-id 0
   python -m spacy evaluate trained_models_grid_search/trained_models_cfg_$config_number/output_run_$iteration/model-best\
    data_splits/test.spacy --gpu-id 0 > results_grid_search/evaluation_results_cfg_$config_number/test_run_$iteration.txt

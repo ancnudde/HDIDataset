@@ -1,21 +1,7 @@
 # Herb-Drug Interactions dataset
 
 This dataset covers the field of Herb-Drug Interactions (DDI). It includes 11131 sentences containing annotations on herbs and drugs, but also on any element relevant to the context of the interaction. This includes:
-- Ethnic group, 
-- Pathology, 
-- Age, 
-- Frequency,
-- Duration,
-- Herb name,
-- Cohort,
-- Target,
-- Sex,
-- Study,
-- Drug,
-- Parameter,
-- Extraction process,
-- Herb part,
-- Amount
+**Ethnic group, Pathology, Age, Frequency, Duration, Herb name, Cohort, Target, Sex, Study, Drug, Parameter, Extraction process, Herb part, Amount**
 
 More information about these labels are available in the annotation guide. The number of occurrences of each label is showed in the figure below.  
 

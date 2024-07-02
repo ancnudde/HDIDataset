@@ -32,8 +32,8 @@ The models where trained and tested on two disctincts datasets:
 ### Generative Entities Extraction
 
 Generative Entities Extraction is performed using **small versions of Large Language Models**. In this work, we tested the performances of:
-- **Mistral 7B**
-- **Phi3 small**
+- **Mistral 7B**: TheBloke/Mistral-7B-Instruct-v0.2-GPTQ
+- **Phi3 small**: kaitchup/Phi-3-mini-4k-instruct-gptq-4bit
 
 The models used are 4-bit **quantized** and obtained from the HuggingFace platform. All models where used sing HuggingFace **transformers** library.
 

@@ -1,3 +1,10 @@
+"""
+Use this script to run the generation pipeline.
+
+The script generate the text using defined models and write the results in the
+"/results/{model}" folder in the form "generation_{prompt_type}_shots={bool}.json"
+"""
+
 import sys
 from tqdm import tqdm
 import json

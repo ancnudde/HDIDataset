@@ -10,6 +10,7 @@ import os
 
 
 def adapt_offsets_to_spacy(all_data):
+    """Makes sure the offsets used to locate entities work with spacy format"""
     for i, line in enumerate(all_data):
         entities = line[2]['entities']
         for j, entity in enumerate(entities):
@@ -18,6 +19,7 @@ def adapt_offsets_to_spacy(all_data):
 
 
 def format_annotations(dataset, nlp):
+    """Transforms examples to Documents format used by spacy"""
     documents = []
     for i, text, annotations in dataset:
         try:
@@ -42,6 +44,7 @@ def generate_folds(dataset, n_folds):
 
 
 def folds_to_docbin(folds, nlp):
+    """Generates Docbins, the serialization format used by spacy for CLI training"""
     for i, _ in enumerate(folds):
         if not os.path.exists(f'data_splits/run_{i}/'):
             os.makedirs(f'data_splits/run_{i}/')
@@ -50,6 +53,7 @@ def folds_to_docbin(folds, nlp):
         folds_copy = deepcopy(folds)
         dev = folds_copy.pop(i)
         train = list(itertools.chain.from_iterable(folds_copy))
+        # indices of splits, used to keep track of data splits afterwards
         dev_idx = [elt[0] for elt in dev]
         train_idx = [elt[0] for elt in train]
         with open(f'data_splits/run_{i}/split_idx.json', 'w') as fp:

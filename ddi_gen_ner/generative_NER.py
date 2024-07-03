@@ -7,6 +7,7 @@ The script generate the text using defined models and write the results in the
 import sys
 from tqdm import tqdm
 import json
+from copy import deepcopy
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 import os
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
@@ -22,12 +23,13 @@ def process_example(pipe, tokenizer, example, system, iteration, shots=None):
 
 
 def format_prompt(tokenizer, system, prompt_message, shots=None):
-    if shots:
-        first_shot = shots.pop(0)
+    shots_list = deepcopy(shots)
+    if shots_list:
+        first_shot = shots_list.pop(0)
         combined_prompt = f'{system}\n{first_shot["query"]}'
         messages = [{"role": "user", "content": combined_prompt},
                     {"role": "assistant", "content": f"{first_shot['answer']}"}]
-        for shot in shots:
+        for shot in shots_list:
             messages.append({"role": "user", "content": f"{shot['query']}"})
             messages.append(
                 {"role": "assistant", "content": f"{shot['answer']}"})
@@ -72,7 +74,7 @@ if __name__ == '__main__':
     if few_shots:
         with open('prompts/few_shots.json', 'r') as fp:
             shots = json.load(fp)['shots']
-    with open('ddi_gen_ner/data/ddi_extractive_entity_recognition.json', 'r') as fp:
+    with open('data/ddi_extractive_entity_recognition.json', 'r') as fp:
         data = json.load(fp)['dataset']
     model_name_or_path = selected_model
     generative_model = AutoModelForCausalLM.from_pretrained(model_name_or_path,
@@ -85,13 +87,12 @@ if __name__ == '__main__':
                                      prompt,
                                      'TEXT HERE',
                                      shots)
-    print(formatted_prompt)
     results = process_dataset(generative_model,
                               generative_tokenizer,
                               data,
                               prompt,
                               shots=shots)
-    with open(f'results/{model_selection}/generation_{prompt_selection}_shots={few_shots}.json', 'w') as fp:
+    with open(f'results/{model_selection}/generation_{prompt_selection}_shots={str(few_shots).lower()}.json', 'w') as fp:
         json.dump({"results": results, "prompt": formatted_prompt}, fp)
     del generative_tokenizer
     del generative_model

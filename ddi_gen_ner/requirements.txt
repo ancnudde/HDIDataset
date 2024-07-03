@@ -1,0 +1,9 @@
+numpy==2.0.0
+pandas==2.2.2
+tqdm==4.66.4
+transformers==4.37.2
+optimum==1.21.1
+flash_att==.5.9.post1
+accelerate==0.24.1
+torch==2.1.2+cu121
+auto_gptq==0.5.1

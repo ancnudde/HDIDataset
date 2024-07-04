@@ -17,8 +17,8 @@ def spans_to_entities(dataset):
         entities = example[2]['entities']
         named_entities = []
         for entity in entities:
-            entity_class = text[entity[0]:entity[1] + 1]
-            named_entities.append(entity_class)
+            entity_text = text[entity[0]:entity[1] + 1]
+            named_entities.append(entity_text)
         formatted_dataset.append([idx, text, named_entities])
     return formatted_dataset
 

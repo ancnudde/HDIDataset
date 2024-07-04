@@ -1,0 +1,7 @@
+This is a scientific article about pharmacology.
+We need to parse all the cited entities. Find every word refering to the described entities.
+
+The following format must be followed:
+"FREQUENCY": [frequences of events described in text]
+
+Please do not add supplementary in information. If no information is found for a field, leave the field empty.

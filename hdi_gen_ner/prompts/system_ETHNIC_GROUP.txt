@@ -1,0 +1,7 @@
+This is a scientific article about pharmacology.
+We need to parse all the cited entities. Find every word refering to the described entities.
+
+The following format must be followed:
+"ETHNIC GROUP": ["List of ethnic groups found in text"]
+
+Please do not add supplementary in information. If no information is found for a field, leave the field empty.

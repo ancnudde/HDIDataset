@@ -1,0 +1,16 @@
+{
+    "shots": [
+        {
+            "query": "On average, the patient reported smoking approximately 3 g of cannabis per week.",
+            "answer": "\n{\n  \"Amount\": [\"3 g\"],\n  \"Herb name\": [\"cannabis\"],\n  \"Frequency\": [\"per week.\"]\n}"
+        },
+        {
+            "query": "CYP: Cytochrome P450; CT: Computed tomography; MDM2: Oncogene murine double minute 2; peg-G-CSF: Pegylated granulocytes colony stimulating factor; ECOG: Eastern Cooperative Oncology Group; CPK: Creatine phosphokinase; LDH: Lactate dehydrogenase; ALT: Alanine transaminase; AST: Aspartate transaminase.",
+            "answer": "\n{\n  \"Target \": [\"CYP: Cytochrome P450\"],\n  \"Drug\": [\"peg-G-CSF: Pegylated granulocytes colony stimulating factor\"],\n  \"Parameter\": [\"CPK: Creatine phosphokinase\", \"LDH: Lactate dehydrogenase\",\"ALT: Alanine transaminase\", \"AST: Aspartate transaminase\"]\n}"
+        },
+        {
+            "query": "CBD has been utilized as an anxiolytic and the U.S. Food and Drug Administration has approved the CBD oral solution (Epidiolex THC is the main psychoactive cannabinoid in cannabis as both the parent molecule and its 11-hydroxy-delta-9-tetrahydrocannabinol (11-OH-THC) metabolite produce euphoric effects [13].",
+            "answer": "\n{\n  \"Herb name\": [\"CBD\",\"Epidiolex THC\",\"cannabinoid\",\"cannabis\",\"11-hydroxy-delta-9-tetrahydrocannabinol (11-OH-THC)\"],\n  \"Extraction process\": [\"CBD oral solution\"]\n}"
+        }
+    ]
+}

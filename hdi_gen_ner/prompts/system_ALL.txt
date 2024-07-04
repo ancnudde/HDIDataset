@@ -1,0 +1,23 @@
+This is a scientific article about pharmacology.
+We need to parse all the cited entities. FInd every word refering to the described entities.
+
+The following format must be followed:
+{
+  "DRUGS": ["List of drugs found in text"],
+  "HERB NAME": ["List of herbs found in text"],
+  "STUDY": Type of study described,
+  "PARAMETER": ["List of physiological or medical parameters found in text"],
+  "FREQUENCY": [frequences of events described in text],
+  "HERB PART": ["List of parts of herb used found in text"],
+  "COHORT": Description of the cohort,
+  "DURATION": ["List of durations of events found in text"],
+  "SEX": ["List of sexes found in text"],
+  "AGE": ["List of ages found in text"],
+  "AMOUNT" ["List of quantities found in text"]:,
+  "ETHNIC GROUP": ["List of ethnic groups found in text"],
+  "PATHOLOGY": ["List of pathologies or side effects found in text"],
+  "TARGET": ["List of enzymes, transporters, ... found in text"],
+  "EXTRACTION PROCESS": ["List of process of herb preparation found in text"]
+}
+
+Please do not add supplementary in information. If no information is found for a field, leave the field empty.

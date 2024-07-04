@@ -27,7 +27,7 @@ The complete configuration files used for training are available in the correspo
 
 The models where trained and tested on two disctincts datasets:
 - The DDI Corpus (https://doi.org/10.1016/j.jbi.2013.07.011), a corpus of drug-drug interaction primarily focused on relation extraction but providing annotatons for named entities
-- A custom Herb-Drug Interaction corpus, annotated by us. This dataset focuses not only on herbs and drugs but also on contextual information (pathologies, sex, age, herbs preparation, cohorts, ...). More information about the dataset are available in the article.
+- A custom Herb-Drug Interaction corpus, annotated by us. This dataset focuses not only on herbs and drugs but also on contextual information (pathologies, sex, age, herbs preparation, cohorts, ...). More information about the dataset are available in the article and in the [dataset](/hdi_dataset_details) subfolder.
 
 ### Generative Entities Extraction
 

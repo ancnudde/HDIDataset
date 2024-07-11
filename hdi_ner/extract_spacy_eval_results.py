@@ -1,12 +1,14 @@
 import re
 import json
+import numpy as np
+import pandas as pd
 
 results = {}
 
 extraction_re = re.compile('(.*?) *([0-9|.]{5}) *([0-9|.]{5}) *([0-9|.]{5})')
 
 for i in range(10):
-    with open(f'test_run_{i}.txt', 'r') as fp:
+    with open(f'results_grid_search/evaluation_results_cfg_0/test_run_{i}.txt', 'r') as fp:
         data = fp.readlines()
     metrics = {'precision': {}, 'recall': {}, 'fscore': {}}
     results[i] = metrics
@@ -22,3 +24,19 @@ for i in range(10):
 
 with open('results_hdi/ner_results.json', 'w') as fp:
     json.dump(results, fp)
+
+results_to_list = []
+for key, val in results.items():
+    element = {'index': key}
+    for metric, value in val.items():
+        element[metric] = value['Drug']
+    results_to_list.append(element)
+
+scores_df = pd.DataFrame.from_dict(results_to_list)
+scores_df.set_index('index', inplace=True)
+
+mean_scores = {'precision': np.mean(scores_df['precision']),
+               'recall': np.mean(scores_df['recall']),
+               'F1-score': np.mean(scores_df['fscore'])}
+
+mean_scores_df = pd.DataFrame.from_dict(mean_scores)

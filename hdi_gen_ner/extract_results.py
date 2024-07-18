@@ -83,60 +83,59 @@ def compute_metrics(confusion_matrix):
 def summarize_results(model):
     with open('data/labels.txt', 'r') as fp:
         labels = [elt.strip().replace(' ', '_') for elt in fp.readlines()]
+    prompts = ['0_shots', 'few_shots']
     results = {
+        prompt: {
         label: {'precision': 0, 'recall': 0,
                 'fscore': 0, 'parsable_fraction': 0}
-        for label in labels}
-    for label in labels:
-        print(label)
-        try:
-            data = open_result_file(
-                f'results/{model}/generation_{label}_shots=false.json')
-            parsed, failed = results_set_to_json(data, label)
-            n_parsed = len(parsed) - len(failed)
-            results[label]['parsable_fraction'] = np.round(
-                n_parsed / len(data), 2)
-            to_compare = []
-            for element in parsed:
-                if label.capitalize().replace('_', ' ') in element[2]:
-                    parsed_gold = element[2][label.capitalize().replace(
-                        '_', ' ')]
-                else:
-                    parsed_gold = []
-                generated = element[1]
-                to_compare.append(
-                    {'generated': generated, "gold": parsed_gold})
-            with open(f'results/{model}/extracted_generation/{label}_comparison.json', 'w') as fp:
-                json.dump(
-                    {'extraction_ratio': results[label]['parsable_fraction'],
-                     'to_compare': to_compare},
-                    fp)
-            confusion = compute_confusion_matrix(to_compare)
-            print(confusion)
-            metrics = compute_metrics(confusion)
-            for metric, value in metrics.items():
-                results[label][metric] = np.round(value, 2)
-        except ZeroDivisionError:
-            pass
-        except FileNotFoundError:
-            pass
-        except Exception as e:
-            pass
+        for label in labels} for prompt in prompts}
+    for prompt in prompts:
+        for label in labels:
+            try:
+                data = open_result_file(
+                    f'results/{model}/{prompt}/generation_{label}_shots={prompt=='few_shots'}.json')
+                parsed, failed = results_set_to_json(data, label)
+                n_parsed = len(parsed) - len(failed)
+                results[prompt][label]['parsable_fraction'] = np.round(
+                    n_parsed / len(data), 2)
+                to_compare = []
+                for element in parsed:
+                    if label.capitalize().replace('_', ' ') in element[2]:
+                        parsed_gold = element[2][label.capitalize().replace(
+                            '_', ' ')]
+                    else:
+                        parsed_gold = []
+                    generated = element[1]
+                    to_compare.append(
+                        {'generated': generated, "gold": parsed_gold})
+                with open(f'results/{model}/{prompt}/extracted_generation/{label}_comparison.json', 'w') as fp:
+                    json.dump(
+                        {'extraction_ratio': results[prompt][label]['parsable_fraction'],
+                         'to_compare': to_compare},
+                        fp)
+                confusion = compute_confusion_matrix(to_compare)
+                metrics = compute_metrics(confusion)
+                for metric, value in metrics.items():
+                    results[prompt][label][metric] = np.round(value, 2)
+            except ZeroDivisionError:
+                pass
+            except FileNotFoundError as e:
+                print(e)
+                pass
+            except Exception as e:
+                print(e)
+                pass
     return results
 
 
 def get_comparison_dataframe(results):
-    with open('data/labels.txt', 'r') as fp:
-        labels = [elt.strip().replace(' ', '_') for elt in fp.readlines()]
     dataframes = []
-    for label in labels:
-        control_df = pd.DataFrame(results[label]).T
-        control_df['prompt'] = label
-        dataframes.append(control_df)
-    combined_df = pd.concat(dataframes)
-    combined_df = combined_df.rename(
-        index={'true': 'Few-shots', 'false': '0-shots'})
-    return combined_df
+    for prompt in results.keys():
+        prompt_df = pd.DataFrame(results[prompt]).T
+        prompt_df['prompt'] = prompt
+        dataframes.append(prompt_df)
+    global_df = pd.concat(dataframes)
+    return global_df
 
 
 if __name__ == '__main__':

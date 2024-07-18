@@ -87,11 +87,11 @@ if __name__ == '__main__':
     selected_model = model_choice_map[model_selection]
     prompt_selection = sys.argv[2]
     uses_few_shots = sys.argv[3].lower() == 'true'
-    with open(f'prompts/system_{prompt_selection}.txt', 'r') as fp:
+    with open(f'prompts/system_prompts/system_{prompt_selection}.txt', 'r') as fp:
         prompt = fp.read()
     few_shots = None
     if uses_few_shots:
-        with open('prompts/few_shots.json', 'r') as fp:
+        with open(f'prompts/few_shots/{prompt_selection}_shots.json', 'r') as fp:
             few_shots = json.load(fp)['shots']
     with open('data/hdi_extractive_entity_recognition.json', 'r') as fp:
         data = json.load(fp)['dataset']
@@ -102,5 +102,7 @@ if __name__ == '__main__':
                                               prompt,
                                               selected_data,
                                               few_shots)
-    with open(f'results/{model_selection}/generation_{prompt_selection}_shots={str(uses_few_shots).lower()}.json', 'w') as fp:
+    shots_mapping = {'true': 'few_shots', 'false': '0_shots'}
+    shots = str(uses_few_shots).lower()
+    with open(f'results/{model_selection}/{shots_mapping[shots]}/generation_{prompt_selection}_shots={shots}.json', 'w') as fp:
         json.dump({"results": results, "prompt": formatted_prompt}, fp)

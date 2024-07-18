@@ -1,0 +1,24 @@
+{
+    "shots": [
+        {
+            "query": "A study in 18 health volunteers did not show any clinically relevant interaction between kava and bromazepam [104].",
+            "answer": "{\"COHORT\": [\"18 health volunteers\"]}"
+        },
+        {
+            "query": "Table 3  Genotype frequency and gliclazide CL/F in 21 subjects in gliclazide only phase CYP2C9 genotype\tSamples (n)\tFrequency (%)\tGliclazide CL/F (ml\u2009h\u22121\u2009kg\u22121) *1/*1\t11\t52.4\t24.0 (19.0\u201328.9) *1/*2 or\t6\t28.6\t18.5 (15.2\u201321.7) *2/*2\t1\t4.8\t  *1/*3\t3\t14.3\t25.4 (20.4\u201330.5) Open in a separate window Abbreviation: CL/F, apparent clearance.",
+            "answer": "{\"COHORT\": [\"21 subjects\"]}"
+        },
+        {
+            "query": "Six subjects were of European ancestry and six subjects were of Asian ancestry (four of whom were of South Asian origin).",
+            "answer": "{\"COHORT\": [\"Six subjects\", \"six subjects\"]}"
+        },
+        {
+            "query": "In a placebo-controlled clinical study conducted in 24 healthy individuals, pretreatment with piperine caused a statistically significant increase in the half-life and decrease in the clearance of midazolam [34].",
+            "answer": "{\"COHORT\": [\"24 healthy individuals\"]}"
+        },
+        {
+            "query": "Twelve adult male Sprague Dawley rats (approximately 3 months old) weighing 150\u2013250\u2009g were obtained from Bogor Agricultural University (IPB; Bogor, Indonesia).",
+            "answer": "{\"COHORT\": [\"Twelve adult\"]}"
+        }
+    ]
+}

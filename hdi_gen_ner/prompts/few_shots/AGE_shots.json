@@ -1,0 +1,24 @@
+{
+    "shots": [
+        {
+            "query": "This study was conducted in healthy Korean volunteers, aged 19\u201355 years who agreed to refrain from any food containing green tea during whole study duration.",
+            "answer": "{\"AGE\": [\"aged 19\\u201355 years\"]}"
+        },
+        {
+            "query": "We describe a 65-year-old Chinese man taking a prolonged maintenance dose of warfarin who experienced an elevated international normalized ratio (INR) with associated bleeding after drinking Gouqizi (goji berry) wine.",
+            "answer": "{\"AGE\": [\"65-year-old\"]}"
+        },
+        {
+            "query": "The 27-year-old man with a history of Asperger Syndrome, bipolar disorder, and substance use disorder was found deceased in his residence with a lethal blood concentration of quetiapine (12 mg/mL) in conjunction with a qualitative presence of mitragynine [32].",
+            "answer": "{\"AGE\": [\"27-year-old\"]}"
+        },
+        {
+            "query": "The median age was 49 (range, 43 to 67) years, and the body mass index was 24.2 (range, 18.7 to 27.5) kg/m2.",
+            "answer": "{\"AGE\": [\"49\"]}"
+        },
+        {
+            "query": "Other inclusion criteria were as follows: age \u2265 18 years, performance status \u2264 2 according to the World Health Organization scale, life expectancy > 3 months, absolute neutrophil count \u2265 1.5 \u00d7 109 l\u22121, platelet count \u2265 100 \u00d7 109 l\u22121, haemoglobin level \u2265 6.0 mmol l\u22121, hepatic function as defined by serum bilirubin \u2264 1.5 times the upper limit of normal and alanine aminotransferase and aspartate aminotransferase \u2264 2.5 times the upper limit of normal, renal function as defined by serum creatinine \u2264 1.5 times the upper limit of normal or creatinine clearance \u2265 50 ml min\u22121, able and willing to swallow and retain oral medication, to comply with the protocol procedures and to follow dietary restrictions.",
+            "answer": "{\"AGE\": [\"age \\u2265 18 years\"]}"
+        }
+    ]
+}

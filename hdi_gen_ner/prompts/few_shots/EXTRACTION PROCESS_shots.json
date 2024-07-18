@@ -1,0 +1,24 @@
+{
+    "shots": [
+        {
+            "query": "Table 2  INR vs warfarin dose (mg) before and after consumption of Gouqizi wine.",
+            "answer": "{\"EXTRACTION PROCESS\": [\"wine\"]}"
+        },
+        {
+            "query": "Subjects were asked to abstain from alcohol, caffeine, fruit juices, cruciferous vegetables, and charbroiled meat throughout the study.",
+            "answer": "{\"EXTRACTION PROCESS\": [\"fruit juices\"]}"
+        },
+        {
+            "query": "This latest study set out to investigate the inhibitory impact of various extracts of H. verticillata on a number of key drug metabolizing CYP450 enzymes, its characterisation and further impact on CYP1A2, representing the first such in vitro evaluation for this plant, and to add to the growing list of screened Caribbean medicinal plants.",
+            "answer": "{\"EXTRACTION PROCESS\": [\"extracts\"]}"
+        },
+        {
+            "query": "Three of the plants studied did not exhibit inhibitory potential on any of the eight major human CYP isoenzymes used even at the highest dose of the extract, that is, aqueous extracts of Musa sapientum unripe fruits, Tetracarpidium conophorum seeds, and Allium sativum bulbs.",
+            "answer": "{\"EXTRACTION PROCESS\": [\"aqueous extracts\"]}"
+        },
+        {
+            "query": "GRT and FRE inhibited the reaction rate of CYP2C8, CYP2C9, and CYP3A4 as measured over 30 min (Figure 2a\u2013c).",
+            "answer": "{\"EXTRACTION PROCESS\": [\"GRT\", \"FRE\"]}"
+        }
+    ]
+}

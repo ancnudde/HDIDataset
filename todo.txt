@@ -1,0 +1,7 @@
+- Tester l'impact du contexte (taille)
+- subset à vérifier à la main -> vérifier les représentation des entités
+- Présenter HDI comme un apport
+- Objectif -> HDI +++
+- Expliquer pourquoi pas DDI
+- Expliquer -> voir si toujours besoin d'annoter VS capacité des LLM à spécialiser
+- Revérifier Etat de l'art pour NER

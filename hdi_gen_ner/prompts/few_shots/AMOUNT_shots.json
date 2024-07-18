@@ -1,0 +1,24 @@
+{
+    "shots": [
+        {
+            "query": "Male Sprague\u2013Dawley rats weighing 220\u2013250\u2009g were supplied by Sino-British Sippr/BK Lab Animal Ltd. (Shanghai, China).",
+            "answer": "{\"AMOUNT\": [\"220\\u2013250\\u2009g\"]}"
+        },
+        {
+            "query": "Treatment failure was defined as follows: having either a decline in the primary outcomes of weight loss (>5% body mass) or CD4 T-lymphocyte (>20 cells/\u03bcL associated with percentage CD4 decline); having a score decrease of \u2265 20 points on any subscale score from the secondary outcome measure of the Medical Outcomes Study HIV Health Survey (MOS-HIV); or duration of infection more than 10 days of active infections during the 6 month trial (acquired on-study infections).",
+            "answer": "{\"AMOUNT\": [\">5%\", \">20 cells/\\u03bcL\"]}"
+        },
+        {
+            "query": "At last, all VAE preparations at 100 and 500\u2009\u03bcg/mL showed a statistically highly significant inhibition of CYP3A4/5 for testosterone as isoform-specific substrate (Additional file 7: Figure S4).",
+            "answer": "{\"AMOUNT\": [\"100 and 500\\u2009\\u03bcg/mL\"]}"
+        },
+        {
+            "query": "It is interesting to note the similarity in magnitude of the effect (98% in young versus 141% in elderly) despite a 2.5 fold difference in daily-administered hyperforin dose (12.2 mg in young versus 4.8 mg in elderly).",
+            "answer": "{\"AMOUNT\": [\"12.2 mg\", \"4.8 mg\"]}"
+        },
+        {
+            "query": "Currently, the recommended daily intake of SJW varies between 180 and 1800 mg. As higher doses of SJW do not lead to a more pronounced decrease of depressive symptoms, SJW products with lower extract doses should be preferentially recommended to avoid further safety risks.",
+            "answer": "{\"AMOUNT\": [\"180 and 1800 mg\"]}"
+        }
+    ]
+}

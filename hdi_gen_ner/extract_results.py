@@ -93,7 +93,7 @@ def summarize_results(model):
         for label in labels:
             try:
                 data = open_result_file(
-                    f'results/{model}/{prompt}/generation_{label}_shots={prompt=='few_shots'}.json')
+                    f'results/{model}/{prompt}/generation_{label}_shots={str(prompt=="few_shots").lower()}.json')
                 parsed, failed = results_set_to_json(data, label)
                 n_parsed = len(parsed) - len(failed)
                 results[prompt][label]['parsable_fraction'] = np.round(
@@ -139,5 +139,5 @@ def get_comparison_dataframe(results):
 
 
 if __name__ == '__main__':
-    results = summarize_results('mistral')
+    results = summarize_results('phi')
     x = get_comparison_dataframe(results)

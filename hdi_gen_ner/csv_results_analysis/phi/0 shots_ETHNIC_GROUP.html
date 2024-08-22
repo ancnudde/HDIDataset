@@ -1,0 +1,876 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<span class="table_title">False Negatives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>4</th>
+      <td></td>
+      <td>European</td>
+      <td>Mistletoe (Viscum album L.) derived medicinal preparations are widely used and registered as medicines in many European countries.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td></td>
+      <td>Chinese</td>
+      <td>The raw herbs were morphologically authenticated by an in-house herbalist and chemically by the thin layer chromatography in accordance with the Chinese Pharmacopoeia 2005 [36].</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td></td>
+      <td>Chinese</td>
+      <td>The study was funded by the Scientific Research Project of Tianjin Municipal Education Commission (2021ZD017 and 2021ZD030), and the National Science and Technology Major Project of China under Grant number (2018ZX09734-002), Youth Qihuang Scholars Support Project of the National Administration of Traditional Chinese Medicine.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td></td>
+      <td>Korean</td>
+      <td>It has been officially listed in the Korean Pharmaceutical Codex for a long time and an aqueous suspension has recently been developed for convenient administration [1].</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td></td>
+      <td>Chinese</td>
+      <td>These included two conventional databases (EMBASE and MEDLINE), five other English databases (AMED, CINAHL Plus, Cochrane Database of Systematic Reviews, CENTRAL, and SciFinder Scholar) four Chinese databases.</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td></td>
+      <td>Chinese</td>
+      <td>Traditional Chinese medicine accounted for most of the interactions (n = 17), followed by food (n = 10), dietary supplements (n = 3), and other herbs/botanicals (n = 3).</td>
+    </tr>
+  </tbody>
+</table>
+<span class="table_title">False Positives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>26</th>
+      <td>not mentioned</td>
+      <td></td>
+      <td>3; Table 8) in a manner consistent with the literature (Ring et al., 1996; Suzuki et al., 2002; Emoto et al., 2003; Walsky et al., 2006; VandenBrink et al., 2011; Zhao et al., 2012; Thu et al., 2017).</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>R.A. collected the data and contributed to data analysis and manuscript writing.</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>IC Next, we determined the inhibition of P-gp by the extract of L. pumila and the constituents by using the two widely used probes calcein-AM and digoxin (Rautio et al., 2006).</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>A commercially available, standardized and purified Radix Scutellariae extract (RS) was obtained from Shanghai U-sea Biotech Co., Ltd. (Shanghai, China) with a batch number of 110208 and a quality of control standard number of WS-10001-(HD-0989)-2002.</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>By contrast, for carriers of the CYP2C9*3 allele, the CL/Fs of glipizide (Kidd et al., 1999) and tolbutamide (Kirchheiner et al., 2002a) were significantly different from wild-type subjects, with ratios of 0.18 and 0.58, respectively.</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>The influence test for PON was conducted by the method of Furlong et al.</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Data were reported as prevalence (percent) of the occurrence.</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>In the first phase, after an overnight fast, each subject in the respective groups received a single oral dose of 600 mg quinine sulphate tablets (Maderich Ltd, Surrey, England).</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>Water and food (laboratory rodent chow, Shanghai, China) were allowed ad libitum.</td>
+    </tr>
+    <tr>
+      <th>135</th>
+      <td>various</td>
+      <td></td>
+      <td>showed that the practice of herbal co-medication with prescription drugs cut across various patient demographics, with 38% of respondents reporting concomitant herbal use [6].</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>In China, Gouqizi is a popular component of the daily diet, making the prohibition of its consumption in patients taking warfarin difficult to implement.</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Most of these reports and studies are on combinations with Western drugs.</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>Não há informação sobre etnias neste texto</td>
+      <td></td>
+      <td>A maioria dos medicamentos cardíacos foi, portanto, descontinuada.</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>adult women</td>
+      <td></td>
+      <td>The purpose of this study was to evaluate the effect of SC extract supplementation on quadriceps muscle strength (QMS) and lactate at rest in adult women.</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Iranian</td>
+      <td></td>
+      <td>[2526] Iranian borage (E. amoenum) as unformulated and anticough syrups as formulated herbal products were the most used ones in our study population, while common cold and respiratory problems were determined to be the main indications for this trend.</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>65-year-old man</td>
+      <td></td>
+      <td>Case Report: Fatigue and Bleeding in a Polymedicated Patient Using Several Herbal Supplementations, Detected with g-Nomic® Software Abel Saldarreaga Marin, 1 Marc Cendros, 2 Carlos J Ciudad, 3 and Ana Sabater 2 Author information Article notes Copyright and License information PMC Disclaimer Go to: Abstract  This was a case report of severe fatigue and bleeding in a 65-year-old man with ischemic heart disease who was wearing a stent and taking multiple medications for hypertension and diabetes.</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>All results are presented as the average ± SD.</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>Banlangen<br>Isatis indigotica Fort.</td>
+      <td></td>
+      <td>Radix Isatidis (Root of Isatis indigotica Fort., Banlangen).</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>Not specified in the provided text</td>
+      <td></td>
+      <td>2.1.2.</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>(B) Plasma obtained from the volunteer received single oral dose of 40 mg simvastatin.</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>Although she was initially asymptomatic, she developed right upper quadrant abdominal pain, fatigue, and lower extremity edema by the time of her presentation.</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>Contents of ginsenosides in RGE.</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>Not specified in the provided text</td>
+      <td></td>
+      <td>Competing interests          The authors have declared no conflicts of interests.</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>Volunteers were excluded if they had any clinically significant history or presence of a cardiovascular, pulmonary, hepatic, renal, hematologic, gastrointestinal, endocrine, immunologic, dermatologic, or neurologic disease/disorder.</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>For each visit, a deviation of ±1 day was permitted.</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>human</td>
+      <td></td>
+      <td>Although honey was shown to decrease the oral bioavailability of CBZ in rabbits, it had no effect on the pharmacokinetic parameters of CBZ in human [63–65].</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>It therefore was recommended that they should be avoided in the elderly [10, 12].</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>PLC<br>CHO<br>YM</td>
+      <td></td>
+      <td>However, the total AUC for CHO was lower in YM than PLC (13.3 vs. 15.00, p < 0.001).</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>rabbits<br>normal rats</td>
+      <td></td>
+      <td>However, multiple-dose combination of curcumin with gliclazide produced significantly greater reduction in percent blood glucose reduction at 3-, 4-, 6-, 8-, 10-, and 12-hour intervals after treatment in normal rats and rabbits when compared with gliclazide control.</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>of triplicate determinations.</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>[17] The single-time point phenotypic ratio approach confirmed what other investigators observed with St. John’s wort when more conventional “area-under-the-curve” methods were utilized to determine midazolam clearance.</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Japanese</td>
+      <td></td>
+      <td>; performing modeling, Q.T.T., H.-m.B., L.T.N., J.-w.C., and H.-y.Y.</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Regarding CAM nonusers, the majority were in the age group of 20–60 years with the male/female ratio of 73/27 percent.</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>KY[2017]073).</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Thabethe</td>
+      <td></td>
+      <td>Thabethe, D.A.</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>; supervision, K.M.A.</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>Therefore, in conclusion, this study showed that the herb–drug interactions between red ginseng and MTX occurred via Mrp2 regulation changes in rats, but clinical significance thereof should be determined with follow-up studies.</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>KwaZulu-Natal</td>
+      <td></td>
+      <td>More than 50% of adults in KwaZulu-Natal attending public sector facilities for ART initiation disclose using TCAM [10], and similar levels of TCAM use by HIV positive individuals may occur worldwide [11].</td>
+    </tr>
+    <tr>
+      <th>141</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>They found a prevalence of 56.6%.</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>Gorski et al.</td>
+    </tr>
+    <tr>
+      <th>137</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>A study in 18 health volunteers did not show any clinically relevant interaction between kava and bromazepam [104].</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Bautista et al.</td>
+      <td></td>
+      <td>2016; Bautista et al.</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>Moreover, parameters such as T1/2 and CL/F of quinine that relates to elimination in both study groups were also not altered significantly in the presence of G. kola.</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>9, Table 2).</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>List of ethnic groups found in text</td>
+      <td></td>
+      <td>(E/Z)-endoxifen hydrochloride (4-hydroxy-N-desmethyltamoxifen hydrochloride), β-estradiol (E2) and dextrorphan-d Pooled human liver microsomes (HLMs, 50 donors, mixed gender) were purchased from Bioreclamation IVT (Baltimore, USA).</td>
+    </tr>
+    <tr>
+      <th>139</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Author contributions: MK drafted the initial and final versions of the manuscript.</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>The secondary objective was to assess the effect of E. purpurea supplementation on safety parameters, such as grade 3 and 4 toxicities induced by docetaxel [according to National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE, version 3.0)].</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>The radical alteration in the pharmacokinetic parameters of DAS 25 mg/kg P.O.</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>Pregnancy, breastfeeding, histories of hypersensitivity to quinine or similar agents, or adverse side effects from taking G. kola seeds were also used as exclusion criteria for the study.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>In China, 93.4% of cancer patients reported having used CAM in 2009-2010 [4].</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>Not specified in the provided text</td>
+      <td></td>
+      <td>Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved: All.</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>Group I and II were orally administered with normal saline for 7 days and Group II was orally administered DAS (25 mg/kg) on the 7th day.</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>Thanks to J. Kocher, S. Rosenzweig, C. Mueller, A. Fautsch, and T. Rützert for excellent technical assistance, to D. Ballinari (Pharmacia & Upjohn, Milano, Italy) for providing P388 and P388/dx cells, to A. H. Schinkel (The Netherlands Cancer Institute, Amsterdam, The Netherlands) for providing MDCKII-BCRP cells, to D. Keppler (German Cancer Research Centre, Heidelberg, Germany) for providing HEK-OATP1B1 and HEK-OATP1B3 cell lines, to Z. Dvorak (Palycký University, Olomouc, Czech Republic) for providing the AZ-AhR cells, and to D. Theile for careful proofreading of the manuscript.</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>sub-Saharan Africa<br>India</td>
+      <td></td>
+      <td>Others such as Alstonia boonei, Bauhinia monandra, and Picralima nitida are frequently used in sub‐Saharan Africa and India in the management of chronic diseases such as hypertension, diabetes, asthma, peptic ulcer, and cancer, as antimalarials and antimicrobials and other minor ailments (Mahomoodally, 2013; Ezuruike & Prieto, 2014; Iwu, 2014).</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>Not specified in the provided text</td>
+      <td></td>
+      <td>(PDF 36 kb) Figure S2.</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>Not specified in the provided text</td>
+      <td></td>
+      <td>Table S4.</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>Furthermore, the extract and constituents of KF have been shown to possess anticancer, antioxidant, anti-osteoporosis, and anti-inflammatory properties (Nadia et al., 2012; Fathilah et al., 2013).</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>NA</td>
+      <td></td>
+      <td>Table 2  Pharmacokinetic parameters of S-warfarin and R-warfarin  \tMean (95% CI)\tGeometric mean ratio (90% CI)  \tWarfarin only\tWarfarin and cranberry\tWarfarin and garlic\tWarfarin and cranberry/warfarin only\tWarfarin and garlic/warfarin only S-warfarin  tmax (h)\t1.4 (1.1–1.6)\t1.9 (1.1–2.7)\t1.3 (1.1–1.6)\tNA\tNA  Cmax (μg mL−1)\t1.8 (1.7–1.9)\t1.7 (1.5–2.0)\t1.9 (1.5–2.2)\t0.94 (0.67–1.29)\t1.06 (0.77–1.47)  t1/2 (h)\t38.6 (35.7–41.5)\t34.9 (31.0–38.8)\t41.2 (35.1–47.3)\t0.94 (0.79–1.12)\t0.99 (0.83–1.18)  AUC (μg mL−1 h)\t60.3 (54.5–66.1)\t63.0 (57.3–68.8)\t65.5 (55.3–75.6)\t1.04 (0.94–1.67)\t1.06 (0.95–1.19)  CL/F (mL h−1)\t213 (193–232)\t204 (183–224)\t202 (175–229)\t0.89 (0.80–0.99)\t1.05 (0.94–1.17)  Fraction unbound (fu)\t0.010 (0.007–0.013)\t0.010 (0.007–0.014)\t0.011 (0.008–0.014)\t1.00 (0.75–1.25)\t1.12 (0.39–1.84)  \t \t \t \t \t  R-warfarin  tmax (h)\t1.4 (1.1–1.6)\t1.9 (1.1–2.7)\t1.8 (0.7–2.9)\tNA\tNA  Cmax (μg mL−1)\t1.8 (1.7–2.0)\t1.7 (1.5–1.9)\t1.9 (1.5–2.2)\t0.90 (0.67–1.21)\t1.02 (0.8–1.4)  t1/2 (h)\t55.6 (46.2–65.0)\t47.7 (41.5–53.9)\t52.6 (47.4–57.9)\t0.93 (0.80–1.08)\t0.98 (0.84–1.14)  AUC (μg mL−1 h)\t108.7 (90.0–127.3)\t105.8 (91.7–119.9)\t105.0 (96.3–113.7)\t1.0 (0.9–1.1)\t0.99 (0.87–1.13)  CL/F (mL h−1)\t123 (106–140)\t124 (109–139)\t121 (112–131)\t0.87 (0.75–0.99)\t0.96 (0.84–1.11)  Fraction unbound (fu)\t0.006 (0.004–0.007)\t0.005 (0.004–0.007)\t0.006 (0.004–0.007)\t0.95 (0.72–1.18)\t1.04 (0.80–1.29) Open in a separate window Abbreviations: AUC, area under the plasma concentration–time curve; CI, confidence interval; CL, clearance; CL/F, apparent clearance; Cmax, maximum concentration; F, bioavailability; NA, not applicable; tmax, time to Cmax.</td>
+    </tr>
+    <tr>
+      <th>143</th>
+      <td>Seong et al.</td>
+      <td></td>
+      <td>Seong et al.</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Values are expressed as mean (SD).</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>and M.P.</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>Spaniards</td>
+      <td></td>
+      <td>V05895B; Arkopharma, Madrid, Spain).</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>no ethnic groups found in text</td>
+      <td></td>
+      <td>*significantly different from normal group, # significantly different from diabetic control group at p < 0.001.</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>Next, we investigated the effects of RGE on the biliary excretion of Mrp2 substrate drug in rats.</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>(2006b) included 7 patients with atrial fibrillation, whereas Ansell et al.</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Mean\tS.D.</td>
+    </tr>
+    <tr>
+      <th>144</th>
+      <td>HILI</td>
+      <td></td>
+      <td>HILI could occur more frequently in these groups because of the combination of risk factors.</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>Saudi Arabian</td>
+      <td></td>
+      <td>The research was approved by the Research Ethics Committee of King Saud University College of Pharmacy Riyadh, Saudi Arabia (KSU-SE-21-58).</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Fifty percent of the informants used herbal medicines alongside their prescription drugs.</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>or other herbs (Danshen, Ginkgo biloba, Dong quai, etc.).</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>M-AOE<br>S-AOE</td>
+      <td></td>
+      <td>In our study, the changing trends in the plasma concentration-time curves of indomethacin in S-AOE and M-AOE groups were similar to those in model group shown in Fig.</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Data shown are the means ± S.D.</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Korean</td>
+      <td></td>
+      <td>The concentration of total RNA was determined by Nano Vue Plus (GE healthcare Korea, Seoul, Korea).</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>In addition to PD, the patient’s past medical history includes spinal stenosis, vitamin D deficiency, frequent falls, a history of nicotine and alcohol dependence, mild kidney disease, and chronic neck, back, and shoulder pain.</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>African<br>European<br>Middle Eastern<br>Iranian<br>Asian</td>
+      <td></td>
+      <td>The most important information has been comprehensively summarized (Borrelli & Izzo, 2009; Chrubasik‐Hausmann, Vlachojannis, & McLachlan, 2019; Gurley, Fifer, & Gardner, 2012; Izzo, 2004; Soleymani, Bahramsoltani, Rahimi, & Abdollahi, 2017; Whitten, Myers, Hawrelak, & Wohlmuth, 2006).</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>A significant relationship between variables was identified if p < 0.05.</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>Kattankulathur</td>
+      <td></td>
+      <td>The following formula determines the half-maximal inhibitory concentration (IC SRM Medical College Hospital and Research Centre and SRM Institute of Science and Technology, Kattankulathur ethics committees approved the protocol (approval No.</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>Fructus Arctii</td>
+      <td></td>
+      <td>Fructus Arctii (Fruit of Arctium lappa L., Niubangzi).</td>
+    </tr>
+    <tr>
+      <th>140</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>It most often means that we have less knowledge of benefits, as well as risks.</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>Not mentioned in the text</td>
+      <td></td>
+      <td>The scale was anchored at each end with the labels “not at all” (0 mm) and “extremely” (100 mm).</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>2014; Dybro et al.</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>Not specified in the provided text</td>
+      <td></td>
+      <td>Supporting Information Click here for additional data file.</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>Haloperidol (38 mg/kg bw) was applied intramuscularly once every 4 weeks over 12 weeks beginning after 15 days of treatment with valerian [51].</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>Jamaicans</td>
+      <td></td>
+      <td>β-Sitosterol, cadina-4,10(15)-dien-3-one and a mix of five lignans comprised of dehydropodophyllotoxin, deoxydehydropodophyllotoxin, 4′-demethyldesoxypodophyllotoxin, 5′-methoxydehydropodophyllotoxin, and dehydro-b-peltatin methyl ether were supplied by the Department of Chemistry, University of the West Indies, Mona Campus, Jamaica.</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>Not specified in the provided text</td>
+      <td></td>
+      <td>Type of participant.</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>Therefore, Samento and Banderol were tested up to a dilution of 1% in the induction assay.</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>British<br>African</td>
+      <td></td>
+      <td>Denis Chopera, Kevin Dzobo, Ambroise Wonkam, Dee Blackhurst and Michelle Skelton commented.</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>Eng</td>
+      <td></td>
+      <td>2016; Eng et al.</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>It is noteworthy that no severe adverse reactions were observed in this study.</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>** and *** denoted result significantly different from that of the control group (p < 0.01 and p < 0.001, respectively).</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Li Xin et al.</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>The 48 (80%) women who had received adjuvant chemotherapy were a mean of 37 months (range 4–113) from completion of chemotherapy.</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>German</td>
+      <td></td>
+      <td>Valerian, for example, is marketed in Germany, mainly as HMP, and, thus, possibly a great proportion of consumption was not included in the survey by Garcia-Alvarez [7].</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>Não há informação sobre etnias na descrição do texto</td>
+      <td></td>
+      <td>O caso ocorreu em uma paciente previamente hígida de 35 anos de idade que foi submetida a investigação exaustiva após a exclusão de outras possíveis causas.</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>and M.A.A.</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>***P < 0.0001.</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>[44].</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>The majority of the patients identified as herbal users were in the age range of 50–70 years, and herbal usage prevalence was high among this age range.</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>At 30 min following the 8PM dose on Day 5, the rats were anesthetized and about 10 mL of blood were collected from rats’ inferior vena for determination of antiviral activity.</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>However, no studies were reported these data.</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>Each subject received his/her Siliphos in a blister pack and was asked to complete a pill diary documenting the time of administration, beverage, and approximate volume used to aid swallowing, and adverse events, if applicable.</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>No ethnic groups found in the text</td>
+      <td></td>
+      <td>S.M., Y.O., R.T., J.K., H.W., M.F., and K.S.</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Not specified in the provided text</td>
+      <td></td>
+      <td>An external file that holds a picture, illustration, etc.</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>Academic Editor: Igho J. Onakpoya In recent popular publications as well as in widely used information websites directed to cancer patients, valerian is claimed to have a potential of adverse interactions with anticancer drugs.</td>
+    </tr>
+    <tr>
+      <th>138</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>This is important because the vast majority of herbal products are orally administered.</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>black cohosh</td>
+      <td></td>
+      <td>Similarities and differences among current case studies and published cases of black cohosh hepatotoxicity.</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>The selected volunteers were randomized to placebo (inert substitute for a treatment or intervention) or MenoAct851 formulation (500 mg BID for 14 days in double-blind fashion) groups.</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>A difference was considered significant at P < 0.05.</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>Not specified in the provided text</td>
+      <td></td>
+      <td>Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>Compared with the vehicle control group, there was a significant increase of 420 % (P < 0.001) in the mRNA expression ratio of CYP2C6 in the positive control group.</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>This does not alter the authors' adherence to all the PLOS ONE policies on sharing data and materials.</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>He was reported to have experienced a seizure before his death, and the toxicological autopsy results revealed subtherapeutic serum levels for both drugs.</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>Indian</td>
+      <td></td>
+      <td>Ltd., Varanasi, India) is a patented polyherbal formulation developed to manage menopause symptoms that can be taken along with other allopathic medicines.</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>Furthermore, CYP1A-, CYP2C- and CYP3A-inducing agents were found in the ethyl acetate extract, but not in the aqueous extract of Danshen [57].</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>E. purpurea</td>
+      <td></td>
+      <td>Figure ​Figure11 displays the ritonavir concentration-versus-time profile, and Table ​Table22 lists the pharmacokinetic parameters of ritonavir after multiple-dose administration of darunavir-ritonavir alone or in combination with E. purpurea.</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>No ethnic groups found in the text</td>
+      <td></td>
+      <td>S.M., Y.O., R.T., E.H., T.O., H.O., and K.S.</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>*P < 0.05, **P < 0.01, and ***P < 0.001, determined by One way ANOVA, followed by Dunnett’s multiple comparison tests.</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>Elliot et al.</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>Korean</td>
+      <td></td>
+      <td>Co., Seoul, Korea) and their identity was kindly confirmed by Prof. Yeong Bae Seo (a specialist in plant classification, Natural Products Research Institute, Seoul National University, Seoul, Korea).</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>indigenous</td>
+      <td></td>
+      <td>Extraction was performed using water to mimic the indigenous mode of extraction.</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>and Y.C.P.</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>The mean SC extract supplementation and placebo compliance were 97.3% (90.2−100%) in the SC group and 95.8% (86.7–100%) in the placebo group.</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>List of ethnic groups found in text</td>
+      <td></td>
+      <td>Uma investigação ampla foi realizada, incluindo LBA, estudos de imagem, detecção de doenças autoimunes, cateterismo cardíaco direito e biópsia miocárdica.</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>Due to public concern regarding the risk of bleeding during treatment with warfarin, as well as the uneasy relationship between allopathic doctors and their patients, no more than 10% of patients with atrial fibrillation take warfarin in China [5].</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>Moreover, the reckless pieces of information about possible effects of diet, such as fatigue and loose stools, elicited confusion in the patient.</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>Not specified in the provided text</td>
+      <td></td>
+      <td>As a service to our customers we are providing this early version of the manuscript.</td>
+    </tr>
+    <tr>
+      <th>142</th>
+      <td>European</td>
+      <td></td>
+      <td>The European pharmacopoeia monographs pulverized dried bulbs of Allium sativum containing at least 0.45% allicin [154].</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>List of ethnic groups found in text</td>
+      <td></td>
+      <td>A summary of the background characteristics of the interviewed patients is given in Table 1.</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>Not mentioned</td>
+      <td></td>
+      <td>In a randomized double-blinded control trial, Xiao-yao-san increased the incidence of CBZ-related side effects including dizziness, blurred vision, skin rash, and nausea in patients with major depression or bipolar disorder.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>The clinical pharmacist recommended dose increases of carbidopa-levodopa to help control his tremors still present early in the morning (Figure 1).</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>Park et al.</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>No ethnic groups found in text</td>
+      <td></td>
+      <td>The metabolic inhibition studies performed in rat plasma suggested that all the herbal extracts (500 μg/mL) and all the herbal components (100 μg/mL) could inhibit the hydrolysis of OS in rat plasma, but the % inhibition rate varied between herbs/herbal components.</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

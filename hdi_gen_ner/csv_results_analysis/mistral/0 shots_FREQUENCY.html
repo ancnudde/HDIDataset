@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<span class="table_title">False Negatives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>12</th>
+      <td></td>
+      <td>twice daily</td>
+      <td>The following treatments were administered for 8 days each: placebo twice daily (treatment A), EGb 761® 120 mg twice daily (treatment B), and EGb 761® 240 mg in the morning and placebo in the evening (treatment C).</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td></td>
+      <td>4 times a day<br>daily<br>once a day</td>
+      <td>AAP at 1000 once a day or 1000 mg × 4 times a day was administered in the presence or absence of GGT (7680 mg) daily.</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td></td>
+      <td>single oral dose</td>
+      <td>(B) Plasma obtained from the volunteer received single oral dose of 40 mg simvastatin.</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td></td>
+      <td>daily</td>
+      <td>daily for two weeks at morning and a single captopril dose (4.5 mg/200 g BW; p.o.)</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td></td>
+      <td>every 4 weeks<br>once</td>
+      <td>Haloperidol (38 mg/kg bw) was applied intramuscularly once every 4 weeks over 12 weeks beginning after 15 days of treatment with valerian [51].</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td></td>
+      <td>multiple dosing</td>
+      <td>Alternate study designs, including silibinin predosing and multiple dosing of raloxifene, could provide further insight into interaction potential.</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td></td>
+      <td>every 2–3 days</td>
+      <td>Another patient experienced liver injury after taking 500 mg leaf powder every 2–3 days as a laxative [117].</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td></td>
+      <td>weekly</td>
+      <td>With MTX doses between 7.5 and 15 mg weekly, this effect is moderate (AUC +28% with ASA, less for the others), and there is inter-individual variability.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td></td>
+      <td>4 times (8 tablets) per day</td>
+      <td>To mimic the recommended dose based on the status of patients, AAP dose is suggested from 1000 mg to the maximum dose of 1000 mg × 4 times (8 tablets) per day for treatment of the common cold [22,23].</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td></td>
+      <td>daily</td>
+      <td>The patient was compliant regarding the attendance of appointments and in taking the medication, and maintained a therapeutic INR (1.7–2.5) on a maintenance daily dose of 1.875 mg warfarin with monthly INR monitoring.</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td></td>
+      <td>daily</td>
+      <td>However, a daily Gouqizi dose of 6 g (dosing recommended by Chinese Pharmacopoeia) for 3 days did not enhance the effects of warfarin in three patients with prosthetic heart values who were concomitantly taking warfarin.</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td></td>
+      <td>daily</td>
+      <td>Many potentially hepatotoxic herbs are not studied extensively enough to determine a safe daily dose.</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td></td>
+      <td>every study day</td>
+      <td>Vital signs (blood pressure, pulse, oxygen saturation) were obtained on every study day.</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td></td>
+      <td>repeated administration</td>
+      <td>Biliary excretion, but not urinary excretion, of methotrexate decreased in the RGE repeated administration group, compared to that in the control group.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td></td>
+      <td>4 times daily<br>once daily</td>
+      <td>Therefore, two simulation scenarios were used to evaluate the magnitude of any interaction, (AAP 1000 mg once daily + GGT 7680 mg once daily) and (AAP 1000 mg × 4 times daily + GGT 7680 mg once daily) in a week.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td></td>
+      <td>every 24 h</td>
+      <td>The material was allowed to extract for 72 h at room temperature during which supernatant was decanted every 24 h and the solid residue reconstituted in the same volume of purified water for the extraction process to be repeated.</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td></td>
+      <td>daily</td>
+      <td>Recommended daily doses of valerian root extracts are about 600 mg, usually taken as capsules or tablets.</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td></td>
+      <td>Daily</td>
+      <td>Daily before going to bed, participants took two tablets, with 500 mg valerian extract each (extraction solvent ethanol 70%, valerenic acid content 5.51 mg/tablet), for 14 subsequent days.</td>
+    </tr>
+  </tbody>
+</table>
+<span class="table_title">False Positives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>227</th>
+      <td>betaxolol<br>USP<br>codeine</td>
+      <td></td>
+      <td>The internal standards codeine and betaxolol were of USP reference standard.</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>1</td>
+      <td></td>
+      <td>We found, however, that E. purpurea was well tolerated, with no evident safety issue of concern.</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>amlodipine<br>hydrochlorothiazide<br>product ion mass spectra<br>fimasartan</td>
+      <td></td>
+      <td>We also used the same MRM condition as previously published reports [39,40] and the product ion mass spectra from fimasartan, amlodipine, and hydrochlorothiazide showed different mass fragmentation patterns (Figure 1).</td>
+    </tr>
+    <tr>
+      <th>184</th>
+      <td>1</td>
+      <td></td>
+      <td>The following chromatographic methods were employed.</td>
+    </tr>
+    <tr>
+      <th>212</th>
+      <td>Parsley<br>Petroselinum crispum</td>
+      <td></td>
+      <td>Parsley, Petroselinum crispum, is a food, spice, and also a medicinal herb.</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>decreases<br>blood glucose<br>markedly<br>insulin</td>
+      <td></td>
+      <td>Furthermore, it decreases insulin and blood glucose markedly [17].</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>informants<br>fifty percent</td>
+      <td></td>
+      <td>Fifty percent of the informants used herbal medicines alongside their prescription drugs.</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>PCOS<br>Polycystic ovary syndrome</td>
+      <td></td>
+      <td>Polycystic ovary syndrome (PCOS) patients’ flow diagram.</td>
+    </tr>
+    <tr>
+      <th>137</th>
+      <td>such synergistic effect<br>inhibition<br>down-regulating<br>gut dysbiosis<br>restoration<br>Warburg-related proteins<br>tumor metabolism<br>paclitaxel<br>recent study</td>
+      <td></td>
+      <td>Notably, a recent study found that such synergistic effect may be due to the inhibition of tumor metabolism via down-regulating Warburg-related proteins and restoration of the gut dysbiosis induced by paclitaxel [97].</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>puerarin<br>50 μL<br>20 ng/mL<br>100 μL<br>rat tissue homogenate<br>methanol</td>
+      <td></td>
+      <td>Thereafter, 50 μL of the IS solution (puerarin, 20 ng/mL in methanol) and 50 μL of 2% formic acid were added to 100 μL of the rat tissue homogenate.</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>etoposide<br>doxorubicin<br>5-FU<br>cyclophosphamide<br>cisplatin<br>metastasis<br>carboplatin<br>tumor recurrence<br>UFT</td>
+      <td></td>
+      <td>Some Yunzhi–drug combinations (5-FU, carboplatin, cisplatin, cyclophosphamide, doxorubicin, etoposide and UFT) also reduced tumor recurrence [25, 38, 42, 44] and metastasis [49].</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>Xiao-yao-san<br>dizziness<br>CBZ<br>nausea<br>skin rash<br>patients with major depression or bipolar disorder<br>blurred vision</td>
+      <td></td>
+      <td>In a randomized double-blinded control trial, Xiao-yao-san increased the incidence of CBZ-related side effects including dizziness, blurred vision, skin rash, and nausea in patients with major depression or bipolar disorder.</td>
+    </tr>
+    <tr>
+      <th>169</th>
+      <td>2</td>
+      <td></td>
+      <td>8 Partition coefficients (log P) of neutral compounds are generally the most influential parameter dictating the extent of distribution to different tissues.</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>population PKPD parameter estimates</td>
+      <td></td>
+      <td>Pharmacokinetic–pharmacodynamic modelling  The population PKPD parameter estimates for warfarin are presented in the Table 3.</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>reporter gene assays</td>
+      <td></td>
+      <td>Results of the reporter gene assays.</td>
+    </tr>
+    <tr>
+      <th>165</th>
+      <td>bosutinib<br>systemic exposure<br>S. sphenanthera<br>clinically-relevant dose</td>
+      <td></td>
+      <td>Conversely, S. sphenanthera at a clinically‐relevant dose results in a predicted three‐fold increase in bosutinib systemic exposure.</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>recovery<br>precision<br>matrix effect<br>stability evaluations<br>U.S. Food and Drug Administration (USFDA)<br>selectivity<br>guidelines<br>bioanalytical method validation<br>accuracy<br>dilution integrity<br>linearity</td>
+      <td></td>
+      <td>The method was fully validated in compliance with the U.S. Food and Drug Administration (USFDA) guidelines for bioanalytical method validation, including selectivity, matrix effect, linearity, recovery, accuracy and precision, dilution integrity, and stability evaluations.</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>detected<br>residual tumor<br>2 months<br>fluorethylenthyrosin<br>18 F<br>positron emission tomography<br>end of radiotherapy</td>
+      <td></td>
+      <td>Unfortunately, a [18 F]-fluorethylenthyrosin positron emission tomography positive residual tumor was detected 2 months after the end of radiotherapy.</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>pain control<br>his PCP<br>additional medication</td>
+      <td></td>
+      <td>However, his PCP determined that additional medication for pain control was warranted.</td>
+    </tr>
+    <tr>
+      <th>185</th>
+      <td>Fruit<br>Niubangzi<br>Fructus Arctii<br>Arctium lappa L.</td>
+      <td></td>
+      <td>Fructus Arctii (Fruit of Arctium lappa L., Niubangzi).</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>fimasartan</td>
+      <td></td>
+      <td>These results suggest that fimasartan is an attractive candidate for the treatment of hypertension and suggest the increasing use of fimasartan monotherapy and combination therapy.</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>2</td>
+      <td></td>
+      <td>It therefore was recommended that they should be avoided in the elderly [10, 12].</td>
+    </tr>
+    <tr>
+      <th>204</th>
+      <td>cardiovascular disorders<br>controlled clinical studies<br>symptoms of cognition decline and memory loss<br>anxiety and mood disorders<br>fatigue and general well-being<br>ginkgo</td>
+      <td></td>
+      <td>Several controlled clinical studies, as shown by review and meta-analysis of published data, suggest that the use of ginkgo is associated with clinically significant improvement in symptoms of cognition decline and memory loss, anxiety and mood disorders, fatigue and general well-being, as well as cardiovascular disorders [59-61].</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>women<br>secretory phases<br>hormonal factors<br>lipid profile<br>sexual hormones<br>PCOS<br>proliferative phases</td>
+      <td></td>
+      <td>We recommend that further research should be undertaken regarding the effects of herbal mixtures on hormonal factors of PCOS women such as sexual hormones in both proliferative and secretory phases, and lipid profile in a longer follow-up.</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>rs1142345</td>
+      <td></td>
+      <td>Therefore, rs1142345 was associated with the clinical effect of traditional hypoglycemic herbs.</td>
+    </tr>
+    <tr>
+      <th>203</th>
+      <td>YM capsules</td>
+      <td></td>
+      <td>However, further research is required to assess active ingredients of YM capsules and analyze their bioavailability following ingestion.</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>anti-inflammatory properties<br>Fathilah et al.<br>Nadia et al.<br>2013<br>2012</td>
+      <td></td>
+      <td>Furthermore, the extract and constituents of KF have been shown to possess anticancer, antioxidant, anti-osteoporosis, and anti-inflammatory properties (Nadia et al., 2012; Fathilah et al., 2013).</td>
+    </tr>
+    <tr>
+      <th>170</th>
+      <td>1<br>2<br>3</td>
+      <td></td>
+      <td>The extraction recovery from human plasma was considered acceptable with a mean recovery of greater than 88% for each analyte.</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>immunosuppressive drugs<br>therapeutic drug monitoring</td>
+      <td></td>
+      <td>Therapeutic drug monitoring is required as with other immunosuppressive drugs.</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>result<br>earlier<br>study<br>young individuals<br>finding</td>
+      <td></td>
+      <td>This finding also corroborates the results of an earlier study in young individuals.</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>pheophorbide A<br>parental cell line<br>MDCKII<br>BCRP<br>MDCKII-BCRP cells<br>flow cytometry</td>
+      <td></td>
+      <td>BCRP inhibition was tested by flow cytometry using pheophorbide A as a specific BCRP substrate in MDCKII-BCRP cells compared to the parental cell line MDCKII as described previously [24].</td>
+    </tr>
+    <tr>
+      <th>173</th>
+      <td>cancer<br>Picralima nitida<br>Bauhinia monandra<br>peptic ulcer<br>Alstonia boonei<br>diabetes<br>antimalarials<br>hypertension<br>antimicrobials<br>asthma</td>
+      <td></td>
+      <td>Others such as Alstonia boonei, Bauhinia monandra, and Picralima nitida are frequently used in sub‐Saharan Africa and India in the management of chronic diseases such as hypertension, diabetes, asthma, peptic ulcer, and cancer, as antimalarials and antimicrobials and other minor ailments (Mahomoodally, 2013; Ezuruike & Prieto, 2014; Iwu, 2014).</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>1</td>
+      <td></td>
+      <td>Echinacea was well tolerated, and all participants completed the study.</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>2018<br>intracellular transactivation<br>2019<br>transporter<br>hyperforin<br>Schäfer<br>SJW<br>PXR<br>Meyer Zu Schwabedissen<br>Bock<br>OATP2B1</td>
+      <td></td>
+      <td>For OATP2B1, we have recently shown that this transporter is not only inhibited by hyperforin but also transports this constituent of SJW (Schäfer, Bock, & Meyer Zu Schwabedissen, 2018), thus influencing the intracellular transactivation of PXR by hyperforin (Schäfer et al., 2019).</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>ABCB1<br>G2677T (rs2032582)<br>C3435T (rs1045642)<br>G2677A (rs2032582)<br>4 single-nucleotide polymorphisms (SNPs)<br>C1236T (rs1128503)</td>
+      <td></td>
+      <td>The identification of genotyping was performed for 4 single-nucleotide polymorphisms (SNPs) in ABCB1, namely C3435T (rs1045642), C1236T (rs1128503), G2677A (rs2032582), and G2677T (rs2032582).</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>PXR<br>St. John’s Wort<br>drug metabolizing enzymes<br>substrates<br>drug transporters<br>enzymes<br>rifampicin<br>herbal preparations<br>drugs<br>concomitantly used drugs</td>
+      <td></td>
+      <td>PXR activating drugs (e.g., rifampicin) or herbal preparations (e.g., St. John’s Wort) consequently induce drug metabolizing enzymes, and drug transporters can deteriorate drug efficacy by reducing the bioavailability or increasing the clearance of concomitantly used drugs, being substrates of such enzymes and/or transporters [16,17].</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>Darunavir<br>pharmacokinetics</td>
+      <td></td>
+      <td>Darunavir pharmacokinetics.</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>Aloe vera</td>
+      <td></td>
+      <td>A Spanish study reports Aloe vera [37].</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>studies<br>HDIs</td>
+      <td></td>
+      <td>To date an increasing number of studies in evaluating HDIs have been reported [11].</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>thrombin<br>inhibition</td>
+      <td></td>
+      <td>There are in vitro experiments confirming thrombin inhibition [172].</td>
+    </tr>
+    <tr>
+      <th>226</th>
+      <td>1</td>
+      <td></td>
+      <td>Findings such as these suggest that Lycium may have an additive effect when used in combination with conventional antidiabetics [86].</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>2018<br>HILI<br>few cases<br>EFSA<br>scientific opinion<br>safety<br>tea consumption<br>widespread use<br>common food consumption</td>
+      <td></td>
+      <td>A scientific opinion of EFSA [196] from 2018 states that the common food consumption is safe, as there are only few cases of HILI associated with tea consumption despite the widespread use.</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>Student's paired t-test</td>
+      <td></td>
+      <td>Statistical analysis of results obtained from clinical study was performed using Student’s paired t-test.</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Epstein Barr virus (EBV)<br>serological titers<br>acute cytomegalovirus (CMV)</td>
+      <td></td>
+      <td>Serological titers for acute cytomegalovirus (CMV) and Epstein Barr virus (EBV) were negative.</td>
+    </tr>
+    <tr>
+      <th>199</th>
+      <td>22<br>previous study<br>24%<br>increase</td>
+      <td></td>
+      <td>This increase is comparable with 24% increase found during low to moderate exercise intensities determined using an incremental protocol in our previous study [22].</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>hypertension<br>chronic kidney disease<br>patients<br>fimasartan</td>
+      <td></td>
+      <td>Based on these clinical outcomes, fimasartan can be recommended for patients with hypertension and chronic kidney disease [4,14].</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>herbal supplement<br>liver failure</td>
+      <td></td>
+      <td>This case culminated in liver failure despite discontinuation of the herbal supplement [4].</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>breast cancer<br>Women<br>treatment options<br>seek<br>complementary and alternative<br>CAM<br>diagnosed</td>
+      <td></td>
+      <td>Women diagnosed with breast cancer frequently seek complementary and alternative (CAM) treatment options that can help to cope with their disease and the side effects of conventional cancer therapy.</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>fimasartan-amide<br>rat plasma<br>fimasartan<br>amlodipine<br>LLOQ<br>hydrochlorothiazide</td>
+      <td></td>
+      <td>Figure 2 shows the chromatograms of the blank matrix and those of fimasartan, fimasartan-amide, amlodipine, and hydrochlorothiazide spiked at the LLOQ or rat plasma samples 1 h after oral administration of fimasartan, amlodipine, and hydrochlorothiazide.</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>CYP2C19<br>CYP2D6<br>CYP2C9<br>mouse<br>CYP3A<br>RGE<br>single oral dose<br>cytochrome P450<br>CYP<br>CYP1A2<br>i.e.<br>Korean red ginseng extract</td>
+      <td></td>
+      <td>In case of ginseng interactions, it was reported that no herb–drug interaction between single oral dose of Korean red ginseng extract (RGE) (0.5–2.0 g/kg) and the probe substrates for five cytochrome P450 (CYP) enzymes (i.e., CYP1A2, 2C9, 2C19, 2D6, 3A) in mouse [12].</td>
+    </tr>
+    <tr>
+      <th>183</th>
+      <td>2</td>
+      <td></td>
+      <td>Multiple reaction monitoring (MRM) mode using positive ion mode.</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>in vivo distribution studies<br>drug research<br>pharmacokinetic features<br>drug<br>demonstrate</td>
+      <td></td>
+      <td>In vivo distribution studies are crucial in drug research as they can be performed to demonstrate the pharmacokinetic features of a drug [21, 22].</td>
+    </tr>
+    <tr>
+      <th>189</th>
+      <td>8.5 min<br>11.5–13.5 min<br>gradient elution program<br>15 min<br>8.7–11 min<br>13.5 min<br>0–8.5 min<br>14 min<br>A<br>11 min</td>
+      <td></td>
+      <td>The gradient elution program was as follows: 0–8.5 min, 97% A; 8.7–11 min, 60% A; 11.5–13.5 min, 10% A; 14–15 min, 97% A.</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

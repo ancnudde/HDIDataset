@@ -11,6 +11,10 @@ import ast
 import json
 import numpy as np
 import pandas as pd
+import traceback
+import os
+
+from csv2pdf import convert
 
 
 def open_result_file(filepath):
@@ -36,6 +40,7 @@ def results_set_to_json(results, label):
     failed_content = []
     for result in results:
         idx = result[0]
+        text = result[1]
         generated_text, gold_standard = result[2]
         try:
             parsed_json = string_to_json(generated_text)
@@ -44,32 +49,48 @@ def results_set_to_json(results, label):
                 generated_label = list(set(generated_label))
             else:
                 generated_label = [generated_label]
-            parsed_content.append((idx, generated_label, gold_standard))
+            parsed_content.append((idx, generated_label, gold_standard, text))
         except Exception as e:
             parsed_content.append(
-                (idx, [], gold_standard))
+                (idx, [], gold_standard, text))
             failed_content.append((idx, generated_text, gold_standard))
     return parsed_content, failed_content
 
 
-def compute_confusion_matrix(results):
-    confusion_matrix = {'TP': 0, 'TN': 0, 'FP': 0, 'FN': 0}
+def compute_confusion_matrix(results, results_path):
+    confusion_matrix = {'TP': 0, 'FN': 0, 'FP': 0, 'EMPTY_CORRECT': 0}
+    errors = {'FP': [], 'FN': []}
+    empty_gold = 0
     for line in results:
-        predict = line['generated']
-        gold = line['gold']
+        predict = [str(elt).lower() for elt in line['generated']]
+        gold = [str(elt).lower() for elt in line['gold']]
+        if len(gold) == 0:
+            empty_gold += 1
         for entity in predict:
             if entity in gold:
                 confusion_matrix['TP'] += 1
             else:
                 confusion_matrix['FP'] += 1
+                errors['FP'].append(line)
         for std in gold:
             if std not in predict:
                 confusion_matrix['FN'] += 1
+                errors['FN'].append(line)
+        if len(predict) == 0 and len(gold) == 0:
+            confusion_matrix['EMPTY_CORRECT'] += 1
+    with open(f'{results_path}.json', 'w') as fp:
+        json.dump(errors, fp)
+    confusion_matrix['EMPTY_CORRECT'] = np.round(
+        confusion_matrix['EMPTY_CORRECT'] / empty_gold, 2)
     return confusion_matrix
 
 
 def compute_metrics(confusion_matrix):
-    metrics = {'precision': 0, 'recall': 0, 'fscore': 0}
+    metrics = {'TP': int(confusion_matrix['TP']),
+               'FP': int(confusion_matrix['FP']),
+               'FN': int(confusion_matrix['FN']),
+               'precision': 0, 'recall': 0, 'fscore': 0,
+               'correct_empty': confusion_matrix['EMPTY_CORRECT']}
     metrics['precision'] = confusion_matrix['TP'] / \
         (confusion_matrix['TP'] + confusion_matrix['FP'])
     metrics['recall'] = confusion_matrix['TP'] / \
@@ -86,34 +107,38 @@ def summarize_results(model):
     prompts = ['0_shots', 'few_shots']
     results = {
         prompt: {
-        label: {'precision': 0, 'recall': 0,
-                'fscore': 0, 'parsable_fraction': 0}
-        for label in labels} for prompt in prompts}
+            label: {'precision': 0, 'recall': 0,
+                    'fscore': 0, 'parsable_fraction': 0}
+            for label in labels} for prompt in prompts}
     for prompt in prompts:
         for label in labels:
             try:
                 data = open_result_file(
-                    f'results/{model}/{prompt}/generation_{label}_shots={str(prompt=="few_shots").lower()}.json')
+                    f'results/{model}/{prompt}/generated_text/generation_{label}_shots={str(prompt=="few_shots").lower()}.json')
                 parsed, failed = results_set_to_json(data, label)
                 n_parsed = len(parsed) - len(failed)
                 results[prompt][label]['parsable_fraction'] = np.round(
                     n_parsed / len(data), 2)
                 to_compare = []
                 for element in parsed:
+                    if element[1] == ['']:
+                        parsed_gen = []
+                    else:
+                        parsed_gen = element[1]
                     if label.capitalize().replace('_', ' ') in element[2]:
                         parsed_gold = element[2][label.capitalize().replace(
                             '_', ' ')]
                     else:
                         parsed_gold = []
-                    generated = element[1]
                     to_compare.append(
-                        {'generated': generated, "gold": parsed_gold})
+                        {'generated': parsed_gen, "gold": list(set(parsed_gold)), 'text': element[-1]})
                 with open(f'results/{model}/{prompt}/extracted_generation/{label}_comparison.json', 'w') as fp:
                     json.dump(
                         {'extraction_ratio': results[prompt][label]['parsable_fraction'],
                          'to_compare': to_compare},
                         fp)
-                confusion = compute_confusion_matrix(to_compare)
+                confusion = compute_confusion_matrix(to_compare,
+                                                     f'results/{model}/{prompt}/labeling_errors/{label}_labeling_error')
                 metrics = compute_metrics(confusion)
                 for metric, value in metrics.items():
                     results[prompt][label][metric] = np.round(value, 2)
@@ -124,6 +149,7 @@ def summarize_results(model):
                 pass
             except Exception as e:
                 print(e)
+                print(traceback.format_exc())
                 pass
     return results
 
@@ -135,9 +161,75 @@ def get_comparison_dataframe(results):
         prompt_df['prompt'] = prompt
         dataframes.append(prompt_df)
     global_df = pd.concat(dataframes)
+    for metric in ['TP', 'FP', 'FN']:
+        global_df[metric] = global_df[metric].astype(pd.Int64Dtype())
     return global_df
+
+
+def data_to_html(data):
+    html_header = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+"""
+    html_end = """
+</body>
+</html>
+"""
+    false_positive = [{
+        'generated': '<br>'.join([str(element) for element in elt['generated']]),
+        'gold': '<br>'.join(elt['gold']),
+        'text': elt['text']} for elt in data['FP']]
+    false_negative = [{
+        'generated': '<br>'.join([str(element) for element in elt['generated']]),
+        'gold': '<br>'.join(elt['gold']),
+        'text': elt['text']} for elt in data['FN']]
+    fp_df = pd.DataFrame(
+        false_positive).drop_duplicates().sample(frac=1)
+    fn_df = pd.DataFrame(
+        false_negative).drop_duplicates().sample(frac=1)
+    false_negative_html = fn_df.to_html(escape=False)
+    false_positive_html = fp_df.to_html(escape=False)
+    html = f"""{html_header}\n{'<span class="table_title">False Negatives</span>'}
+\n{false_negative_html}\n{'<span class="table_title">False Positives</span>'}
+\n{false_positive_html}\n{html_end}"""
+    file_path = f"csv_results_analysis/{model}/{shot.replace('_', ' ')}_{label}.html"
+    with open(file_path, 'w') as fp:
+        fp.write(html)
 
 
 if __name__ == '__main__':
     results = summarize_results('phi')
     x = get_comparison_dataframe(results)
+    x.index = [elt.replace('_', ' ').capitalize() for elt in x.index]
+    x = x.style.format(precision=2)
+    models = ['phi', 'mistral']
+    shots = ['few_shots', '0_shots']
+    labels = ['ETHNIC_GROUP', 'HERB_NAME', 'DRUG', 'PATHOLOGY',
+              'AGE', 'FREQUENCY', 'DURATION', 'COHORT', 'TARGET',
+              'SEX', 'STUDY', 'PARAMETER', 'EXTRACTION_PROCESS',
+              'HERB_PART', 'AMOUNT']
+    errors = {
+        model: {
+            shot: {
+                label: {
+                }
+                for label in labels}
+            for shot in shots}
+        for model in models}
+    for model in models:
+        for shot in shots:
+            for label in labels:
+                try:
+                    with open(f'results/{model}/{shot}/labeling_errors/{label}_labeling_error.json', 'r') as fp:
+                        data = json.load(fp)
+                        data_to_html(data)
+                except Exception as e:
+                    print(e)
+                    pass

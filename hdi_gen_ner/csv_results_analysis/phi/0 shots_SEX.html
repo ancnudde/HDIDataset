@@ -1,0 +1,828 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<span class="table_title">False Negatives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>women</td>
+      <td>women<br>female</td>
+      <td>Meanwhile, the exclusion criteria were: 1) women who became menopausal from surgery or chemotherapy; 2) women who underwent hysterectomy; 3) women with a history of endometrial hyperplasia or endometrial, breast, or sex hormone–related cancers; 4) women with uncontrolled hypertension (160/100 mmHg or higher); 5) women with uncontrolled diabetes mellitus (fasting blood sugar 180 mg/dL or higher, or cases of starting or changing medication due to diabetes within 3 mo); 6) uncontrolled thyroid patients; 7) women who have had severe migraines within the last year or who have been diagnosed with thromboembolism, cerebrovascular disease, or serious cardiovascular disease; 8) women with atypical uterine bleeding after 1 yr of menopause; 9) women who have taken sleep inducers, antidepressants, selective estrogen receptor modulators, antihyperlipidemic drugs, antithrombotic drugs (Aspirin, Warfarin, and Clopidogrel), bisphosphonates, or calcitonin within 4 wk; 10) women who have taken plant hormones (isoflavone, flaxseed, pomegranate, horseradish, white sorghum, red shamrock, and red ginseng products) in the form of supplements or medicines within 4 wk; 11) women who have continuously taken functional foods and herbal medicines that could affect bone health, blood lipid lipids (triglyceride and cholesterol), and blood circulation within 4 wk; 12) women who were administered female hormone formulations within 6 mo; 13) women with alanine aminotransferase (ALT) or aspartate aminotransferase (AST) levels exceeding 3 times the laboratory's normal upper limit; 14) women with creatinine levels exceeding 2 times the laboratory's normal upper limit; 15) women with a history of drug or alcohol abuse; 16) women who have performed intensive exercises (more than 10 h) within 3 mo; 17) women with hypersensitivity to the test drug or its ingredients; 18) women with clinically significant abnormalities based on mammographies or Pap smears (Category 0 or higher than 3 of Breast Imaging Reporting and Data System (BI-RADS)) is confirmed (in the case of BI-RADS Category 0, subject registration is possible after confirming additional test results; in the case of Pap smear, atypical squamous cell of undetermined significance can be registered); 19) women who have participated in other clinical trials within 1 mo of the start of the current study or who are planning to participate in another clinical trial during the study period; and, 20) in cases where the researchers decided that the subject is unsuitable to participate in this study.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>PCOS women</td>
+      <td>women</td>
+      <td>We recommend that further research should be undertaken regarding the effects of herbal mixtures on hormonal factors of PCOS women such as sexual hormones in both proliferative and secretory phases, and lipid profile in a longer follow-up.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td></td>
+      <td>Female</td>
+      <td>Female volunteers were excluded if they were pregnant (positive test for serum human chorionic gonadotropin at screening or check-in), breastfeeding, or planning to conceive a child within 30 days of treatment cessation.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>adult women</td>
+      <td>women</td>
+      <td>The purpose of this study was to evaluate the effect of SC extract supplementation on quadriceps muscle strength (QMS) and lactate at rest in adult women.</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>65-year-old man</td>
+      <td>man</td>
+      <td>Case Report: Fatigue and Bleeding in a Polymedicated Patient Using Several Herbal Supplementations, Detected with g-Nomic® Software Abel Saldarreaga Marin, 1 Marc Cendros, 2 Carlos J Ciudad, 3 and Ana Sabater 2 Author information Article notes Copyright and License information PMC Disclaimer Go to: Abstract  This was a case report of severe fatigue and bleeding in a 65-year-old man with ischemic heart disease who was wearing a stent and taking multiple medications for hypertension and diabetes.</td>
+    </tr>
+  </tbody>
+</table>
+<span class="table_title">False Positives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>119</th>
+      <td>List of sexes found in text</td>
+      <td></td>
+      <td>9, Table 2).</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>cancer patients</td>
+      <td></td>
+      <td>As known, cancer patients are likely to experience drug interactions due to the increased number and types of chemotherapeutic drugs, their combinations in oncology practice and their narrow therapeutic index, the achievement of a prolonged life expectancy, and the common use of a broad range of ancillary medications to prevent and/or treat cancer-related syndromes and treatment-induced toxicity [8].</td>
+    </tr>
+    <tr>
+      <th>167</th>
+      <td>Male<br>Female</td>
+      <td></td>
+      <td>Author contributions: MK drafted the initial and final versions of the manuscript.</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>(n = 6).</td>
+    </tr>
+    <tr>
+      <th>173</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>It most often means that we have less knowledge of benefits, as well as risks.</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>Not applicable.</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>adult women</td>
+      <td>women</td>
+      <td>The purpose of this study was to evaluate the effect of SC extract supplementation on quadriceps muscle strength (QMS) and lactate at rest in adult women.</td>
+    </tr>
+    <tr>
+      <th>181</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>no interaction [98].</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>D.A. Thabethe</td>
+      <td></td>
+      <td>Thabethe, D.A.</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>These limitations do not allow valid extrapolations with respect to a clinical relevance of the results.</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>female</td>
+      <td></td>
+      <td>Although she was initially asymptomatic, she developed right upper quadrant abdominal pain, fatigue, and lower extremity edema by the time of her presentation.</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>Type of participant.</td>
+    </tr>
+    <tr>
+      <th>165</th>
+      <td>man</td>
+      <td></td>
+      <td>Chronic use of ginseng on its own has been associated with manic psychosis [90].</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Male<br>Female</td>
+      <td></td>
+      <td>and M.P.</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>All subjects</td>
+      <td></td>
+      <td>All subjects completed the study and no adverse events related to either of the herbal medicines or warfarin were reported.</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>rats</td>
+      <td></td>
+      <td>In selectivity testing, six rats plasma was used.</td>
+    </tr>
+    <tr>
+      <th>157</th>
+      <td>Arctium lappa L.</td>
+      <td></td>
+      <td>Fructus Arctii (Fruit of Arctium lappa L., Niubangzi).</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Elliot et al.</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>type 2 diabetes</td>
+      <td></td>
+      <td>Keywords: pharmacokinetics, pharmacodynamics, gliclazide, St John's wort, CYP2C9, genotype Go to: Introduction  The incidence of type 2 diabetes is increasing in the community.</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>2).</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>[27] In the study performed by Roozbeh et al.</td>
+    </tr>
+    <tr>
+      <th>175</th>
+      <td>Seong et al.</td>
+      <td></td>
+      <td>Seong et al.</td>
+    </tr>
+    <tr>
+      <th>177</th>
+      <td>unspecified</td>
+      <td></td>
+      <td>They favor CYP, as the patient could be unusually susceptible due to the individual genotype [207].</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>No sexes found in text</td>
+      <td></td>
+      <td>No clinically significant alterations in blood pressure, heart rate or body temperature were observed.</td>
+    </tr>
+    <tr>
+      <th>178</th>
+      <td>individual</td>
+      <td></td>
+      <td>The clinical significance of this phenomenon depends on individual susceptibility.</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>S8).</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>M.A.A.</td>
+      <td></td>
+      <td>and M.A.A.</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>women<br>men</td>
+      <td></td>
+      <td>Worse than the Disease?</td>
+    </tr>
+    <tr>
+      <th>135</th>
+      <td>Competing interests</td>
+      <td></td>
+      <td>Competing interests          The authors have declared no conflicts of interests.</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>(DOCX) Click here for additional data file.</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>menopausal subjects</td>
+      <td></td>
+      <td>However, further research is needed on the safety of RHC intake for a long period in large-scale menopausal subjects.</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>conceived and designed the whole experiments.</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>control group<br>treatment group</td>
+      <td></td>
+      <td>If the control group also received medicinal mushrooms, there should be significant dosage differences of the mushrooms in the treatment group.</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>HOW MIGHT THIS CHANGE CLINICAL PHARMACOLOGY OR TRANSLATIONAL SCIENCE?</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>[44].</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>Polycystic ovary syndrome (PCOS) patients</td>
+      <td></td>
+      <td>Polycystic ovary syndrome (PCOS) patients’ flow diagram.</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>An external file that holds a picture, illustration, etc.</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>Results of the reporter gene assays.</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>customers</td>
+      <td></td>
+      <td>As a service to our customers we are providing this early version of the manuscript.</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>List of sexes found in text</td>
+      <td></td>
+      <td>(PDF 36 kb) Figure S2.</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>[35].</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>menopausal</td>
+      <td></td>
+      <td>This study aims to confirm the safety of red ginseng and herb extract complex (RHC), which are used to relieve menopausal symptoms.</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>PCOS women</td>
+      <td>women</td>
+      <td>We recommend that further research should be undertaken regarding the effects of herbal mixtures on hormonal factors of PCOS women such as sexual hormones in both proliferative and secretory phases, and lipid profile in a longer follow-up.</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>[36].</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>female</td>
+      <td></td>
+      <td>Five days after presentation, her symptoms had completely resolved.</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>KY[2017]073).</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>mixed gender</td>
+      <td></td>
+      <td>(E/Z)-endoxifen hydrochloride (4-hydroxy-N-desmethyltamoxifen hydrochloride), β-estradiol (E2) and dextrorphan-d Pooled human liver microsomes (HLMs, 50 donors, mixed gender) were purchased from Bioreclamation IVT (Baltimore, USA).</td>
+    </tr>
+    <tr>
+      <th>169</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>et Zucc.)</td>
+    </tr>
+    <tr>
+      <th>139</th>
+      <td>menopause</td>
+      <td></td>
+      <td>Ltd., Varanasi, India) is a patented polyherbal formulation developed to manage menopause symptoms that can be taken along with other allopathic medicines.</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>All results are presented as the average ± SD.</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>women</td>
+      <td></td>
+      <td>The 48 (80%) women who had received adjuvant chemotherapy were a mean of 37 months (range 4–113) from completion of chemotherapy.</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>It is noteworthy that no severe adverse reactions were observed in this study.</td>
+    </tr>
+    <tr>
+      <th>179</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>This may result in translation errors or assigning mentions to the wrong species, in some cases.</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>patient<br>progressive mobilization</td>
+      <td></td>
+      <td>Progressive mobilization of the patient was obtained as well as a complete normalization of the laboratory findings.</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>(2003).</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>people</td>
+      <td></td>
+      <td>However, attention has now shifted from reduction in mortality to improvement of the quality of life for people taking ART [1,2].</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>(PDF) Click here for additional data file.</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>Supporting Information Click here for additional data file.</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>Park et al.</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>of triplicate determinations.</td>
+    </tr>
+    <tr>
+      <th>137</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>(2000).</td>
+    </tr>
+    <tr>
+      <th>140</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>34860-2.5L-R) and ammonium acetate (catalog No.</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>male</td>
+      <td></td>
+      <td>Briefly, total protein was obtained by homogenizing 100 mg of liver samples with equal volume of a tissue lysis buffer.</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>Male</td>
+      <td></td>
+      <td>5 mg (VAEM, host tree Malus domestica, Lot 7054/0, total mistletoe lectin concentration 306 ng/mL), and Iscador Qu spec.</td>
+    </tr>
+    <tr>
+      <th>159</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>Nenhum</td>
+      <td></td>
+      <td>Apoio financeiro: Nenhum.</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>2016).</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>All of these factors could therefore be considered as potential explanations for the discrepancies observed between the in vitro and in vivo results.</td>
+    </tr>
+    <tr>
+      <th>171</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>Maxim extract are available from the authors.</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>DFG</td>
+      <td></td>
+      <td>Taken together with the results of the current study, it seems clear that these effects could be attributed to the Gegen present in DFG.</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Subject baseline characteristics</td>
+      <td></td>
+      <td>Relationship between the catechin AUC Abbreviations: AUC Subject baseline characteristics at the start of the study Note: Data are presented as mean ± SD for continuous variables and as ratios for categorical variables.</td>
+    </tr>
+    <tr>
+      <th>176</th>
+      <td>these groups</td>
+      <td></td>
+      <td>HILI could occur more frequently in these groups because of the combination of risk factors.</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>female</td>
+      <td></td>
+      <td>O caso ocorreu em uma paciente previamente hígida de 35 anos de idade que foi submetida a investigação exaustiva após a exclusão de outras possíveis causas.</td>
+    </tr>
+    <tr>
+      <th>163</th>
+      <td>low to moderate exercise intensities</td>
+      <td></td>
+      <td>This increase is comparable with 24% increase found during low to moderate exercise intensities determined using an incremental protocol in our previous study [22].</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>animals</td>
+      <td></td>
+      <td>The animals were anaesthetized before blood collection process.</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>female</td>
+      <td></td>
+      <td>If so, herb-mediated changes in CYP activity may take on greater clinical relevance in this population.</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>Mean\tS.D.</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>V05895B</td>
+      <td></td>
+      <td>V05895B; Arkopharma, Madrid, Spain).</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>2.1.2.</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>PCOS</td>
+      <td></td>
+      <td>Therefore, use of an herbal agent with antioxidant and polyphenolic properties without significant side effects helps to treat PCOS as a disease of antioxidant deficiency [13].</td>
+    </tr>
+    <tr>
+      <th>141</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>Values are expressed as mean (SD).</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>2 above (substituting logEC50 for logIC50).</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>Go to: 2.</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>This does not alter the authors' adherence to all the PLOS ONE policies on sharing data and materials.</td>
+    </tr>
+    <tr>
+      <th>156</th>
+      <td>Root of Isatis indigotica Fort., Banlangen</td>
+      <td></td>
+      <td>Radix Isatidis (Root of Isatis indigotica Fort., Banlangen).</td>
+    </tr>
+    <tr>
+      <th>164</th>
+      <td>none</td>
+      <td></td>
+      <td>Anecdotal pieces of evidence like this not only highlight the reality and severity of the consequences of HDIs, they underscore the importance of further studies to guide clinical decisions.</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>List of sexes found in text</td>
+      <td></td>
+      <td>Table S4.</td>
+    </tr>
+    <tr>
+      <th>143</th>
+      <td>65-year-old man</td>
+      <td>man</td>
+      <td>Case Report: Fatigue and Bleeding in a Polymedicated Patient Using Several Herbal Supplementations, Detected with g-Nomic® Software Abel Saldarreaga Marin, 1 Marc Cendros, 2 Carlos J Ciudad, 3 and Ana Sabater 2 Author information Article notes Copyright and License information PMC Disclaimer Go to: Abstract  This was a case report of severe fatigue and bleeding in a 65-year-old man with ischemic heart disease who was wearing a stent and taking multiple medications for hypertension and diabetes.</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>CYP</td>
+      <td></td>
+      <td>Table I  Pre- and Postsupplementation Phenotypic Ratios (means, 95% confidence intervals) Phenotypic Ratio (CYP)\tSupplement\tPresupplementation (mean and 95% CI)\tPostsupplementation.</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>female</td>
+      <td></td>
+      <td>Similarities and differences among current case studies and published cases of black cohosh hepatotoxicity.</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>existing studies</td>
+      <td></td>
+      <td>The results of existing studies are controversial and further in-depth studies are required.</td>
+    </tr>
+    <tr>
+      <th>158</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Communicable diseases are still leading causes of death and disability globally, according to WHO’s Global Health Estimates 2000–2019 (GBD Diseases and Injuries, 2020).</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Panax ginseng<br>G. biloba</td>
+      <td></td>
+      <td>Like G. biloba, Panax ginseng appears to have little effect on the activities of the specific CYP isoforms investigated in this study.</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>; data not shown).</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>two reviewers</td>
+      <td></td>
+      <td>The study selection and data extraction used standard eligibility inclusion criteria as determined by two reviewers.</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>two age groups</td>
+      <td></td>
+      <td>[42] The difference in extent of inhibition between the two age groups hints at either an age-related diminution in CYP2E1 responsivity or a dissimilarity in allyl sulfide content between the garlic supplements.</td>
+    </tr>
+    <tr>
+      <th>144</th>
+      <td>Actions and Outcome</td>
+      <td></td>
+      <td>Actions and Outcome  After evaluating the possible interactions between medication and lifestyle, some measures were taken to avoid those interactions.</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>patients' sex</td>
+      <td></td>
+      <td>After obtaining institutional ethics committee approval (project number and ethics code: 294155) from the university research affairs, patients' demographic information (sex, age, educational status, occupational status, and marital status) were collected from patients' hospital records or by direct interviewing of patients and filled in a specially designed form for this study.</td>
+    </tr>
+    <tr>
+      <th>161</th>
+      <td>Males<br>Females</td>
+      <td></td>
+      <td>Click here for additional data file.</td>
+    </tr>
+    <tr>
+      <th>184</th>
+      <td>patient</td>
+      <td></td>
+      <td>Moreover, the reckless pieces of information about possible effects of diet, such as fatigue and loose stools, elicited confusion in the patient.</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Male<br>Female</td>
+      <td></td>
+      <td>Conceptualization, M.-K.C.</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>Women</td>
+      <td></td>
+      <td>Women diagnosed with breast cancer frequently seek complementary and alternative (CAM) treatment options that can help to cope with their disease and the side effects of conventional cancer therapy.</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>rats</td>
+      <td></td>
+      <td>Hepatic (A) and intestinal (B) BCRP/ABCG2 protein expression in rats after DAS administration with or without APG pretreatment.</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>p-value by Fisher's exact test.</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>K.M.A.</td>
+      <td></td>
+      <td>; supervision, K.M.A.</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>2012).</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>List of sexes found in text</td>
+      <td></td>
+      <td>The previous study performed by Du et al.</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>7.2.</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>Gorski et al.</td>
+      <td></td>
+      <td>Gorski et al.</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>not applicable</td>
+      <td></td>
+      <td>2016; Eng et al.</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Bautista et al.</td>
+      <td></td>
+      <td>2016; Bautista et al.</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>Not applicable</td>
+      <td></td>
+      <td>Strandell et al.</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>Y.O.<br>S.M.<br>H.W.<br>J.K.<br>M.F.<br>K.S.<br>R.T.</td>
+      <td></td>
+      <td>S.M., Y.O., R.T., J.K., H.W., M.F., and K.S.</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>a.</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>List of sexes found in text</td>
+      <td></td>
+      <td>A summary of the background characteristics of the interviewed patients is given in Table 1.</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>The search strategy for PubMed is stated below.</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>Table 2  Pharmacokinetic parameters of S-warfarin and R-warfarin  \tMean (95% CI)\tGeometric mean ratio (90% CI)  \tWarfarin only\tWarfarin and cranberry\tWarfarin and garlic\tWarfarin and cranberry/warfarin only\tWarfarin and garlic/warfarin only S-warfarin  tmax (h)\t1.4 (1.1–1.6)\t1.9 (1.1–2.7)\t1.3 (1.1–1.6)\tNA\tNA  Cmax (μg mL−1)\t1.8 (1.7–1.9)\t1.7 (1.5–2.0)\t1.9 (1.5–2.2)\t0.94 (0.67–1.29)\t1.06 (0.77–1.47)  t1/2 (h)\t38.6 (35.7–41.5)\t34.9 (31.0–38.8)\t41.2 (35.1–47.3)\t0.94 (0.79–1.12)\t0.99 (0.83–1.18)  AUC (μg mL−1 h)\t60.3 (54.5–66.1)\t63.0 (57.3–68.8)\t65.5 (55.3–75.6)\t1.04 (0.94–1.67)\t1.06 (0.95–1.19)  CL/F (mL h−1)\t213 (193–232)\t204 (183–224)\t202 (175–229)\t0.89 (0.80–0.99)\t1.05 (0.94–1.17)  Fraction unbound (fu)\t0.010 (0.007–0.013)\t0.010 (0.007–0.014)\t0.011 (0.008–0.014)\t1.00 (0.75–1.25)\t1.12 (0.39–1.84)  \t \t \t \t \t  R-warfarin  tmax (h)\t1.4 (1.1–1.6)\t1.9 (1.1–2.7)\t1.8 (0.7–2.9)\tNA\tNA  Cmax (μg mL−1)\t1.8 (1.7–2.0)\t1.7 (1.5–1.9)\t1.9 (1.5–2.2)\t0.90 (0.67–1.21)\t1.02 (0.8–1.4)  t1/2 (h)\t55.6 (46.2–65.0)\t47.7 (41.5–53.9)\t52.6 (47.4–57.9)\t0.93 (0.80–1.08)\t0.98 (0.84–1.14)  AUC (μg mL−1 h)\t108.7 (90.0–127.3)\t105.8 (91.7–119.9)\t105.0 (96.3–113.7)\t1.0 (0.9–1.1)\t0.99 (0.87–1.13)  CL/F (mL h−1)\t123 (106–140)\t124 (109–139)\t121 (112–131)\t0.87 (0.75–0.99)\t0.96 (0.84–1.11)  Fraction unbound (fu)\t0.006 (0.004–0.007)\t0.005 (0.004–0.007)\t0.006 (0.004–0.007)\t0.95 (0.72–1.18)\t1.04 (0.80–1.29) Open in a separate window Abbreviations: AUC, area under the plasma concentration–time curve; CI, confidence interval; CL, clearance; CL/F, apparent clearance; Cmax, maximum concentration; F, bioavailability; NA, not applicable; tmax, time to Cmax.</td>
+    </tr>
+    <tr>
+      <th>183</th>
+      <td>healthy human volunteers</td>
+      <td></td>
+      <td>The in vivo study was conducted on healthy human volunteers.</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>diabetic patient</td>
+      <td></td>
+      <td>The present work was carried out to check the safety and efficacy of one of the probable concomitant treatments that a diabetic patient is likely to undertake during the course of his treatment.</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>3a and b).</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>young individuals</td>
+      <td></td>
+      <td>This finding also corroborates the results of an earlier study in young individuals.</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>no sexes found in text</td>
+      <td></td>
+      <td>However, no studies were reported these data.</td>
+    </tr>
+    <tr>
+      <th>166</th>
+      <td>female</td>
+      <td></td>
+      <td>Contrary to this safety perception, herb–drug interactions could lead to serious adverse effects.</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>no sexes found in text</td>
+      <td></td>
+      <td>The authors declare that there is no conflict of interests regarding the publication of this paper.</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>male<br>female</td>
+      <td></td>
+      <td>1).</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>All subjects</td>
+      <td></td>
+      <td>[45] Go to: RESULTS General Experimental Observations  All subjects completed the study and no serious adverse events occurred during the course of the investigation.</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

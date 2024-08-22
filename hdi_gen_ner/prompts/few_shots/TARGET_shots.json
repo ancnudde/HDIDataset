@@ -1,1 +1,24 @@
-{"shots": [{"query": "BCRP inhibition was tested by flow cytometry using pheophorbide A as a specific BCRP substrate in MDCKII-BCRP cells compared to the parental cell line MDCKII as described previously [24].", "answer": "{\"TARGET\": [\"BCRP\", \"BCRP\"]}"}, {"query": "Induction of P-gp by 1% Samento was verified at the protein level (Figure 5).", "answer": "{\"TARGET\": [\"P-gp\"]}"}, {"query": "In accordance with CYP3A4, P-gp is also regulated by the nuclear pregnane X receptor.", "answer": "{\"TARGET\": [\"CYP3A4\", \"P-gp\", \"nuclear pregnane X receptor\"]}"}, {"query": "The authors state that CYP3A4 inhibition or pGP inhibition could have caused the interaction.", "answer": "{\"TARGET\": [\"CYP3A4\", \"pGP\"]}"}, {"query": "Both GRT and FRE showed time-dependent inhibition of CYP2C8 activity (Figure 5a).", "answer": "{\"TARGET\": [\"CYP2C8\"]}"}]}
+{
+    "shots": [
+        {
+            "query": "BCRP inhibition was tested by flow cytometry using pheophorbide A as a specific BCRP substrate in MDCKII-BCRP cells compared to the parental cell line MDCKII as described previously [24].",
+            "answer": "{\"TARGET\": [\"BCRP\", \"BCRP\"]}"
+        },
+        {
+            "query": "Induction of P-gp by 1% Samento was verified at the protein level (Figure 5).",
+            "answer": "{\"TARGET\": [\"P-gp\"]}"
+        },
+        {
+            "query": "In accordance with CYP3A4, P-gp is also regulated by the nuclear pregnane X receptor.",
+            "answer": "{\"TARGET\": [\"CYP3A4\", \"P-gp\", \"nuclear pregnane X receptor\"]}"
+        },
+        {
+            "query": "The authors state that CYP3A4 inhibition or pGP inhibition could have caused the interaction.",
+            "answer": "{\"TARGET\": [\"CYP3A4\", \"pGP\"]}"
+        },
+        {
+            "query": "Both GRT and FRE showed time-dependent inhibition of CYP2C8 activity (Figure 5a).",
+            "answer": "{\"TARGET\": [\"CYP2C8\"]}"
+        }
+    ]
+}

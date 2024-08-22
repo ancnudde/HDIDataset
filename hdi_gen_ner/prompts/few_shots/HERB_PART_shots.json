@@ -1,1 +1,24 @@
-{"shots": [{"query": "Another patient experienced liver injury after taking 500 mg leaf powder every 2\u20133 days as a laxative [117].", "answer": "{\"HERB PART\": [\"leaf\"]}"}, {"query": "Vivid The leaves of Newbouldia laevis (UCC/BS/689) and Cassia abbreviata (UB/B/151) were obtained with the assistance of traditional herbal practitioners and authenticated by a botanist from the University of Cape Coast herbarium.", "answer": "{\"HERB PART\": [\"leaves\"]}"}, {"query": "A decoction of dried bark of Alstonia boonei is also taken two\u2010 to three times daily by diabetic patients to lower blood glucose (Adotey, Adukpo, Opoku Boahen, & Armah, 2012).", "answer": "{\"HERB PART\": [\"bark\"]}"}, {"query": "The intake of beverages prepared from green tea (unfermented leaves of Camellia sinensis), has been part of food culture in East Asia for centuries.", "answer": "{\"HERB PART\": [\"unfermented leaves\"]}"}, {"query": "TCM uses both the fruit and root bark of Lycium barbarum L., where the fruit (Gouqizi) is used to tonify Yin, while the root bark (Digupi) is used to \u201cclean\u201d the heart.", "answer": "{\"HERB PART\": [\"fruit\", \"root bark\", \"fruit\", \"root bark (Digupi)\"]}"}]}
+{
+    "shots": [
+        {
+            "query": "Another patient experienced liver injury after taking 500 mg leaf powder every 2\u20133 days as a laxative [117].",
+            "answer": "{\"HERB PART\": [\"leaf\"]}"
+        },
+        {
+            "query": "Vivid The leaves of Newbouldia laevis (UCC/BS/689) and Cassia abbreviata (UB/B/151) were obtained with the assistance of traditional herbal practitioners and authenticated by a botanist from the University of Cape Coast herbarium.",
+            "answer": "{\"HERB PART\": [\"leaves\"]}"
+        },
+        {
+            "query": "A decoction of dried bark of Alstonia boonei is also taken two\u2010 to three times daily by diabetic patients to lower blood glucose (Adotey, Adukpo, Opoku Boahen, & Armah, 2012).",
+            "answer": "{\"HERB PART\": [\"bark\"]}"
+        },
+        {
+            "query": "The intake of beverages prepared from green tea (unfermented leaves of Camellia sinensis), has been part of food culture in East Asia for centuries.",
+            "answer": "{\"HERB PART\": [\"unfermented leaves\"]}"
+        },
+        {
+            "query": "TCM uses both the fruit and root bark of Lycium barbarum L., where the fruit (Gouqizi) is used to tonify Yin, while the root bark (Digupi) is used to \u201cclean\u201d the heart.",
+            "answer": "{\"HERB PART\": [\"fruit\", \"root bark\", \"fruit\", \"root bark (Digupi)\"]}"
+        }
+    ]
+}

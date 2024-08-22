@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<span class="table_title">False Negatives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>individuals greater than 65 years of age</td>
+      <td>greater than 65 years of age</td>
+      <td>[1–3,8,9] Still other surveys indicate that herbal supplement usage is prevalent among patients taking prescription medications,[10–12] with many individuals greater than 65 years of age.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>sixty–four<br>middle-aged<br>fifty–six</td>
+      <td>50–64</td>
+      <td>'s study,[25] which reported that the trend was more prevalent among middle-aged (50–64) patients compared to other age groups.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>age group<br>20-60 years</td>
+      <td>20–60 years</td>
+      <td>Regarding CAM nonusers, the majority were in the age group of 20–60 years with the male/female ratio of 73/27 percent.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>fifty-zero<br>seventy</td>
+      <td>50–70 years</td>
+      <td>The majority of the patients identified as herbal users were in the age range of 50–70 years, and herbal usage prevalence was high among this age range.</td>
+    </tr>
+  </tbody>
+</table>
+<span class="table_title">False Positives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>73</th>
+      <td>rats<br>3 weeks</td>
+      <td></td>
+      <td>applied atorvastatin in rats after 3 weeks of drinking green tea or water.</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>selected volunteers<br>14 days</td>
+      <td></td>
+      <td>The selected volunteers were randomized to placebo (inert substitute for a treatment or intervention) or MenoAct851 formulation (500 mg BID for 14 days in double-blind fashion) groups.</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>elderly</td>
+      <td></td>
+      <td>[11,12] Such an interaction is particularly relevant to elderly patients on anticoagulant therapy.</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>two millennia</td>
+      <td></td>
+      <td>This herb has been in use for diabetic treatment for almost two millennia [72].</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>South Korean population<br>29%<br>83%</td>
+      <td></td>
+      <td>In South Korean population reported a range from 29% to 83% [5].</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>patient's<br>history includes</td>
+      <td></td>
+      <td>In addition to PD, the patient’s past medical history includes spinal stenosis, vitamin D deficiency, frequent falls, a history of nicotine and alcohol dependence, mild kidney disease, and chronic neck, back, and shoulder pain.</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>77 participants</td>
+      <td></td>
+      <td>In Stage 2 77 additional participants were randomized to either 1,200 mg S. frutescens or placebo.</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>mentions of ages not found in given text</td>
+      <td></td>
+      <td>Participants were certified healthy by a physician based on medical history, clinical examination, and laboratory tests and they gave their written informed consent to comply with the study protocol.</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>elderly subjects</td>
+      <td></td>
+      <td>Single time-point, phenotypic metabolic ratios were used to determine whether long-term supplementation of St. John’s wort, garlic oil, Panax ginseng, and Ginkgo biloba affected CYP1A2, CYP2D6, CYP2E1, or CYP3A4 activity in elderly subjects.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>cancer patients<br>prolonged life expectancy</td>
+      <td></td>
+      <td>As known, cancer patients are likely to experience drug interactions due to the increased number and types of chemotherapeutic drugs, their combinations in oncology practice and their narrow therapeutic index, the achievement of a prolonged life expectancy, and the common use of a broad range of ancillary medications to prevent and/or treat cancer-related syndromes and treatment-induced toxicity [8].</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>ages<br>two age groups</td>
+      <td></td>
+      <td>[42] The difference in extent of inhibition between the two age groups hints at either an age-related diminution in CYP2E1 responsivity or a dissimilarity in allyl sulfide content between the garlic supplements.</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>age<br>ages</td>
+      <td></td>
+      <td>After obtaining institutional ethics committee approval (project number and ethics code: 294155) from the university research affairs, patients' demographic information (sex, age, educational status, occupational status, and marital status) were collected from patients' hospital records or by direct interviewing of patients and filled in a specially designed form for this study.</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>young individuals</td>
+      <td></td>
+      <td>This finding also corroborates the results of an earlier study in young individuals.</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>sixteen</td>
+      <td></td>
+      <td>Sixteen subjects reported 27 adverse events.</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>sixty–four<br>middle-aged<br>fifty–six</td>
+      <td>50–64</td>
+      <td>'s study,[25] which reported that the trend was more prevalent among middle-aged (50–64) patients compared to other age groups.</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>baseline</td>
+      <td></td>
+      <td>There were no significant differences between the groups for height, weight, or BMI at baseline (Table 1).</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>approximately 70–80%</td>
+      <td></td>
+      <td>Approximately 70–80% of all breast tumors are estrogen receptor (ER) positive [2], and hormonal therapy plays therefore an important role in the therapy of early stage and metastatic ER-positive breast cancer.</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>respondents</td>
+      <td></td>
+      <td>showed that the practice of herbal co-medication with prescription drugs cut across various patient demographics, with 38% of respondents reporting concomitant herbal use [6].</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>patients<br>fifteen day</td>
+      <td></td>
+      <td>One brief 15 day study reported a significant increase in total cholesterol among hypertensive patients administered HS [18].</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>individuals greater than 65 years of age</td>
+      <td>greater than 65 years of age</td>
+      <td>[1–3,8,9] Still other surveys indicate that herbal supplement usage is prevalent among patients taking prescription medications,[10–12] with many individuals greater than 65 years of age.</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>previamente hígida de 35 anos de idade</td>
+      <td></td>
+      <td>O caso ocorreu em uma paciente previamente hígida de 35 anos de idade que foi submetida a investigação exaustiva após a exclusão de outras possíveis causas.</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>five days</td>
+      <td></td>
+      <td>Five days after presentation, her symptoms had completely resolved.</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>elderly</td>
+      <td></td>
+      <td>It therefore was recommended that they should be avoided in the elderly [10, 12].</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>patient<br>during</td>
+      <td></td>
+      <td>Due to the absence of co-morbidity, the patient had not received any other drugs during treatment with trabectedin.</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>these patients<br>years</td>
+      <td></td>
+      <td>Though non-pharmacological treatments are the main therapy for these patients, application of analgetic drugs is common, often over years.</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>period of increased risk<br>menopause<br>transition to menopause is associated with a period of increased risk</td>
+      <td></td>
+      <td>2020; 81:XXX–XXX) Transition to menopause is associated with a period of increased risk for problematic symptoms, including hot flashes, night sweats, sleep disturbances, sexual dysfunction, mood disorders, weight gain, and cognitive declines.</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>healthy human volunteers</td>
+      <td></td>
+      <td>The in vivo study was conducted on healthy human volunteers.</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>patients<br>neonates</td>
+      <td></td>
+      <td>Endogenous digoxin substances are present in neonates and patients with renal dysfunction, and these substances may lead to elevated or false-positive digoxin plasma concentration monitoring results.</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>31%</td>
+      <td></td>
+      <td>Furthermore, 31% of diabetic patients have been reported to take alternative medicines, most in conjunction with conventional medicines (Ryan et al., 2001).</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>mentions of ages not specified in text</td>
+      <td></td>
+      <td>In addition, one subject with pruritus and hot flash and another subject with headache fully recovered after discontinuation of administration in the placebo group.</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>fifty-zero<br>seventy</td>
+      <td>50–70 years</td>
+      <td>The majority of the patients identified as herbal users were in the age range of 50–70 years, and herbal usage prevalence was high among this age range.</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>for 5 days</td>
+      <td></td>
+      <td>(2007) also investigated the effect of pretreatment with cranberry juice for 5 days on warfarin pharmacokinetics and found no clinically significant change in the AUC of S-warfarin.</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>his</td>
+      <td></td>
+      <td>The clinical pharmacist recommended dose increases of carbidopa-levodopa to help control his tremors still present early in the morning (Figure 1).</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>another patient</td>
+      <td></td>
+      <td>Another patient experienced liver injury after taking 500 mg leaf powder every 2–3 days as a laxative [117].</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>by the time of her presentation<br>she</td>
+      <td></td>
+      <td>Although she was initially asymptomatic, she developed right upper quadrant abdominal pain, fatigue, and lower extremity edema by the time of her presentation.</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>age group<br>20-60 years</td>
+      <td>20–60 years</td>
+      <td>Regarding CAM nonusers, the majority were in the age group of 20–60 years with the male/female ratio of 73/27 percent.</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>age group<br>highest number of patients</td>
+      <td></td>
+      <td>This is possibly because the highest number of patients with type-2 diabetes fell within that age group.</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>patient</td>
+      <td></td>
+      <td>We describe here the unexpected onset of heavy toxicity including rhabdomyolysis after the fourth course of trabectedin in a patient with retroperitoneal liposarcoma who at the same time was taking an alternative herbal medicine suspected of triggering this adverse event.</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>participants</td>
+      <td></td>
+      <td>Precisely, only 3 participants complained of very light dizziness.</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>2 months</td>
+      <td></td>
+      <td>Unfortunately, a [18 F]-fluorethylenthyrosin positron emission tomography positive residual tumor was detected 2 months after the end of radiotherapy.</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>for each visit<br>a deviation</td>
+      <td></td>
+      <td>For each visit, a deviation of ±1 day was permitted.</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>six</td>
+      <td></td>
+      <td>In selectivity testing, six rats plasma was used.</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>mentions of ages not specified found in text<br>two weeks</td>
+      <td></td>
+      <td>daily for two weeks at morning and a single captopril dose (4.5 mg/200 g BW; p.o.)</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>adult women</td>
+      <td></td>
+      <td>The purpose of this study was to evaluate the effect of SC extract supplementation on quadriceps muscle strength (QMS) and lactate at rest in adult women.</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>elderly</td>
+      <td></td>
+      <td>Concomitant ingestion of botanical supplements with prescription medications, therefore, should be strongly discouraged in the elderly.</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>health volunteers<br>18</td>
+      <td></td>
+      <td>A study in 18 health volunteers did not show any clinically relevant interaction between kava and bromazepam [104].</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>treatment cessation<br>female volunteers</td>
+      <td></td>
+      <td>Female volunteers were excluded if they were pregnant (positive test for serum human chorionic gonadotropin at screening or check-in), breastfeeding, or planning to conceive a child within 30 days of treatment cessation.</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>7 ± 1-day</td>
+      <td></td>
+      <td>Each participant received three treatments with a 7 ± 1-day washout period in-between.</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>three patients</td>
+      <td></td>
+      <td>However, a daily Gouqizi dose of 6 g (dosing recommended by Chinese Pharmacopoeia) for 3 days did not enhance the effects of warfarin in three patients with prosthetic heart values who were concomitantly taking warfarin.</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>women<br>4-113<br>37 months<br>mean</td>
+      <td></td>
+      <td>The 48 (80%) women who had received adjuvant chemotherapy were a mean of 37 months (range 4–113) from completion of chemotherapy.</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

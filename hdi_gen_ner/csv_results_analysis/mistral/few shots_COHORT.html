@@ -1,0 +1,810 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<span class="table_title">False Negatives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>4</th>
+      <td></td>
+      <td>four groups (n = 6)</td>
+      <td>All animals were retained in polypropylene cages: 6 animals were caged (n = 6) per cage with a 12-h light/dark cycle, at 25 °C in humane conditions with free access to food and water and adapted to the living conditions one week prior to experiment The animals were categorized into four groups (n = 6) and fasted for 12 h before the experiment.</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td></td>
+      <td>Sixteen subjects</td>
+      <td>Sixteen subjects reported 27 adverse events.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>24 subjects</td>
+      <td>a total of 24 subjects</td>
+      <td>In order to compensate for study participants who did not complete both treatment phases, a total of 24 subjects were to be randomised.</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td></td>
+      <td>21 healthy subjects</td>
+      <td>investigated the ability of SJW to interact with CYP3A4 in a 2-way, open-label crossover study of 21 healthy subjects using midazolam as the probe substrate.</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td></td>
+      <td>European</td>
+      <td>The European pharmacopoeia monographs pulverized dried bulbs of Allium sativum containing at least 0.45% allicin [154].</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td></td>
+      <td>7 patients</td>
+      <td>(2006b) included 7 patients with atrial fibrillation, whereas Ansell et al.</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td></td>
+      <td>18 health volunteers</td>
+      <td>A study in 18 health volunteers did not show any clinically relevant interaction between kava and bromazepam [104].</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td></td>
+      <td>75 participants</td>
+      <td>Then, 75 participants were randomly allocated into 3 groups including group 1: CC (n = 25); group 2: herbal mixture (n = 25); and group 3: CC with herbal mixture (n = 25).</td>
+    </tr>
+  </tbody>
+</table>
+<span class="table_title">False Positives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>70</th>
+      <td>cells</td>
+      <td></td>
+      <td>Briefly, 2 × 10 Total RNA was extracted from the cells using the Trizol (CW0581, CWbio, Beijing, China).</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Du et al.</td>
+      <td></td>
+      <td>The previous study performed by Du et al.</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>all the herb/herbal components</td>
+      <td></td>
+      <td>The formation rate of OSA could be significantly suppressed by all the herb/herbal components.</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Naranjo</td>
+      <td></td>
+      <td>Naranjo [8] Causality Scale for Adverse Drug Reactions.</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>a patient with retroperitoneal liposarcoma</td>
+      <td></td>
+      <td>We describe here the unexpected onset of heavy toxicity including rhabdomyolysis after the fourth course of trabectedin in a patient with retroperitoneal liposarcoma who at the same time was taking an alternative herbal medicine suspected of triggering this adverse event.</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>thousands of years<br>Chen et al.</td>
+      <td></td>
+      <td>Jiawei Xiaoyao San (JWXYS) is a very common Chinese herbal formula used by the Chinese for thousands of years (Chen et al., 2014).</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Two case reports</td>
+      <td></td>
+      <td>A possible pharmacodynamic interaction of valerian preparations with other drugs is supported only by two case reports.</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>77 additional participants</td>
+      <td></td>
+      <td>In Stage 2 77 additional participants were randomized to either 1,200 mg S. frutescens or placebo.</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>rats</td>
+      <td></td>
+      <td>Next, we investigated the effects of RGE on the biliary excretion of Mrp2 substrate drug in rats.</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>bile</td>
+      <td></td>
+      <td>The bile was collected during 0–1 h, 1–2 h, 2–3 h, 3–4 h, 4–5 h, 5–6 h and 6–7 h after dosing.</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Three concentrations</td>
+      <td></td>
+      <td>Three concentrations of quality control (QC) samples were prepared at low, medium, and high concentrations in the range of the standard calibration curves.</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>About 70% of xenobiotics and other endogenous substances</td>
+      <td></td>
+      <td>The cytochrome P450 (CYP450) family of enzymes especially plays an important role in the biotransformation of about 70% of xenobiotics and other endogenous substances [14].</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>Agilent 1290 series liquid chromatography system</td>
+      <td></td>
+      <td>The analysis was performed on an Agilent 1290 series liquid chromatography system (Agilent Technologies, Palo Alto, CA, USA).</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>an increasing number of studies</td>
+      <td></td>
+      <td>To date an increasing number of studies in evaluating HDIs have been reported [11].</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Extracted QC samples</td>
+      <td></td>
+      <td>Post-preparative stability was evaluated by comparing the extracted QC samples maintained in the autosampler at 6 °C for 24 h (compared with the untreated QC samples).</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>the patient</td>
+      <td></td>
+      <td>Due to the absence of co-morbidity, the patient had not received any other drugs during treatment with trabectedin.</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>numerous bacterial infections</td>
+      <td></td>
+      <td>Levofloxacin (LVFX) is used to treat numerous bacterial infections belonging to the third-generation fluoroquinolone antibiotic family [8].</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>N/A</td>
+      <td></td>
+      <td>Administration of EGb 761® 120 mg b.i.d.</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>most of these affected drugs</td>
+      <td></td>
+      <td>An important fact is that most of these affected drugs have very narrow therapeutic indices.</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>a [18 F]-fluorethylenthyrosin positron emission tomography positive residual tumor</td>
+      <td></td>
+      <td>Unfortunately, a [18 F]-fluorethylenthyrosin positron emission tomography positive residual tumor was detected 2 months after the end of radiotherapy.</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>Mass Hunter software</td>
+      <td></td>
+      <td>Mass Hunter software (Agilent Technologies) was used for LC-MS/MS system control and data processing.</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>Danshen/Gegen</td>
+      <td></td>
+      <td>We also monitored the effects of Danshen/Gegen on the activities and mRNA and protein expression levels of VKOR and TM (for pharmacodynamic analysis).</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>CAW-R61J dosing solutions</td>
+      <td></td>
+      <td>DMSO was added to the CAW-R61J dosing solutions to 0.1% (v/v) such that all treatment conditions contained 0.1% DMSO.</td>
+    </tr>
+    <tr>
+      <th>140</th>
+      <td>Data from an in vitro study</td>
+      <td></td>
+      <td>The in vitro formation of DEX metabolites in the presence of Asafetida was compared with the control by using a one-way analysis of variance (ANOVA), and a Post hoc Scheffe’s multiple comparison test with a significant P value ⩽0.05.</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>urine and feces</td>
+      <td></td>
+      <td>Urine and feces were collected 0–6 h, 6–18 h and 18–28 h after administration.</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>5 mg</td>
+      <td></td>
+      <td>5 mg (VAEM, host tree Malus domestica, Lot 7054/0, total mistletoe lectin concentration 306 ng/mL), and Iscador Qu spec.</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>15</td>
+      <td></td>
+      <td>[15] to screen natural products for cytochrome P450 inhibition potential with a particular emphasis on the P450 enzymes, CYPs 1A1, 1A2, 1B1, 3A4 and 2D6.</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>Banlangen<br>Root of Isatis indigotica Fort.<br>Radix Isatidis</td>
+      <td></td>
+      <td>Radix Isatidis (Root of Isatis indigotica Fort., Banlangen).</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>range<br>498<br>median CD4+ T-cell count<br>244 to 962</td>
+      <td></td>
+      <td>The median CD4+ T-cell count was 498 (range, 244 to 962) cells/mm3.</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>Curcumin</td>
+      <td></td>
+      <td>Curcumin commercially available as pure powder capsule (95%) was obtained from Quality Supplements and Vitamins (Fort Lauderdale, FL, USA).</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Patients</td>
+      <td></td>
+      <td>To mimic the recommended dose based on the status of patients, AAP dose is suggested from 1000 mg to the maximum dose of 1000 mg × 4 times (8 tablets) per day for treatment of the common cold [22,23].</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>positive control group</td>
+      <td></td>
+      <td>Compared with the vehicle control group, there was a significant increase of 420 % (P < 0.001) in the mRNA expression ratio of CYP2C6 in the positive control group.</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>Three lignans</td>
+      <td></td>
+      <td>Prediction differences of pharmacokinetic parameters for the three lignans, expressed as the ratio of PBPK model prediction to clinically‐reported parameter values were also evaluated.</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>Gordân et al., 2009</td>
+      <td></td>
+      <td>Studies have shown that just the monitoring of protein expression levels is insufficient in understanding transcription activity in vitro (Gordân et al., 2009).</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>22 compounds</td>
+      <td></td>
+      <td>A total of 22 compounds were identified or tentatively identified (Figure 1).</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>CYP2B6</td>
+      <td></td>
+      <td>CYP2B6 genotyping  CYP2B6 genotyping was performed by pyrosequencing of polymerase chain reaction (PCR) products as described previously [13].</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>herbal products</td>
+      <td></td>
+      <td>This limitation applies particularly to the prediction of herb–drug interactions, as herbal products are typically mixtures of multiple constituents that can alter ADME processes via multiple mechanisms.</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>M.-K.C.</td>
+      <td></td>
+      <td>Conceptualization, M.-K.C.</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>Another patient</td>
+      <td></td>
+      <td>Another patient experienced liver injury after taking 500 mg leaf powder every 2–3 days as a laxative [117].</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>the patient</td>
+      <td></td>
+      <td>The patient was compliant regarding the attendance of appointments and in taking the medication, and maintained a therapeutic INR (1.7–2.5) on a maintenance daily dose of 1.875 mg warfarin with monthly INR monitoring.</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>notoginsenoside R</td>
+      <td></td>
+      <td>PNS contents were determined as: notoginsenoside R UPLC-MS/MS analysis was conducted on an Ultimate 3000 UPLC system (Thermo Fisher Scientific, Waltham, MA, USA) equipped with an LTQ-Orbitrap Elite mass spectrometer (Thermo Fisher Scientific, Waltham, MA, USA).</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>This</td>
+      <td></td>
+      <td>This was an important case of drug-induced cardiopulmonary toxicity.</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Previous in vitro studies</td>
+      <td></td>
+      <td>Previous in vitro studies have reported the inhibitory effect of green tea on p-glycoprotein (p-gp) encoded by ABCB1.</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>he</td>
+      <td></td>
+      <td>He was reported to have experienced a seizure before his death, and the toxicological autopsy results revealed subtherapeutic serum levels for both drugs.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>This case report</td>
+      <td></td>
+      <td>This case report highlights the complexity associated with medicinal cannabis and the health risks associated with its use.</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>herbal products</td>
+      <td></td>
+      <td>Therefore, herbal products must be assessed for their efficacy and safety, including their potential for interactions with other drugs [14].</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>Bilia and Céu Costas</td>
+      <td></td>
+      <td>A more detailed description of the regulatory environment in Europe, as well as its practical effects, can be found in the Bilia and Céu Costas review [13].</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>large-scale menopausal subjects</td>
+      <td></td>
+      <td>However, further research is needed on the safety of RHC intake for a long period in large-scale menopausal subjects.</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>eleven databases</td>
+      <td></td>
+      <td>In order to achieve a comprehensive literature search, a total of eleven databases were searched.</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>Chronic users of ginseng</td>
+      <td></td>
+      <td>Chronic use of ginseng on its own has been associated with manic psychosis [90].</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>The results</td>
+      <td></td>
+      <td>The results suggest that the herb-drug interaction between GLT and AC might occur when they were co-administered.</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>various natural products</td>
+      <td></td>
+      <td>Conclusion: There is evidence for potential interactions of various natural products with TAM in pre-clinical studies, although the relevant clinical evidence is still lacking.</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Blood samples</td>
+      <td></td>
+      <td>Blood samples were collected and analyzed for plasma quinine and its metabolite, (3-hydroxyquinine) using a validated HPLC method.</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>The roots of KF</td>
+      <td></td>
+      <td>The two major classes of compounds isolated from the roots of KF are alkyl phenols and triterpene glycosides (saponins) as reported earlier (Ali and Khan, 2011).</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>1,1′,3,3′-tetramethoxypropane</td>
+      <td></td>
+      <td>A 1,1′,3,3′-tetramethoxypropane was used to construct the calibration curve as the standard [32] (reference value: 0.54–1.32 pg/mL).</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>Eugenia jambolana</td>
+      <td></td>
+      <td>Eugenia jambolana (EJ) is an Indian traditional herb widely used for the treatment of diabetes mellitus.</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>Research</td>
+      <td></td>
+      <td>The research was approved by the Research Ethics Committee of King Saud University College of Pharmacy Riyadh, Saudi Arabia (KSU-SE-21-58).</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>This study</td>
+      <td></td>
+      <td>This study aims to confirm the safety of red ginseng and herb extract complex (RHC), which are used to relieve menopausal symptoms.</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Group one</td>
+      <td></td>
+      <td>Group one was administered 42 mg·kg Data are presented as mean ± standard deviation (SD).</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>HPLC-grade acetonitrile<br>Acetic acid</td>
+      <td></td>
+      <td>Acetic acid and HPLC‐grade acetonitrile were purchased from Merck (LiChrosolv GG, Darmstadt, Germany).</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>These agents</td>
+      <td></td>
+      <td>[54] Thus, a potential interaction may exist between these agents and St. John’s wort.</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>volunteer</td>
+      <td></td>
+      <td>(B) Plasma obtained from the volunteer received single oral dose of 40 mg simvastatin.</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Banderol<br>Samento</td>
+      <td></td>
+      <td>Therefore, Samento and Banderol were tested up to a dilution of 1% in the induction assay.</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>RGE repeated administration group<br>control group</td>
+      <td></td>
+      <td>Biliary excretion, but not urinary excretion, of methotrexate decreased in the RGE repeated administration group, compared to that in the control group.</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Nano Vue Plus</td>
+      <td></td>
+      <td>The concentration of total RNA was determined by Nano Vue Plus (GE healthcare Korea, Seoul, Korea).</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>100 mg of liver samples</td>
+      <td></td>
+      <td>Briefly, total protein was obtained by homogenizing 100 mg of liver samples with equal volume of a tissue lysis buffer.</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>rs1142345</td>
+      <td></td>
+      <td>Therefore, rs1142345 was associated with the clinical effect of traditional hypoglycemic herbs.</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>PLC<br>YM</td>
+      <td></td>
+      <td>However, the total AUC for CHO was lower in YM than PLC (13.3 vs. 15.00, p < 0.001).</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>all subjects</td>
+      <td></td>
+      <td>[45] Go to: RESULTS General Experimental Observations  All subjects completed the study and no serious adverse events occurred during the course of the investigation.</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>Polycystic ovary syndrome (PCOS) patients</td>
+      <td></td>
+      <td>Polycystic ovary syndrome (PCOS) patients’ flow diagram.</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>human plasma</td>
+      <td></td>
+      <td>The extraction recovery from human plasma was considered acceptable with a mean recovery of greater than 88% for each analyte.</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>she</td>
+      <td></td>
+      <td>She had no history of warfarin use, but warfarin was detected in her blood serum analysis.</td>
+    </tr>
+    <tr>
+      <th>135</th>
+      <td>A Spanish study</td>
+      <td></td>
+      <td>A Spanish study reports Aloe vera [37].</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>People</td>
+      <td></td>
+      <td>Kratom is also used as complementary medicine to manage diabetes, diarrhea, improve circulation, enhance alertness and concentration, and increase libido [111-114].</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>other age groups<br>middle-aged patients</td>
+      <td></td>
+      <td>'s study,[25] which reported that the trend was more prevalent among middle-aged (50–64) patients compared to other age groups.</td>
+    </tr>
+    <tr>
+      <th>137</th>
+      <td>refined quantified dry extract</td>
+      <td></td>
+      <td>For the refined quantified dry extract, the ginkgolic acid content is limited to 5 ppm [154].</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>The population</td>
+      <td></td>
+      <td>Pharmacokinetic–pharmacodynamic modelling  The population PKPD parameter estimates for warfarin are presented in the Table 3.</td>
+    </tr>
+    <tr>
+      <th>138</th>
+      <td>the patient</td>
+      <td></td>
+      <td>They favor CYP, as the patient could be unusually susceptible due to the individual genotype [207].</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>MDCKII-BCRP cells<br>parental cell line MDCKII</td>
+      <td></td>
+      <td>BCRP inhibition was tested by flow cytometry using pheophorbide A as a specific BCRP substrate in MDCKII-BCRP cells compared to the parental cell line MDCKII as described previously [24].</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>Dried seed of Eugenia jambolana</td>
+      <td></td>
+      <td>Dried seed of Eugenia jambolana were powdered and used for preparation of aqueous extract by using the double maceration technique.</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>Albuterol</td>
+      <td></td>
+      <td>Albuterol (as internal standard) was purchased from Sigma-Aldrich Chem.</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>RNA<br>cDNA</td>
+      <td></td>
+      <td>RNA was isolated using the GeneElute Mammalian Total RNA Miniprep Kit and cDNA was synthesized with the RevertAid™ H Minus First Strand cDNA Synthesis Kit according to the manufacturers’ instructions.</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>aqueous extract of oven-dried Allium sativum bulbs</td>
+      <td></td>
+      <td>In this study, aqueous extract of oven‐dried Allium sativum bulbs was used.</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>Beer et al.</td>
+      <td></td>
+      <td>Sample preparation was based on the publication by (Beer et al.</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>GA<br>PCA</td>
+      <td></td>
+      <td>In the transporter-mediated in vitro HDI, GA and PCA presented inhibitory effects on OAT1/3 and inductive effects on MDR1 and BCRP.</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>the elderly</td>
+      <td></td>
+      <td>It therefore was recommended that they should be avoided in the elderly [10, 12].</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>Twelve rats</td>
+      <td></td>
+      <td>daily for two weeks at morning and a single captopril dose (4.5 mg/200 g BW; p.o.)</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>women with PCOS</td>
+      <td></td>
+      <td>Therefore, use of an herbal agent with antioxidant and polyphenolic properties without significant side effects helps to treat PCOS as a disease of antioxidant deficiency [13].</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>unique substrates</td>
+      <td></td>
+      <td>Further, unique substrates that interact with Oat1, but not with Oat3 (and vice-versa) have been identified [7].</td>
+    </tr>
+    <tr>
+      <th>139</th>
+      <td>Findings</td>
+      <td></td>
+      <td>Findings such as these suggest that Lycium may have an additive effect when used in combination with conventional antidiabetics [86].</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>The authors</td>
+      <td></td>
+      <td>Sample Availability: Red ginseng extract are available from the authors.</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>The present case</td>
+      <td></td>
+      <td>The present case details the occurrence of cardiopulmonary toxicity, which was probably associated with venlafaxine.</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>data from a previous study</td>
+      <td></td>
+      <td>This increase is comparable with 24% increase found during low to moderate exercise intensities determined using an incremental protocol in our previous study [22].</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>Racemic warfarin<br>diclofenac sodium<br>naringin</td>
+      <td></td>
+      <td>The plant names in current study were used according to the latest revision in “The Plant List” ( Racemic warfarin, diclofenac sodium and naringin (internal standards) were purchased from Sigma-Aldrich (St. Louis, MO, USA).</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Each sample</td>
+      <td></td>
+      <td>Fimasartan, fimasartan-amide, amlodipine, and hydrochlorothiazide levels in each sample were determined using an Agilent 6470 Triple Quadrupole LC-MS/MS system (Agilent, Wilmington, DE, USA).</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>two subjects</td>
+      <td></td>
+      <td>In addition, one subject with pruritus and hot flash and another subject with headache fully recovered after discontinuation of administration in the placebo group.</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>CYP1A2 and CYP2C9</td>
+      <td></td>
+      <td>The metrics used for CYP1A2 and CYP2C9 may be considered as fully validated [28].</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>Parsley<br>Petroselinum crispum</td>
+      <td></td>
+      <td>Parsley, Petroselinum crispum, is a food, spice, and also a medicinal herb.</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>University of Cape Town Human Research Ethics committee</td>
+      <td></td>
+      <td>Ethical approval was obtained from the University of Cape Town Human Research Ethics committee with number HREC REF: 826/2014.</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>PCOS women</td>
+      <td></td>
+      <td>We recommend that further research should be undertaken regarding the effects of herbal mixtures on hormonal factors of PCOS women such as sexual hormones in both proliferative and secretory phases, and lipid profile in a longer follow-up.</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>others</td>
+      <td></td>
+      <td>The others (13.23%) consisted of congenital kidney disease, polycystic kidney disease, drug-induced renal failure, and acute kidney injury.</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>crude herbal extracts</td>
+      <td></td>
+      <td>Note: values are expressed as mg·kg Structures of the phenolic compounds identified and quantified from crude herbal extracts (1) Caffeic acid; (2) Catechin; (3) Chlorogenic acid; (4) Epicatechin; (5) p-Coumaric acid.</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>E. purpurea</td>
+      <td></td>
+      <td>We found, however, that E. purpurea was well tolerated, with no evident safety issue of concern.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>the patient</td>
+      <td></td>
+      <td>The case described herein demonstrates the importance of considering the pharmacokinetic and pharmacodynamic effects of cannabis and an individual’s pharmacogenomic (PGx) data when evaluating a patient’s medication regimen for therapeutic response and/or adverse drug events.</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>Aqueous extract of Moringa oleifera leaves</td>
+      <td></td>
+      <td>Aqueous extract of Moringa oleifera leaves showed weak inhibition of CYP1A2 and CYP2C9.</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>six rats</td>
+      <td></td>
+      <td>In selectivity testing, six rats plasma was used.</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>kavalactones</td>
+      <td></td>
+      <td>The pharmacological activities of kava have been attributed to kavalactones, which are concentrated in the rhizomes [96].</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>patients with hypertension and chronic kidney disease</td>
+      <td></td>
+      <td>Based on these clinical outcomes, fimasartan can be recommended for patients with hypertension and chronic kidney disease [4,14].</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>In vivo distribution studies</td>
+      <td></td>
+      <td>In vivo distribution studies are crucial in drug research as they can be performed to demonstrate the pharmacokinetic features of a drug [21, 22].</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>This case</td>
+      <td></td>
+      <td>This case culminated in liver failure despite discontinuation of the herbal supplement [4].</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Aliquots of plasma samples</td>
+      <td></td>
+      <td>After centrifugation of the blood samples at 16,000× g for 10 min, aliquots (50 μL each) of plasma samples were stored at −80 °C until the analysis of ginsenosides and valsartan.</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>rats<br>two children</td>
+      <td>two children</td>
+      <td>As regards the dietary supplement-CBZ interactions, folinic acid did not alter the plasma level of CBZ in rats [61] while nicotinamide increased CBZ plasma level and decreased its clearance in two children with epilepsy [70].</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>S. sphenanthera</td>
+      <td></td>
+      <td>Conversely, S. sphenanthera at a clinically‐relevant dose results in a predicted three‐fold increase in bosutinib systemic exposure.</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>Two commonly used herbal medicines<br>echinacea<br>policosanol</td>
+      <td></td>
+      <td>Therefore, two commonly used herbal medicines, echinacea and policosanol were investigated for their potential to interact with warfarin.</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Five or six independent experiments</td>
+      <td></td>
+      <td>Data represented as mean and CV from five or six independent experiments.</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>this patient</td>
+      <td></td>
+      <td>In this patient, we reported the possible effect of parsley juice on the level of sirolimus.</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>humans</td>
+      <td></td>
+      <td>Our first hypothesis is that the supplementation of SC extract in humans can increase muscle strength.</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>24 subjects</td>
+      <td>a total of 24 subjects</td>
+      <td>In order to compensate for study participants who did not complete both treatment phases, a total of 24 subjects were to be randomised.</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>Fruit of Arctium lappa L.<br>Niubangzi<br>Fructus Arctii</td>
+      <td></td>
+      <td>Fructus Arctii (Fruit of Arctium lappa L., Niubangzi).</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>HS varieties</td>
+      <td></td>
+      <td>The HS varieties with deeper red calyxes exhibited greater antioxidant activity as compared to lighter red or white varieties [44, 45].</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

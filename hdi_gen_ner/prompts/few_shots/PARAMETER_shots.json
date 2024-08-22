@@ -1,1 +1,24 @@
-{"shots": [{"query": "The cell homogenate was diluted with HEPES buffer to the appropriate protein concentrations.", "answer": "{\"PARAMETER\": [\"protein concentrations\"]}"}, {"query": "Some herbs such as celery could even affect the hepatic triglyceride concentrations.", "answer": "{\"PARAMETER\": [\"the hepatic triglyceride concentrations\"]}"}, {"query": "WHAT THIS STUDY ADDS      Concomitant treatments with echinacea increased the apparent clearance of S-warfarin but did not have a clinically significant effect on warfarin pharmacodynamics in healthy subjects.", "answer": "{\"PARAMETER\": [\"apparent clearance\"]}"}, {"query": "By contrast, for carriers of the CYP2C9*3 allele, the CL/Fs of glipizide (Kidd et al., 1999) and tolbutamide (Kirchheiner et al., 2002a) were significantly different from wild-type subjects, with ratios of 0.18 and 0.58, respectively.", "answer": "{\"PARAMETER\": [\"CL/Fs\"]}"}, {"query": "Therefore, rs1142345 was associated with the clinical effect of traditional hypoglycemic herbs.", "answer": "{\"PARAMETER\": [\"rs1142345\"]}"}]}
+{
+    "shots": [
+        {
+            "query": "The cell homogenate was diluted with HEPES buffer to the appropriate protein concentrations.",
+            "answer": "{\"PARAMETER\": [\"protein concentrations\"]}"
+        },
+        {
+            "query": "Some herbs such as celery could even affect the hepatic triglyceride concentrations.",
+            "answer": "{\"PARAMETER\": [\"the hepatic triglyceride concentrations\"]}"
+        },
+        {
+            "query": "WHAT THIS STUDY ADDS      Concomitant treatments with echinacea increased the apparent clearance of S-warfarin but did not have a clinically significant effect on warfarin pharmacodynamics in healthy subjects.",
+            "answer": "{\"PARAMETER\": [\"apparent clearance\"]}"
+        },
+        {
+            "query": "By contrast, for carriers of the CYP2C9*3 allele, the CL/Fs of glipizide (Kidd et al., 1999) and tolbutamide (Kirchheiner et al., 2002a) were significantly different from wild-type subjects, with ratios of 0.18 and 0.58, respectively.",
+            "answer": "{\"PARAMETER\": [\"CL/Fs\"]}"
+        },
+        {
+            "query": "Therefore, rs1142345 was associated with the clinical effect of traditional hypoglycemic herbs.",
+            "answer": "{\"PARAMETER\": [\"rs1142345\"]}"
+        }
+    ]
+}

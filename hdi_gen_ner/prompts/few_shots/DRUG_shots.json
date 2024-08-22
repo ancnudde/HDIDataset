@@ -1,1 +1,24 @@
-{"shots": [{"query": "Although the precise active components responsible for this anti-diabetic action are unknown, studies with compound K (CK), a final metabolite of protopanaxadiol ginsenosides demonstrate that CK exhibits anti-hyperglycaemic effects through an insulin secreting action similar to metformin.", "answer": "{\"DRUG\": [\"metformin\"]}"}, {"query": "LSA, SAB, and TSL produced approximately 70\u201385% inhibition, whereas PCA, RMA, and SAA, each reduced PAH accumulation to background level (>95% inhibition), similar to the prototypical OAT inhibitor, probenecid.", "answer": "{\"DRUG\": [\"the prototypical OAT inhibitor, probenecid\"]}"}, {"query": "), Platycodonis Radix, and Polygonum cuspidatum were demonstrated to increase the plasma level/oral bioavailability of CBZ through decreasing the metabolism of CBZ or improving gastric solubility of CBZ [37, 47\u201349].", "answer": "{\"DRUG\": [\"CBZ\", \"CBZ\", \"CBZ\"]}"}, {"query": "However, there is no evidence regarding the possible impact of genotype on the interaction between warfarin and other drugs or herbal medicines.", "answer": "{\"DRUG\": [\"warfarin\"]}"}, {"query": "Tissue distribution profiles of indomethacin and its three metabolites in the model and M-AOE groups.", "answer": "{\"DRUG\": [\"indomethacin\"]}"}]}
+{
+    "shots": [
+        {
+            "query": "Although the precise active components responsible for this anti-diabetic action are unknown, studies with compound K (CK), a final metabolite of protopanaxadiol ginsenosides demonstrate that CK exhibits anti-hyperglycaemic effects through an insulin secreting action similar to metformin.",
+            "answer": "{\"DRUG\": [\"metformin\"]}"
+        },
+        {
+            "query": "LSA, SAB, and TSL produced approximately 70\u201385% inhibition, whereas PCA, RMA, and SAA, each reduced PAH accumulation to background level (>95% inhibition), similar to the prototypical OAT inhibitor, probenecid.",
+            "answer": "{\"DRUG\": [\"the prototypical OAT inhibitor, probenecid\"]}"
+        },
+        {
+            "query": "), Platycodonis Radix, and Polygonum cuspidatum were demonstrated to increase the plasma level/oral bioavailability of CBZ through decreasing the metabolism of CBZ or improving gastric solubility of CBZ [37, 47\u201349].",
+            "answer": "{\"DRUG\": [\"CBZ\", \"CBZ\", \"CBZ\"]}"
+        },
+        {
+            "query": "However, there is no evidence regarding the possible impact of genotype on the interaction between warfarin and other drugs or herbal medicines.",
+            "answer": "{\"DRUG\": [\"warfarin\"]}"
+        },
+        {
+            "query": "Tissue distribution profiles of indomethacin and its three metabolites in the model and M-AOE groups.",
+            "answer": "{\"DRUG\": [\"indomethacin\"]}"
+        }
+    ]
+}

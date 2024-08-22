@@ -1,0 +1,2274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<span class="table_title">False Negatives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>87</th>
+      <td>liver damage<br>diabetes</td>
+      <td>aberrant inflammatory response<br>oxidative stress<br>liver damage<br>diabetes</td>
+      <td>The underlying mechanism of diabetes that contributes to liver damage is the combination of increased oxidative stress and an aberrant inflammatory response.</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>rash</td>
+      <td>rashes<br>the rash</td>
+      <td>The naturopathic literature from which most information about rashes caused by Lomatium is drawn do not indicate a well-studied treatment of the rash aside from supportive care and cessation of Lomatium ingestion.</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>rash</td>
+      <td>the rash<br>pruritis</td>
+      <td>In our patient, the rash was refractory to glucocorticoids and only resolved once her exposure to the extract ceased, although antihistamines were helpful to reduce pruritis.</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td></td>
+      <td>adverse events</td>
+      <td>Each subject received his/her Siliphos in a blister pack and was asked to complete a pill diary documenting the time of administration, beverage, and approximate volume used to aid swallowing, and adverse events, if applicable.</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>diabetes</td>
+      <td>diabetic</td>
+      <td>The present work was carried out to check the safety and efficacy of one of the probable concomitant treatments that a diabetic patient is likely to undertake during the course of his treatment.</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>rhabdomyolysis<br>retroperitoneal liposarcoma</td>
+      <td>rhabdomyolysis<br>adverse event<br>retroperitoneal liposarcoma</td>
+      <td>We describe here the unexpected onset of heavy toxicity including rhabdomyolysis after the fourth course of trabectedin in a patient with retroperitoneal liposarcoma who at the same time was taking an alternative herbal medicine suspected of triggering this adverse event.</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>cardiopulmonary toxicity</td>
+      <td>drug-induced cardiopulmonary toxicity</td>
+      <td>This was an important case of drug-induced cardiopulmonary toxicity.</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td></td>
+      <td>adverse reactions</td>
+      <td>Conversely, it is important to keep in mind that these interactions may also present therapeutic benefits as a result of synergism which may lead to enhanced drug effects or reduced adverse reactions.</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td></td>
+      <td>healthy</td>
+      <td>The in vivo study was conducted on healthy human volunteers.</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td></td>
+      <td>haemorrhage</td>
+      <td>Ginkgo biloba is available as an over-the-counter drug and reported to cause haemorrhage when coadministered with other antiplatelet agents.</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>spinal stenosis<br>shoulder pain<br>chronic neck<br>back<br>mild kidney disease</td>
+      <td>spinal stenosis<br>chronic neck, back, and shoulder pain<br>mild kidney disease<br>PD<br>frequent falls<br>vitamin D deficiency</td>
+      <td>In addition to PD, the patient’s past medical history includes spinal stenosis, vitamin D deficiency, frequent falls, a history of nicotine and alcohol dependence, mild kidney disease, and chronic neck, back, and shoulder pain.</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>breast cancer</td>
+      <td>cancer<br>side effects<br>breast cancer</td>
+      <td>Women diagnosed with breast cancer frequently seek complementary and alternative (CAM) treatment options that can help to cope with their disease and the side effects of conventional cancer therapy.</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>renal dysfunction</td>
+      <td>renal dysfunction<br>patients</td>
+      <td>Endogenous digoxin substances are present in neonates and patients with renal dysfunction, and these substances may lead to elevated or false-positive digoxin plasma concentration monitoring results.</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>diabetes</td>
+      <td>diabetic</td>
+      <td>Furthermore, 31% of diabetic patients have been reported to take alternative medicines, most in conjunction with conventional medicines (Ryan et al., 2001).</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>epilepsy</td>
+      <td>Patients</td>
+      <td>Patients on antiepileptic therapy are usually on a long-term basis.</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>hepatocellular carcinoma</td>
+      <td>carcinoma</td>
+      <td>HepaRG cell line, derived from a hepatocellular carcinoma, could express a large panel of liver-specific enzymes [5,6,7].</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>diabetes</td>
+      <td>diabetic</td>
+      <td>This herb has been in use for diabetic treatment for almost two millennia [72].</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>hypertension</td>
+      <td>antihypertensive, antioxidant, and hypocholesterolemic</td>
+      <td>Anthocyanins, particularly delphinidin-3-sambubioside and cyanidin-3-sambubioside, are generally believed to be the active constituents responsible for the antihypertensive, antioxidant, and hypocholesterolemic effects of HS, possibly because they are found in high relative quantities in aqueous extracts [8, 11, 13, 16].</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>PCOS</td>
+      <td>PCOS<br>side effects</td>
+      <td>Therefore, use of an herbal agent with antioxidant and polyphenolic properties without significant side effects helps to treat PCOS as a disease of antioxidant deficiency [13].</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td></td>
+      <td>Adverse Drug Reactions</td>
+      <td>Naranjo [8] Causality Scale for Adverse Drug Reactions.</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td></td>
+      <td>Cancer</td>
+      <td>Thanks to J. Kocher, S. Rosenzweig, C. Mueller, A. Fautsch, and T. Rützert for excellent technical assistance, to D. Ballinari (Pharmacia & Upjohn, Milano, Italy) for providing P388 and P388/dx cells, to A. H. Schinkel (The Netherlands Cancer Institute, Amsterdam, The Netherlands) for providing MDCKII-BCRP cells, to D. Keppler (German Cancer Research Centre, Heidelberg, Germany) for providing HEK-OATP1B1 and HEK-OATP1B3 cell lines, to Z. Dvorak (Palycký University, Olomouc, Czech Republic) for providing the AZ-AhR cells, and to D. Theile for careful proofreading of the manuscript.</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>liver injury<br>TAM-intoxicated liver injury</td>
+      <td>liver injury<br>the oxidative stress</td>
+      <td>DDB is found to alleviate the oxidative stress status of TAM-intoxicated liver injury in rats, with the study reporting a significant increase in antioxidant enzymes, a significant decrease in the activity of sGPT and sGOT, reduction of glutathione concomitant, and a significant reduction of TBARS and liver transaminases (El-Beshbishy, 2005b).</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>chronic kidney disease</td>
+      <td>Chronic kidney disease (CKD)</td>
+      <td>Chronic kidney disease (CKD) is a global public health problem with an increasing incidence and a lot of economic burden for treatment.</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td></td>
+      <td>diabetes<br>diarrhea</td>
+      <td>Kratom is also used as complementary medicine to manage diabetes, diarrhea, improve circulation, enhance alertness and concentration, and increase libido [111-114].</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td></td>
+      <td>adverse events</td>
+      <td>All subjects completed the study and no adverse events related to either of the herbal medicines or warfarin were reported.</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>kidney function<br>liver function</td>
+      <td>hepatotoxic</td>
+      <td>Studies demonstrate that HS consumption does not adversely effect liver and kidney function at lower doses, but may be hepatotoxic at extremely high doses.</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>tumor recurrence<br>metastasis</td>
+      <td>metastasis<br>tumor</td>
+      <td>Some Yunzhi–drug combinations (5-FU, carboplatin, cisplatin, cyclophosphamide, doxorubicin, etoposide and UFT) also reduced tumor recurrence [25, 38, 42, 44] and metastasis [49].</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>memory loss<br>cardiovascular disorders<br>cognition decline<br>general well-being<br>anxiety and mood disorders<br>fatigue</td>
+      <td>memory loss<br>mood disorders<br>cardiovascular disorders<br>cognition decline<br>anxiety<br>fatigue</td>
+      <td>Several controlled clinical studies, as shown by review and meta-analysis of published data, suggest that the use of ginkgo is associated with clinically significant improvement in symptoms of cognition decline and memory loss, anxiety and mood disorders, fatigue and general well-being, as well as cardiovascular disorders [59-61].</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>diabetic control group</td>
+      <td>diabetic</td>
+      <td>*significantly different from normal group, # significantly different from diabetic control group at p < 0.001.</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>nausea<br>liver damage<br>dyslipidemia<br>fever<br>vomiting<br>headache<br>diarrhoea</td>
+      <td>side effects<br>liver damage<br>nausea<br>dyslipidemia<br>fever<br>vomiting<br>headache<br>diarrhoea</td>
+      <td>EFV and NVP have been associated with a number of side effects including liver damage, nausea, vomiting, fever, diarrhoea, dyslipidemia and headache [10].</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Parkinson's disease</td>
+      <td>PD</td>
+      <td>Neuronal death in this region results in low dopamine concentrations; therefore, treatment strategies for PD often involve initiating medications (e.g., carbidopa-levodopa, ropinirole, entacapone) that result in increased concentrations of dopamine to improve movement control [8].</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td></td>
+      <td>diabetes mellitus</td>
+      <td>Eugenia jambolana (EJ) is an Indian traditional herb widely used for the treatment of diabetes mellitus.</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>electrolyte levels</td>
+      <td>diuretic effects</td>
+      <td>In addition, electrolyte levels generally are not effected by ingesting HS extracts despite its diuretic effects.</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>prosthetic heart values</td>
+      <td>prosthetic heart</td>
+      <td>However, a daily Gouqizi dose of 6 g (dosing recommended by Chinese Pharmacopoeia) for 3 days did not enhance the effects of warfarin in three patients with prosthetic heart values who were concomitantly taking warfarin.</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td></td>
+      <td>adverse events</td>
+      <td>Sixteen subjects reported 27 adverse events.</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>immunologic disease<br>endocrine disease<br>neurologic disease<br>hematologic disease<br>renal disease<br>cardiovascular disease<br>pulmonary disease<br>gastrointestinal disease<br>hepatic disease<br>dermatologic disease</td>
+      <td>cardiovascular, pulmonary, hepatic, renal, hematologic, gastrointestinal, endocrine, immunologic, dermatologic, or neurologic disease/disorder</td>
+      <td>Volunteers were excluded if they had any clinically significant history or presence of a cardiovascular, pulmonary, hepatic, renal, hematologic, gastrointestinal, endocrine, immunologic, dermatologic, or neurologic disease/disorder.</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>coagulopathy<br>vitamin K malabsorption<br>pathologic inhibitors of coagulation<br>DIC</td>
+      <td>coagulopathy<br>pathologic inhibitors of coagulation<br>disseminated intravascular coagulation (DIC)<br>vitamin K malabsorption</td>
+      <td>Other diagnostic considerations in a patient presenting with coagulopathy of unknown origin include warfarin or super-warfarin exposure, disseminated intravascular coagulation (DIC), vitamin K malabsorption, and pathologic inhibitors of coagulation (6).</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>other types of cancer<br>breast cancer</td>
+      <td>cancer<br>breast cancer</td>
+      <td>Clinical studies have reported on the benefits of Viscum album extracts (VAE) not only in breast cancer patients but also for other types of cancer [10–13].</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td></td>
+      <td>adverse events<br>patient</td>
+      <td>No patient reported adverse events during the study, and all maintained an HIV-1 RNA load of <50 copies/ml at the end of the study.</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>hepatotoxicity</td>
+      <td>hepatotoxic</td>
+      <td>Many potentially hepatotoxic herbs are not studied extensively enough to determine a safe daily dose.</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td></td>
+      <td>adverse reactions</td>
+      <td>It is noteworthy that no severe adverse reactions were observed in this study.</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>EBV<br>CMV</td>
+      <td>Epstein Barr virus (EBV<br>acute cytomegalovirus (CMV</td>
+      <td>Serological titers for acute cytomegalovirus (CMV) and Epstein Barr virus (EBV) were negative.</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>cancer</td>
+      <td>tumour<br>advanced cancer</td>
+      <td>Considering the risk of tumour progression, randomization was not in the interest of patients with advanced cancer.</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>chemotherapeutic drugs</td>
+      <td>adverse effects</td>
+      <td>In summary, the aforementioned outcomes suggest that medicinal mushrooms have great potential to ameliorate the adverse effects of chemotherapeutic drugs in clinical settings.</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>breast cancer</td>
+      <td>cancer<br>breast cancer</td>
+      <td>Of all the cancer patients, breast cancer patients, in particular, are more likely to turn to complementary and alternative medicine (CAM) treatment (Wanchai et al., 2010).</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td></td>
+      <td>the Disease</td>
+      <td>Worse than the Disease?</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td></td>
+      <td>adverse effects</td>
+      <td>It is important to make patients aware of the fact that plants can cause adverse effects and are not safe in every situation by being “natural”.</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>cancer</td>
+      <td>cancer patients</td>
+      <td>Academic Editor: Igho J. Onakpoya In recent popular publications as well as in widely used information websites directed to cancer patients, valerian is claimed to have a potential of adverse interactions with anticancer drugs.</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td></td>
+      <td>adverse events</td>
+      <td>All the adverse events were mild in intensity and resolved without any treatment.</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td></td>
+      <td>graft rejection</td>
+      <td>Sirolimus is an immunosuppressive drug used to prevent graft rejection.</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>hypertension</td>
+      <td>hypertensive</td>
+      <td>One brief 15 day study reported a significant increase in total cholesterol among hypertensive patients administered HS [18].</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td></td>
+      <td>hypotensive activity,<br>vasodilation</td>
+      <td>Biological Mechanisms  In vitro and in vivo studies focused on mechanism of action have determined several potential mechanisms of the HS extracts that may explain the hypotensive activity, including (1) vasodilation mediated through endothelium-derived relaxant pathways and inhibition of calcium influx [9, 57], (2) ACE inhibition [9] by the stimulation of new vessel formation and a reduction of myocardial mass [52] or anthocyanins competing with the substrate for the active site [58], (3) decrease in blood viscosity through cyclooxygenase inhibitory activity [44], and (4) inhibition of adipocyte differentiation through the modulation of PI3-K/Akt and ERK pathway [59].</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>MCF7<br>T47D</td>
+      <td>anti-proliferative effect<br>apoptosis</td>
+      <td>A recent study has shown that the combined use of HES, PIP, and BV with TAM showed an enhanced anti-proliferative effect on MCF7 and T47D and can significantly increase cell apoptosis (Khamis et al., 2018).</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>obesity</td>
+      <td>healthy</td>
+      <td>Previous studies in human participants have shown promising effects of YM ingestion on metabolic rate and RER acutely [21], and after 12 weeks of ingestion, on blood lipid metabolites in healthy obese participants [11,21].</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td></td>
+      <td>protective effect</td>
+      <td>The protective effect is dose-dependent (Rahate and Rajasekaran, 2015).</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td></td>
+      <td>Pregnancy<br>hypersensitivity<br>adverse side effects<br>breastfeeding</td>
+      <td>Pregnancy, breastfeeding, histories of hypersensitivity to quinine or similar agents, or adverse side effects from taking G. kola seeds were also used as exclusion criteria for the study.</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>HIV</td>
+      <td>HIV positive</td>
+      <td>More than 50% of adults in KwaZulu-Natal attending public sector facilities for ART initiation disclose using TCAM [10], and similar levels of TCAM use by HIV positive individuals may occur worldwide [11].</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>hypoglycemic effect</td>
+      <td>hypoglycemic</td>
+      <td>The rs1142345 (A>G) SNP in the thiopurine S-methyltransferase (TPMT) gene was significantly associated with the hypoglycemic effect of the drug (P = 0.001, FDR P = 0.043).</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td></td>
+      <td>adverse reactions<br>adverse reaction</td>
+      <td>During the investigation of adverse reactions, the date of onset and disappearance, the degree and result of the adverse reaction, the measures are taken in relation to the test substance and the causal relationship with the test substance, the name of the drug other than the test substance, and treatment of adverse reactions were included.</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>cancer</td>
+      <td>anti-cancer<br>apoptosis, autophagy, and cell cycle arrest</td>
+      <td>The key mechanisms of action of anti-cancer drugs involve apoptosis, autophagy, and cell cycle arrest (Chen and Karantza-Wadsworth, 2009; Wang et el., 2011; Kon et al., 2013).</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>drug interactions</td>
+      <td>illnesses</td>
+      <td>Drug interactions can be considered illnesses by themselves.</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>OS (Oxidative Stress)</td>
+      <td>OS</td>
+      <td>Citrus Sinensis (L.) Osbeck from Rutaceae family mainly contains hesperidin, polymethoxylated flavonoids (PMF), and terpenoids (limonene and linalool), and these phenolic bioactive compounds indicate considerable cytoprotective effects against OS [18].</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>HIV</td>
+      <td>AIDS<br>HIV</td>
+      <td>Thus, at the approved dosage of darunavir-ritonavir, darunavir concentrations at the end of the dosing interval remain well above the concentration needed to inhibit replication of HIV strains (20; V. Sekar, S. Spinosa-Guzman, E. Lefebvre, and R. Hoetelmans, presented at the 16th International AIDS Conference, 2006).</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td></td>
+      <td>pain<br>healthy</td>
+      <td>Numerous factors can explain discrepancies between study results such as pain models, healthy subjects vs. patients, routes of administration (inhalation vs. oral), and sources of the product [19,20,21].</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>plasma cell rich interface hepatitis<br>portal tracts<br>periportal hepatocyte apoptosis<br>cholangiolar proliferation<br>chronic hepatitis</td>
+      <td>interface hepatitis<br>chronic hepatitis</td>
+      <td>At this time, the liver histology demonstrated chronic hepatitis with fibroinflammatory expansion of portal tracts by moderate plasma cell rich interface hepatitis, rare periportal hepatocyte apoptosis, and mild cholangiolar proliferation (Figures 1(a) and 1(b)).</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>breast cancer</td>
+      <td>early stage breast cancer</td>
+      <td>There was no difference in the toxicity profile of hormone therapy with ginkgo biloba use in women with early stage breast cancer.</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td></td>
+      <td>light dizziness</td>
+      <td>Precisely, only 3 participants complained of very light dizziness.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>cancer</td>
+      <td>treatment-induced toxicity<br>cancer<br>cancer-related syndromes</td>
+      <td>As known, cancer patients are likely to experience drug interactions due to the increased number and types of chemotherapeutic drugs, their combinations in oncology practice and their narrow therapeutic index, the achievement of a prolonged life expectancy, and the common use of a broad range of ancillary medications to prevent and/or treat cancer-related syndromes and treatment-induced toxicity [8].</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>bleeding events</td>
+      <td>severe bleeding events<br>bleeding risk</td>
+      <td>Based on cases of severe bleeding events associated with ginkgo [169,170], the plant has been suspected to increase bleeding risk of patients with anticoagulant or platelet inhibiting co-medication.</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>digoxin-induced arrhythmias<br>arrhythmia</td>
+      <td>arrhythmias<br>arrhythmia<br>ventricular precontraction, ventricular tachycardia,<br>ventricular arrhythmias<br>ventricular fibrillation</td>
+      <td>used the duration of QRS interval prolongation, ventricular precontraction, ventricular tachycardia, and ventricular fibrillation as markers of arrhythmia to study the effects of C. pinnatifida Bunge (Shanzha) extract on digoxin-induced arrhythmias, and the results showed that the ventricular arrhythmias in the digoxin-induced experimental group of rats all decreased after the administration of C. pinnatifida Bunge (Shanzha) extract, indicating that the flavonoid glycoside and flavane polymers in C. pinnatifida Bunge (Shanzha) extract can antagonize digoxin-induced arrhythmias (Li and Huang, 2016), which may be related to their ability to dilate blood vessels, lower blood pressure, slow down the heart rhythm, and improve the cardiovascular system (Zhang et al., 2021).</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>antibody production<br>platelets<br>delayed hypersensitivity<br>T cell apoptosis<br>CD4+ T cells<br>opportunistic infections<br>NK cells<br>immunosuppression<br>cell cycle arrest<br>HIV<br>tumor inhibition<br>apoptotic rate<br>bone marrow cells<br>phagocytic activity<br>intestinal damage</td>
+      <td>metastasis<br>intestinal damage</td>
+      <td>Reduce T cell apoptosis and caspase 3 activity through downregulating Bax expression in T cells [170] Increase in efficacy and survival [20], better symptomatic relief [20] increase in T cells count (CD4, CD4/CD8) [20] Better symptomatic relief [141] and increase appetite [144] Less reduction in WBC (CD3+, CD4+ T cells, NK cells) [141, 144], platelets [144] Pharmacodynamic interactions between medicinal mushrooms and cytotoxic drugs in preclinical studies Increase in tumor inhibition effect [83, 84, 98] and survival time [63] Less decrease in WBC [83, 84, 145], platelets [83] and other bone marrow cells [84] Greater recovery rate from intestinal damage caused by 5-FU [173] Increase in survival [67], cytotoxicity and inhibit metastasis [111] Reduce immunosuppression (reduce the decrease in phagocytic activity, antibody production [111], delayed hypersensitivity [111, 112]) Increase in tumor inhibition and apoptotic rate (dose-related or time-dependent) [98–103], similar effect at lower dose of 5-FU [105] Induce cell cycle arrest at different phases [99, 101], increase caspase 3 and 8 expression and activity [100].</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>menopause</td>
+      <td>menopausal</td>
+      <td>However, further research is needed on the safety of RHC intake for a long period in large-scale menopausal subjects.</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td></td>
+      <td>healthy</td>
+      <td>Participants were certified healthy by a physician based on medical history, clinical examination, and laboratory tests and they gave their written informed consent to comply with the study protocol.</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>sexual dysfunction<br>cognitive declines<br>mood disorders<br>weight gain<br>night sweats<br>hot flashes<br>sleep disturbances</td>
+      <td>sexual dysfunction<br>cognitive declines<br>mood disorders<br>weight gain<br>night sweats<br>menopause<br>hot flashes<br>sleep disturbances</td>
+      <td>2020; 81:XXX–XXX) Transition to menopause is associated with a period of increased risk for problematic symptoms, including hot flashes, night sweats, sleep disturbances, sexual dysfunction, mood disorders, weight gain, and cognitive declines.</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>atrial fibrillation</td>
+      <td>bleeding<br>atrial fibrillation</td>
+      <td>Due to public concern regarding the risk of bleeding during treatment with warfarin, as well as the uneasy relationship between allopathic doctors and their patients, no more than 10% of patients with atrial fibrillation take warfarin in China [5].</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>major depression<br>bipolar disorder</td>
+      <td>dizziness<br>nausea<br>major depression<br>skin rash<br>bipolar disorder<br>blurred vision</td>
+      <td>In a randomized double-blinded control trial, Xiao-yao-san increased the incidence of CBZ-related side effects including dizziness, blurred vision, skin rash, and nausea in patients with major depression or bipolar disorder.</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>inflammation<br>cancer<br>osteoporosis</td>
+      <td>anticancer, antioxidant, anti-osteoporosis, and anti-inflammatory properties</td>
+      <td>Furthermore, the extract and constituents of KF have been shown to possess anticancer, antioxidant, anti-osteoporosis, and anti-inflammatory properties (Nadia et al., 2012; Fathilah et al., 2013).</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>toxicities<br>docetaxel</td>
+      <td>toxicities<br>Adverse Events<br>Cancer</td>
+      <td>The secondary objective was to assess the effect of E. purpurea supplementation on safety parameters, such as grade 3 and 4 toxicities induced by docetaxel [according to National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE, version 3.0)].</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>bleeding<br>ischemic heart disease<br>diabetes<br>hypertension<br>fatigue</td>
+      <td>bleeding<br>severe fatigue<br>Fatigue<br>ischemic heart disease<br>diabetes<br>Bleeding<br>hypertension</td>
+      <td>Case Report: Fatigue and Bleeding in a Polymedicated Patient Using Several Herbal Supplementations, Detected with g-Nomic® Software Abel Saldarreaga Marin, 1 Marc Cendros, 2 Carlos J Ciudad, 3 and Ana Sabater 2 Author information Article notes Copyright and License information PMC Disclaimer Go to: Abstract  This was a case report of severe fatigue and bleeding in a 65-year-old man with ischemic heart disease who was wearing a stent and taking multiple medications for hypertension and diabetes.</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td></td>
+      <td>disorders</td>
+      <td>Ginkgo biloba extract is a popular herbal remedy used for a variety of disorders.</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>cancer</td>
+      <td>anti‐cancer activity</td>
+      <td>Constituents of S. sphenanthera extract also exhibited anti‐cancer activity, although with evidence strictly limited to in vitro data in different cancer cell lines.</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td></td>
+      <td>uncontrolled thyroid<br>drug or alcohol abuse<br>surgery<br>menopause<br>diabetes<br>thromboembolism<br>cerebrovascular disease<br>hysterectomy<br>uterine bleeding<br>endometrial hyperplasia<br>uncontrolled diabetes mellitus<br>cardiovascular disease<br>endometrial, breast, or sex hormone–related cancers<br>uncontrolled hypertension<br>hypersensitivity<br>menopausal<br>severe migraines</td>
+      <td>Meanwhile, the exclusion criteria were: 1) women who became menopausal from surgery or chemotherapy; 2) women who underwent hysterectomy; 3) women with a history of endometrial hyperplasia or endometrial, breast, or sex hormone–related cancers; 4) women with uncontrolled hypertension (160/100 mmHg or higher); 5) women with uncontrolled diabetes mellitus (fasting blood sugar 180 mg/dL or higher, or cases of starting or changing medication due to diabetes within 3 mo); 6) uncontrolled thyroid patients; 7) women who have had severe migraines within the last year or who have been diagnosed with thromboembolism, cerebrovascular disease, or serious cardiovascular disease; 8) women with atypical uterine bleeding after 1 yr of menopause; 9) women who have taken sleep inducers, antidepressants, selective estrogen receptor modulators, antihyperlipidemic drugs, antithrombotic drugs (Aspirin, Warfarin, and Clopidogrel), bisphosphonates, or calcitonin within 4 wk; 10) women who have taken plant hormones (isoflavone, flaxseed, pomegranate, horseradish, white sorghum, red shamrock, and red ginseng products) in the form of supplements or medicines within 4 wk; 11) women who have continuously taken functional foods and herbal medicines that could affect bone health, blood lipid lipids (triglyceride and cholesterol), and blood circulation within 4 wk; 12) women who were administered female hormone formulations within 6 mo; 13) women with alanine aminotransferase (ALT) or aspartate aminotransferase (AST) levels exceeding 3 times the laboratory's normal upper limit; 14) women with creatinine levels exceeding 2 times the laboratory's normal upper limit; 15) women with a history of drug or alcohol abuse; 16) women who have performed intensive exercises (more than 10 h) within 3 mo; 17) women with hypersensitivity to the test drug or its ingredients; 18) women with clinically significant abnormalities based on mammographies or Pap smears (Category 0 or higher than 3 of Breast Imaging Reporting and Data System (BI-RADS)) is confirmed (in the case of BI-RADS Category 0, subject registration is possible after confirming additional test results; in the case of Pap smear, atypical squamous cell of undetermined significance can be registered); 19) women who have participated in other clinical trials within 1 mo of the start of the current study or who are planning to participate in another clinical trial during the study period; and, 20) in cases where the researchers decided that the subject is unsuitable to participate in this study.</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>residual tumor</td>
+      <td>tumor</td>
+      <td>Unfortunately, a [18 F]-fluorethylenthyrosin positron emission tomography positive residual tumor was detected 2 months after the end of radiotherapy.</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>hallucinations<br>Parkinson's disease</td>
+      <td>PD<br>hallucinations</td>
+      <td>Additionally, a previous study evaluated patients with PD and their subsequent reactions to cannabis use, reporting that one out of five patients experienced hallucinations [12].</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td></td>
+      <td>adverse drug events</td>
+      <td>The case described herein demonstrates the importance of considering the pharmacokinetic and pharmacodynamic effects of cannabis and an individual’s pharmacogenomic (PGx) data when evaluating a patient’s medication regimen for therapeutic response and/or adverse drug events.</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>radiological abnormalities<br>LVEF</td>
+      <td>the radiological abnormalities</td>
+      <td>After venlafaxine discontinuation, there was rapid improvement, with regression of the radiological abnormalities and normalization of the LVEF.</td>
+    </tr>
+  </tbody>
+</table>
+<span class="table_title">False Positives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>211</th>
+      <td>BCPR/ABCG2 protein</td>
+      <td></td>
+      <td>The APG-pretreated rats showed significant inhibition of the BCPR/ABCG2 protein that is (66.77% and 41.06% inhibition, respectively) as compared to DAS only (p < 0.05).</td>
+    </tr>
+    <tr>
+      <th>327</th>
+      <td>HIV-associated opportunistic infections<br>anti-influenza</td>
+      <td></td>
+      <td>S4, the P The above in-vitro experiments suggested that there should be some potential HDI between OS and these anti-influenza herbs/herbal components during absorption and metabolism.</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>digoxin</td>
+      <td></td>
+      <td>Radio labeled digoxin [ Parental and transfected MDCK-II cells were grown in DMEM supplemented with 10% FBS, 1% non-essential amino acids, 1%  The assay for reversible inhibition was conducted in a total volume of 200 μL in 96-well microplates.</td>
+    </tr>
+    <tr>
+      <th>335</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>As shown in Table 1, after co-administration with RS, BIO of OS increased by 62% without change in its absorption rate (k  The developed pop-PK model lets us have an interpretation on the contradictory phenomena that co-administration of RS would increase both the elimination rate and systemic exposure (AUC The pop-PK model could separately estimate the metabolic clearance (CL  A platform including a six-dimension in-vitro screening, an in-vivo pharmacokinetics in rats and an ex-vivo pharmacodynamic evaluation, has been developed and successfully applied to find RS as a potential herb that would influence the co-administrated OS in rats.</td>
+    </tr>
+    <tr>
+      <th>178</th>
+      <td>warfarin</td>
+      <td></td>
+      <td>The aim of this article was to systematically review clinical data, including PK-PD parameters, from randomized controlled trials (RCTs) and to discuss interactions between herbal medicines and warfarin.</td>
+    </tr>
+    <tr>
+      <th>334</th>
+      <td>hCE1</td>
+      <td></td>
+      <td>The hydrolase activities in rat plasma may be originated from more than one kind of enzymes (not only hCE1) and the inhibition activities of these herbal components to each kind of hydrolysis enzymes are different.</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>residual tumor</td>
+      <td>tumor</td>
+      <td>Unfortunately, a [18 F]-fluorethylenthyrosin positron emission tomography positive residual tumor was detected 2 months after the end of radiotherapy.</td>
+    </tr>
+    <tr>
+      <th>265</th>
+      <td>elevated levels of BUN</td>
+      <td></td>
+      <td>Treatment with EJE and EJE + SITA significantly (p < 0.001) reduced the elevated levels of BUN (Fig.</td>
+    </tr>
+    <tr>
+      <th>135</th>
+      <td>CYP2B6 enzyme</td>
+      <td></td>
+      <td>In a data base for interactions of medicinal drugs (MedIQ), the rating “weak interaction” is given for CYP-isoenzymes, P-gp, and UGT, based on in vitro data.</td>
+    </tr>
+    <tr>
+      <th>225</th>
+      <td>depression</td>
+      <td></td>
+      <td>The first clinically relevant reports of preparations of St. John's wort (SJW), a herbal medicine with anti‐depressant effects, interacting with other drugs, altering their bioavailability and efficacy, were published about 20 years ago.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>lesion<br>pre-aortic seat of the retro-peritoneum space</td>
+      <td></td>
+      <td>In spite of chemotherapy, the lesion progressed rapidly reaching 16 × 10 cm and extending into the pre-aortic seat of the retro-peritoneum space.</td>
+    </tr>
+    <tr>
+      <th>363</th>
+      <td>CNS</td>
+      <td></td>
+      <td>Despite the general concern about its safety, kava is still popularly consumed for CNS benefits.</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>EBV<br>CMV</td>
+      <td>Epstein Barr virus (EBV<br>acute cytomegalovirus (CMV</td>
+      <td>Serological titers for acute cytomegalovirus (CMV) and Epstein Barr virus (EBV) were negative.</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>toxic concentration</td>
+      <td></td>
+      <td>Its effective plasma drug concentration is close to the toxic concentration, and large individual differences in the effects of the drug have been observed.</td>
+    </tr>
+    <tr>
+      <th>185</th>
+      <td>coagulopathy<br>vitamin K malabsorption<br>pathologic inhibitors of coagulation<br>DIC</td>
+      <td>coagulopathy<br>pathologic inhibitors of coagulation<br>disseminated intravascular coagulation (DIC)<br>vitamin K malabsorption</td>
+      <td>Other diagnostic considerations in a patient presenting with coagulopathy of unknown origin include warfarin or super-warfarin exposure, disseminated intravascular coagulation (DIC), vitamin K malabsorption, and pathologic inhibitors of coagulation (6).</td>
+    </tr>
+    <tr>
+      <th>224</th>
+      <td>high lactate production</td>
+      <td></td>
+      <td>have shown the association between high lactate production and reduced oxidative metabolism [47].</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>platelet activating factor</td>
+      <td></td>
+      <td>This interaction appears attributable to the inhibition of platelet activating factor by various ginkgolides.</td>
+    </tr>
+    <tr>
+      <th>223</th>
+      <td>muscle strength</td>
+      <td></td>
+      <td>Our first hypothesis is that the supplementation of SC extract in humans can increase muscle strength.</td>
+    </tr>
+    <tr>
+      <th>379</th>
+      <td>CYP</td>
+      <td></td>
+      <td>They favor CYP, as the patient could be unusually susceptible due to the individual genotype [207].</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>MTX</td>
+      <td></td>
+      <td>Therefore, in conclusion, this study showed that the herb–drug interactions between red ginseng and MTX occurred via Mrp2 regulation changes in rats, but clinical significance thereof should be determined with follow-up studies.</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>radiological abnormalities<br>LVEF</td>
+      <td>the radiological abnormalities</td>
+      <td>After venlafaxine discontinuation, there was rapid improvement, with regression of the radiological abnormalities and normalization of the LVEF.</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>smooth muscle antibody<br>Antinuclear antibody</td>
+      <td></td>
+      <td>Antinuclear antibody (ANA) was 1 : 40 and smooth muscle antibody was modestly elevated at 1 : 80.</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>chronic kidney disease</td>
+      <td>Chronic kidney disease (CKD)</td>
+      <td>Chronic kidney disease (CKD) is a global public health problem with an increasing incidence and a lot of economic burden for treatment.</td>
+    </tr>
+    <tr>
+      <th>169</th>
+      <td>PCOS<br>lipid profile<br>secretory phase<br>proliferative phase</td>
+      <td>PCOS</td>
+      <td>We recommend that further research should be undertaken regarding the effects of herbal mixtures on hormonal factors of PCOS women such as sexual hormones in both proliferative and secretory phases, and lipid profile in a longer follow-up.</td>
+    </tr>
+    <tr>
+      <th>229</th>
+      <td>HIV</td>
+      <td></td>
+      <td>This statement was provided even before another comprehensive pharmacokinetic interaction study was published, where no clinically relevant interactions were found for seven test drugs in concomitant application with a low‐hyperforin SJW extract (Zahner et al., 2019).</td>
+    </tr>
+    <tr>
+      <th>337</th>
+      <td>cancer</td>
+      <td>anti-cancer<br>apoptosis, autophagy, and cell cycle arrest</td>
+      <td>The key mechanisms of action of anti-cancer drugs involve apoptosis, autophagy, and cell cycle arrest (Chen and Karantza-Wadsworth, 2009; Wang et el., 2011; Kon et al., 2013).</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>menopause<br>vasomotor symptoms</td>
+      <td>menopause</td>
+      <td>The American College of Obstetrics and Gynecology included black cohosh as a possible remedy for the vasomotor symptoms of menopause [15].</td>
+    </tr>
+    <tr>
+      <th>150</th>
+      <td>insulin<br>blood glucose</td>
+      <td></td>
+      <td>Furthermore, it decreases insulin and blood glucose markedly [17].</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>hepatotoxicity<br>black cohosh</td>
+      <td>hepatotoxicity</td>
+      <td>Similarities and differences among current case studies and published cases of black cohosh hepatotoxicity.</td>
+    </tr>
+    <tr>
+      <th>359</th>
+      <td>memory loss<br>cardiovascular disorders<br>cognition decline<br>general well-being<br>anxiety and mood disorders<br>fatigue</td>
+      <td>memory loss<br>mood disorders<br>cardiovascular disorders<br>cognition decline<br>anxiety<br>fatigue</td>
+      <td>Several controlled clinical studies, as shown by review and meta-analysis of published data, suggest that the use of ginkgo is associated with clinically significant improvement in symptoms of cognition decline and memory loss, anxiety and mood disorders, fatigue and general well-being, as well as cardiovascular disorders [59-61].</td>
+    </tr>
+    <tr>
+      <th>377</th>
+      <td>bleeding events</td>
+      <td>severe bleeding events<br>bleeding risk</td>
+      <td>Based on cases of severe bleeding events associated with ginkgo [169,170], the plant has been suspected to increase bleeding risk of patients with anticoagulant or platelet inhibiting co-medication.</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>HIV</td>
+      <td></td>
+      <td>With respect to the MOS-HIV, failure differences were found between placebo and 1200 mg, favouring the 1200mg group.</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>diabetes</td>
+      <td>diabetic</td>
+      <td>Furthermore, 31% of diabetic patients have been reported to take alternative medicines, most in conjunction with conventional medicines (Ryan et al., 2001).</td>
+    </tr>
+    <tr>
+      <th>302</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>Gongronema latifolium and Alstonia boonei may produce in vivo inhibitory activity on CYP1A2, CYP2C19 and CYP3A4 since the converted in vitro IC One of the problems of studying herb–drug interactions is the difficulty in identifying or quantifying the inhibiting components of the complex mixtures of phytochemicals in the herb.</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>herbal supplements</td>
+      <td></td>
+      <td>Therefore, botanical supplements, when taken concomitantly with conventional medications, can give rise to serious herb-drug interactions.</td>
+    </tr>
+    <tr>
+      <th>317</th>
+      <td>warfarin</td>
+      <td></td>
+      <td>Interestingly, this effect on the pharmacokinetics of (S)-warfarin was not associated with a significant effect on warfarin pharmacodynamics.</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>LDL<br>HDL</td>
+      <td></td>
+      <td>Abbreviations: HDL (high density lipoprotein); LDL (low density lipoprotein) *P-value for interaction effect of groups over time.</td>
+    </tr>
+    <tr>
+      <th>292</th>
+      <td>warfarin</td>
+      <td></td>
+      <td>This finding is also supported by Yueng’s study, where the major tanshinone components rather than the aqueous extract of Danshen showed effects on warfarin hydroxylation in vitro and in vivo [58].</td>
+    </tr>
+    <tr>
+      <th>161</th>
+      <td>SOD<br>GPx<br>CAT<br>MDA</td>
+      <td></td>
+      <td>particularly illustrated an increase in the SOD, CAT, and GPx levels, while the MDA level more significantly decreased compared to other groups using only one herb [17].</td>
+    </tr>
+    <tr>
+      <th>378</th>
+      <td>thrombin</td>
+      <td></td>
+      <td>There are in vitro experiments confirming thrombin inhibition [172].</td>
+    </tr>
+    <tr>
+      <th>323</th>
+      <td>HIV</td>
+      <td></td>
+      <td>At 30 min following the 8PM dose on Day 5, the rats were anesthetized and about 10 mL of blood were collected from rats’ inferior vena for determination of antiviral activity.</td>
+    </tr>
+    <tr>
+      <th>176</th>
+      <td>CYP2C19</td>
+      <td></td>
+      <td>does not affect CYP2C19 activity when administered over an 8-day period.</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>CYP2C9<br>CYP3A4<br>CYP2C8</td>
+      <td></td>
+      <td>Flavonoids, common in the diet, are responsible for the modulation of the clinically relevant CYP2C8, CYP2C9, and CYP3A4 enzymes [31].</td>
+    </tr>
+    <tr>
+      <th>269</th>
+      <td>warfarin</td>
+      <td></td>
+      <td>In China, Gouqizi is a popular component of the daily diet, making the prohibition of its consumption in patients taking warfarin difficult to implement.</td>
+    </tr>
+    <tr>
+      <th>298</th>
+      <td>metabolism</td>
+      <td></td>
+      <td>These isoenzymes are responsible for the metabolism of over 70% of prescription and over‐the‐counter medications (Rendic & Guengerich, 2014).</td>
+    </tr>
+    <tr>
+      <th>303</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>34860-2.5L-R) and ammonium acetate (catalog No.</td>
+    </tr>
+    <tr>
+      <th>288</th>
+      <td>Gegen</td>
+      <td></td>
+      <td>Taken together with the results of the current study, it seems clear that these effects could be attributed to the Gegen present in DFG.</td>
+    </tr>
+    <tr>
+      <th>364</th>
+      <td>SJW</td>
+      <td></td>
+      <td>Apart from CYP/P-gp induction, SJW mediates interactions through its serotonergic effects.</td>
+    </tr>
+    <tr>
+      <th>326</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>Results from RLM and hCE1 showed a similar trend for the ten marker components (Figs.</td>
+    </tr>
+    <tr>
+      <th>293</th>
+      <td>liver cytochrome P450<br>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>liver cytochrome P450 vitamin K epoxide reductase vitamin K vitamin K thrombomodulin Danshen–Gegen Formula salvianolic acid B phenobarbital beta-naphthoflavone cyclophosphamide enzyme-linked immunosorbent assay Beikang Ge and Zhen Zhang contributed equally to this work BKG, ZZh and ZZu conceived and designed the study.</td>
+    </tr>
+    <tr>
+      <th>336</th>
+      <td>TAM</td>
+      <td></td>
+      <td>Conclusion: There is evidence for potential interactions of various natural products with TAM in pre-clinical studies, although the relevant clinical evidence is still lacking.</td>
+    </tr>
+    <tr>
+      <th>180</th>
+      <td>HIV</td>
+      <td></td>
+      <td>However, an in vivo study indicated that echinacea did not significantly affect the metabolism of drugs metabolized by CYP2C9 [47].</td>
+    </tr>
+    <tr>
+      <th>197</th>
+      <td>liver</td>
+      <td></td>
+      <td>Liver drug enzymes are the common sites of drug interaction in human.</td>
+    </tr>
+    <tr>
+      <th>271</th>
+      <td>high blood pressure</td>
+      <td></td>
+      <td>Animal studies have consistently shown that consumption of HS extract reduces blood pressure in a dose dependent manner.</td>
+    </tr>
+    <tr>
+      <th>351</th>
+      <td>cholesterol</td>
+      <td></td>
+      <td>The metabolic effects include adrengenic effects and stimulated central nervous system associated with caffeine, anti-lipolytic, and hypocholesterolemic properties in chlorogenic acids (mono- and di-caffeolquinic acids) hydroxycinnamic acids (caffeic acid, quinic acid) and triterpenic saponins, and other minerals and vitamins [5].</td>
+    </tr>
+    <tr>
+      <th>270</th>
+      <td>prosthetic heart values</td>
+      <td>prosthetic heart</td>
+      <td>However, a daily Gouqizi dose of 6 g (dosing recommended by Chinese Pharmacopoeia) for 3 days did not enhance the effects of warfarin in three patients with prosthetic heart values who were concomitantly taking warfarin.</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>elderly patients</td>
+      <td></td>
+      <td>[11,12] Such an interaction is particularly relevant to elderly patients on anticoagulant therapy.</td>
+    </tr>
+    <tr>
+      <th>382</th>
+      <td>diabetes</td>
+      <td>diabetic</td>
+      <td>This herb has been in use for diabetic treatment for almost two millennia [72].</td>
+    </tr>
+    <tr>
+      <th>358</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>Anecdotal pieces of evidence like this not only highlight the reality and severity of the consequences of HDIs, they underscore the importance of further studies to guide clinical decisions.</td>
+    </tr>
+    <tr>
+      <th>177</th>
+      <td>warfarin</td>
+      <td></td>
+      <td>The aim of this study was to systematically review data regarding pharmacokinetic (PK)-pharmacodynamic (PD) parameters from randomized controlled trials relating to interactions between herbal medicines and warfarin.</td>
+    </tr>
+    <tr>
+      <th>281</th>
+      <td>Schisandra lignans</td>
+      <td></td>
+      <td>by carbamazepine and phenytoin, 72 the predominant outcome from a chronic exposure to Schisandra lignans is a CYP3A inhibition and not induction.</td>
+    </tr>
+    <tr>
+      <th>259</th>
+      <td>blood glucose level</td>
+      <td></td>
+      <td>Despite low levels of SITA, the combination demonstrated a significant reduction in blood glucose level when compared with individual drug and individual extract administered groups during pharmacodynamic study.</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>Hepatocytes</td>
+      <td></td>
+      <td>Hepatocytes cultured in this format are responsive to nuclear receptor agonists and maintain important transporter function necessary for proper drug disposition (Yang et al., 2016).</td>
+    </tr>
+    <tr>
+      <th>344</th>
+      <td>liver injury<br>TAM-intoxicated liver injury</td>
+      <td>liver injury<br>the oxidative stress</td>
+      <td>DDB is found to alleviate the oxidative stress status of TAM-intoxicated liver injury in rats, with the study reporting a significant increase in antioxidant enzymes, a significant decrease in the activity of sGPT and sGOT, reduction of glutathione concomitant, and a significant reduction of TBARS and liver transaminases (El-Beshbishy, 2005b).</td>
+    </tr>
+    <tr>
+      <th>196</th>
+      <td>aspirin</td>
+      <td></td>
+      <td>After administration, aspirin is rapidly hydrolyzed in the body with an elimination half-life of approximatly 15 min [11,12].</td>
+    </tr>
+    <tr>
+      <th>279</th>
+      <td>herb–drug interactions</td>
+      <td></td>
+      <td>21 Clearly, a reliable and systematic approach to predict these herb–drug interactions is needed.</td>
+    </tr>
+    <tr>
+      <th>331</th>
+      <td>OSA/OS ratio</td>
+      <td></td>
+      <td>This can further be verified by the lowered OSA/OS ratio in rat urine samples after co-administration with RS (Fig.</td>
+    </tr>
+    <tr>
+      <th>246</th>
+      <td>gut dysbiosis<br>cancer<br>tumor metabolism</td>
+      <td>gut dysbiosis</td>
+      <td>Notably, a recent study found that such synergistic effect may be due to the inhibition of tumor metabolism via down-regulating Warburg-related proteins and restoration of the gut dysbiosis induced by paclitaxel [97].</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>darunavir</td>
+      <td></td>
+      <td>The variability in the effect of echinacea on darunavir pharmacokinetics we observed in this cohort may imply some degree of uncertainty in the CYP3A4 inductive/inhibitory potential of this herbal remedy.</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>digoxin</td>
+      <td></td>
+      <td>Experiments in mice have shown that the AUC of digoxin is increased by gavage and intravenous injection.</td>
+    </tr>
+    <tr>
+      <th>244</th>
+      <td>tumor recurrence<br>metastasis</td>
+      <td>metastasis<br>tumor</td>
+      <td>Some Yunzhi–drug combinations (5-FU, carboplatin, cisplatin, cyclophosphamide, doxorubicin, etoposide and UFT) also reduced tumor recurrence [25, 38, 42, 44] and metastasis [49].</td>
+    </tr>
+    <tr>
+      <th>320</th>
+      <td>rash</td>
+      <td>rashes<br>the rash</td>
+      <td>The naturopathic literature from which most information about rashes caused by Lomatium is drawn do not indicate a well-studied treatment of the rash aside from supportive care and cessation of Lomatium ingestion.</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>Hypoglycemic drugs<br>thiazolidinediones<br>cholesterol<br>sulfonylureas</td>
+      <td></td>
+      <td>Cytochrome P450 enzymes, CYP2C8, CYP2C9, and CYP3A4, are important in the metabolism of hypoglycemic drugs, such as thiazolidinediones (TZDs) and sulfonylureas, and hypocholesterolemic drugs, such as atorvastatin.</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>CA derivatives</td>
+      <td></td>
+      <td>It will also be important to examine possible interactions of CA derivatives with phase II drug-metabolizing enzymes.</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>harmful drug interactions</td>
+      <td></td>
+      <td>However, a large number of these therapies have been shown that they are not safe and can be harmful due to their interactions with other drugs which are used contemporaneously.</td>
+    </tr>
+    <tr>
+      <th>296</th>
+      <td>human plasma</td>
+      <td></td>
+      <td>The extraction recovery from human plasma was considered acceptable with a mean recovery of greater than 88% for each analyte.</td>
+    </tr>
+    <tr>
+      <th>230</th>
+      <td>antibody production<br>platelets<br>delayed hypersensitivity<br>T cell apoptosis<br>CD4+ T cells<br>opportunistic infections<br>NK cells<br>immunosuppression<br>cell cycle arrest<br>HIV<br>tumor inhibition<br>apoptotic rate<br>bone marrow cells<br>phagocytic activity<br>intestinal damage</td>
+      <td>metastasis<br>intestinal damage</td>
+      <td>Reduce T cell apoptosis and caspase 3 activity through downregulating Bax expression in T cells [170] Increase in efficacy and survival [20], better symptomatic relief [20] increase in T cells count (CD4, CD4/CD8) [20] Better symptomatic relief [141] and increase appetite [144] Less reduction in WBC (CD3+, CD4+ T cells, NK cells) [141, 144], platelets [144] Pharmacodynamic interactions between medicinal mushrooms and cytotoxic drugs in preclinical studies Increase in tumor inhibition effect [83, 84, 98] and survival time [63] Less decrease in WBC [83, 84, 145], platelets [83] and other bone marrow cells [84] Greater recovery rate from intestinal damage caused by 5-FU [173] Increase in survival [67], cytotoxicity and inhibit metastasis [111] Reduce immunosuppression (reduce the decrease in phagocytic activity, antibody production [111], delayed hypersensitivity [111, 112]) Increase in tumor inhibition and apoptotic rate (dose-related or time-dependent) [98–103], similar effect at lower dose of 5-FU [105] Induce cell cycle arrest at different phases [99, 101], increase caspase 3 and 8 expression and activity [100].</td>
+    </tr>
+    <tr>
+      <th>332</th>
+      <td>influenza</td>
+      <td></td>
+      <td>In our current study, a screening platform based on microsomes, enzymes, cells and influenza viruses have for the first time been developed and utilized to screen potential interaction between OS and anti-influenza herb/herbal components.</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>HIV</td>
+      <td></td>
+      <td>Currently, there is no specific pharmacological tool to predict HDI since almost all in vitro-in vivo-extrapolation (IVIVE) Drug-Drug Interaction (DDI) models deal with one inhibitor-drug and one victim-drug.</td>
+    </tr>
+    <tr>
+      <th>297</th>
+      <td>chemotherapy</td>
+      <td></td>
+      <td>The 48 (80%) women who had received adjuvant chemotherapy were a mean of 37 months (range 4–113) from completion of chemotherapy.</td>
+    </tr>
+    <tr>
+      <th>194</th>
+      <td>herb–drug interactions</td>
+      <td></td>
+      <td>Herb–drug interactions strongly challenge the clinical combined application of herbs and drugs.</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>OS (Oxidative Stress)</td>
+      <td>OS</td>
+      <td>Citrus Sinensis (L.) Osbeck from Rutaceae family mainly contains hesperidin, polymethoxylated flavonoids (PMF), and terpenoids (limonene and linalool), and these phenolic bioactive compounds indicate considerable cytoprotective effects against OS [18].</td>
+    </tr>
+    <tr>
+      <th>165</th>
+      <td>diabetes</td>
+      <td></td>
+      <td>demonstrated that ginger could decrease the FBS level by the mechanism of serotonin receptors which activate pancreatic β cells to release insulin [56].</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Parkinson's disease</td>
+      <td>PD</td>
+      <td>Neuronal death in this region results in low dopamine concentrations; therefore, treatment strategies for PD often involve initiating medications (e.g., carbidopa-levodopa, ropinirole, entacapone) that result in increased concentrations of dopamine to improve movement control [8].</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>plasma cell rich interface hepatitis<br>portal tracts<br>periportal hepatocyte apoptosis<br>cholangiolar proliferation<br>chronic hepatitis</td>
+      <td>interface hepatitis<br>chronic hepatitis</td>
+      <td>At this time, the liver histology demonstrated chronic hepatitis with fibroinflammatory expansion of portal tracts by moderate plasma cell rich interface hepatitis, rare periportal hepatocyte apoptosis, and mild cholangiolar proliferation (Figures 1(a) and 1(b)).</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>cytochrome P450</td>
+      <td></td>
+      <td>The cytochrome P450 (CYP450) family of enzymes especially plays an important role in the biotransformation of about 70% of xenobiotics and other endogenous substances [14].</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>elderly subjects</td>
+      <td></td>
+      <td>Single time-point, phenotypic metabolic ratios were used to determine whether long-term supplementation of St. John’s wort, garlic oil, Panax ginseng, and Ginkgo biloba affected CYP1A2, CYP2D6, CYP2E1, or CYP3A4 activity in elderly subjects.</td>
+    </tr>
+    <tr>
+      <th>338</th>
+      <td>MCF7<br>T47D</td>
+      <td>anti-proliferative effect<br>apoptosis</td>
+      <td>A recent study has shown that the combined use of HES, PIP, and BV with TAM showed an enhanced anti-proliferative effect on MCF7 and T47D and can significantly increase cell apoptosis (Khamis et al., 2018).</td>
+    </tr>
+    <tr>
+      <th>203</th>
+      <td>MDCKII</td>
+      <td></td>
+      <td>BCRP inhibition was tested by flow cytometry using pheophorbide A as a specific BCRP substrate in MDCKII-BCRP cells compared to the parental cell line MDCKII as described previously [24].</td>
+    </tr>
+    <tr>
+      <th>383</th>
+      <td>diabetes</td>
+      <td></td>
+      <td>Findings such as these suggest that Lycium may have an additive effect when used in combination with conventional antidiabetics [86].</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>HIV</td>
+      <td></td>
+      <td>The results suggest that valsartan could be used as a model drug for investigating OATP (in human) or Oatp (in rats)-mediated herb–drug interaction between valsartan and RGE or ginsenosides.</td>
+    </tr>
+    <tr>
+      <th>268</th>
+      <td>anticoagulant therapy</td>
+      <td></td>
+      <td>[7] previously showed that administration of 375 ml wine did not result in thrombin times (TTs) outside the therapeutic range, which suggested that a moderate intake of alcohol occasionally may be acceptable during anticoagulant therapy.</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>cancer</td>
+      <td>tumour<br>advanced cancer</td>
+      <td>Considering the risk of tumour progression, randomization was not in the interest of patients with advanced cancer.</td>
+    </tr>
+    <tr>
+      <th>367</th>
+      <td>neuropsychiatric drugs</td>
+      <td></td>
+      <td>This review identified 13 herbal products - celery, echinacea, ginkgo, ginseng, hydroxycut, kava, kratom, moringa, piperine, rhodiola, St. John’s wort, terminalia/commiphora ayurvedic mixture and valerian – all of which have shown interactions with specific neuropsychiatric drugs.</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>G. biloba</td>
+      <td></td>
+      <td>[18] Taken together these findings indicate that herb-drug interactions attributable to G. biloba are not the result of phytochemical-mediated effects on CYP isoforms.</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>P-gP</td>
+      <td></td>
+      <td>In vivo, digoxin was administered intravenously to control rats and citronellal pretreated experimental rats, and in vitro, the transcellular transport of   Single TCM: Single TCM formulations that are capable of inhibiting or downregulating P-gP include Conioselinum anthriscoides “Chuanxiong” (Chuanxiong), Vernonia amygdalina (Biantaobanjiuju), Tapinanthus sessilifolius, Carica papaya (Mugua) and Ginkgo biloba L. (Yinxing).</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>p-glycoprotein (p-gp)</td>
+      <td></td>
+      <td>Previous in vitro studies have reported the inhibitory effect of green tea on p-glycoprotein (p-gp) encoded by ABCB1.</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>HIV</td>
+      <td></td>
+      <td>O caso ocorreu em uma paciente previamente hígida de 35 anos de idade que foi submetida a investigação exaustiva após a exclusão de outras possíveis causas.</td>
+    </tr>
+    <tr>
+      <th>369</th>
+      <td>kidney transplantation</td>
+      <td></td>
+      <td>Sirolimus displays a synergistic action with calcineurin inhibitors and a distinctive mechanism of action from calcineurin inhibitors, which are indispensable immunosuppressive agents in kidney transplantation.</td>
+    </tr>
+    <tr>
+      <th>205</th>
+      <td>CYP2J2</td>
+      <td></td>
+      <td>Effect of Samento on CYP2J2 mRNA decay in LS180 cells.</td>
+    </tr>
+    <tr>
+      <th>252</th>
+      <td>chemotherapeutic drugs</td>
+      <td>adverse effects</td>
+      <td>In summary, the aforementioned outcomes suggest that medicinal mushrooms have great potential to ameliorate the adverse effects of chemotherapeutic drugs in clinical settings.</td>
+    </tr>
+    <tr>
+      <th>376</th>
+      <td>hepatotoxicity</td>
+      <td>hepatotoxic</td>
+      <td>Many potentially hepatotoxic herbs are not studied extensively enough to determine a safe daily dose.</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>HDIs</td>
+      <td></td>
+      <td>In the following, we reviewed pharmacogenomics studies, mainly from clinic study, on some important herb products that have been reported to have HDIs.</td>
+    </tr>
+    <tr>
+      <th>182</th>
+      <td>activated partial thromboplastin time<br>prothrombin time<br>international normalized ratio</td>
+      <td></td>
+      <td>At the time of admission to ED, she had a prothrombin time (PT) of more than 37 seconds, activated partial thromboplastin time (aPTT) more than 70 seconds, and international normalized ratio (INR) greater than seven.</td>
+    </tr>
+    <tr>
+      <th>245</th>
+      <td>tumor</td>
+      <td></td>
+      <td>In addition, the enhancement of the antitumor effect was shown to be achieved via the inhibition of tumor cell angiogenesis [104] or increase in the reactive oxygen species production [124].</td>
+    </tr>
+    <tr>
+      <th>299</th>
+      <td>metabolic capacity</td>
+      <td></td>
+      <td>Little is known of the effect of most tropical medicinal herbs on the metabolic capacity of CYP isoenzymes.</td>
+    </tr>
+    <tr>
+      <th>352</th>
+      <td>mood state<br>satiety</td>
+      <td></td>
+      <td>Favorable psychomotor effects on mood state and satiety are often expected outcomes of fat and weight-loss supplementation protocols.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>trabectedin</td>
+      <td></td>
+      <td>Due to the absence of co-morbidity, the patient had not received any other drugs during treatment with trabectedin.</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>HIV</td>
+      <td></td>
+      <td>KY[2017]073).</td>
+    </tr>
+    <tr>
+      <th>199</th>
+      <td>pharmacological safety</td>
+      <td></td>
+      <td>However, there is hardly any data on the pharmacological safety of these two herbal medicines.</td>
+    </tr>
+    <tr>
+      <th>264</th>
+      <td>diabetic control group</td>
+      <td>diabetic</td>
+      <td>*significantly different from normal group, # significantly different from diabetic control group at p < 0.001.</td>
+    </tr>
+    <tr>
+      <th>290</th>
+      <td>species</td>
+      <td></td>
+      <td>Although these isoforms are expressed in several different species, a high degree of similarity in their gene sequences between rats and human may not automatically result in similar levels of catalytic specificity and activity.</td>
+    </tr>
+    <tr>
+      <th>385</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>In the in vitro study, Asafetida resin alcoholic extract inhibited the formation of DOR from DEX in a concentration dependent manner (Fig.</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>hypertension<br>HIV<br>HIV-associated opportunistic infections<br>type 2 diabetes</td>
+      <td></td>
+      <td>Table 2  Pharmacokinetic parameters of S-warfarin and R-warfarin  \tMean (95% CI)\tGeometric mean ratio (90% CI)  \tWarfarin only\tWarfarin and cranberry\tWarfarin and garlic\tWarfarin and cranberry/warfarin only\tWarfarin and garlic/warfarin only S-warfarin  tmax (h)\t1.4 (1.1–1.6)\t1.9 (1.1–2.7)\t1.3 (1.1–1.6)\tNA\tNA  Cmax (μg mL−1)\t1.8 (1.7–1.9)\t1.7 (1.5–2.0)\t1.9 (1.5–2.2)\t0.94 (0.67–1.29)\t1.06 (0.77–1.47)  t1/2 (h)\t38.6 (35.7–41.5)\t34.9 (31.0–38.8)\t41.2 (35.1–47.3)\t0.94 (0.79–1.12)\t0.99 (0.83–1.18)  AUC (μg mL−1 h)\t60.3 (54.5–66.1)\t63.0 (57.3–68.8)\t65.5 (55.3–75.6)\t1.04 (0.94–1.67)\t1.06 (0.95–1.19)  CL/F (mL h−1)\t213 (193–232)\t204 (183–224)\t202 (175–229)\t0.89 (0.80–0.99)\t1.05 (0.94–1.17)  Fraction unbound (fu)\t0.010 (0.007–0.013)\t0.010 (0.007–0.014)\t0.011 (0.008–0.014)\t1.00 (0.75–1.25)\t1.12 (0.39–1.84)  \t \t \t \t \t  R-warfarin  tmax (h)\t1.4 (1.1–1.6)\t1.9 (1.1–2.7)\t1.8 (0.7–2.9)\tNA\tNA  Cmax (μg mL−1)\t1.8 (1.7–2.0)\t1.7 (1.5–1.9)\t1.9 (1.5–2.2)\t0.90 (0.67–1.21)\t1.02 (0.8–1.4)  t1/2 (h)\t55.6 (46.2–65.0)\t47.7 (41.5–53.9)\t52.6 (47.4–57.9)\t0.93 (0.80–1.08)\t0.98 (0.84–1.14)  AUC (μg mL−1 h)\t108.7 (90.0–127.3)\t105.8 (91.7–119.9)\t105.0 (96.3–113.7)\t1.0 (0.9–1.1)\t0.99 (0.87–1.13)  CL/F (mL h−1)\t123 (106–140)\t124 (109–139)\t121 (112–131)\t0.87 (0.75–0.99)\t0.96 (0.84–1.11)  Fraction unbound (fu)\t0.006 (0.004–0.007)\t0.005 (0.004–0.007)\t0.006 (0.004–0.007)\t0.95 (0.72–1.18)\t1.04 (0.80–1.29) Open in a separate window Abbreviations: AUC, area under the plasma concentration–time curve; CI, confidence interval; CL, clearance; CL/F, apparent clearance; Cmax, maximum concentration; F, bioavailability; NA, not applicable; tmax, time to Cmax.</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>OATs<br>SLC22 family members</td>
+      <td></td>
+      <td>Currently, there are 29 putative SLC22 family members, 18 of which are believed to be OATs.</td>
+    </tr>
+    <tr>
+      <th>255</th>
+      <td>metabolizer phenotypes</td>
+      <td></td>
+      <td>Based on genotype combinations encoding for varying enzyme phenotypes, patients have been classified as poor, intermediate, extensive, or ultra-rapid metabolizers [32, 33].</td>
+    </tr>
+    <tr>
+      <th>287</th>
+      <td>warfarin</td>
+      <td></td>
+      <td>The results of our previous study showed that the administration of a DFG-warfarin combination led to a reduction in the warfarin plasma concentration and PT time of rats [23, 32].</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>digoxin</td>
+      <td></td>
+      <td>Therefore, the interactions between TCM formulations and digoxin are difficult to elucidate, and they are easily ignored by physicians.</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>HIV</td>
+      <td></td>
+      <td>With the tremendous surge in the acceptance of and public interest in herbal medicinal remedies, researchers are adopting the guidelines and opinions proposed for DDI studies to study HDI.</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>autoimmune response</td>
+      <td></td>
+      <td>The immune mechanism is precipitated by a drug or a metabolite acting as a hapten covalently binding to host cellular protein, converting into an immunogen [24] and thereby eliciting an autoimmune response.</td>
+    </tr>
+    <tr>
+      <th>321</th>
+      <td>rash</td>
+      <td>the rash<br>pruritis</td>
+      <td>In our patient, the rash was refractory to glucocorticoids and only resolved once her exposure to the extract ceased, although antihistamines were helpful to reduce pruritis.</td>
+    </tr>
+    <tr>
+      <th>375</th>
+      <td>pain</td>
+      <td></td>
+      <td>Though non-pharmacological treatments are the main therapy for these patients, application of analgetic drugs is common, often over years.</td>
+    </tr>
+    <tr>
+      <th>280</th>
+      <td>CYP2C8 enzyme</td>
+      <td></td>
+      <td>An extensive in vitro study showed that recombinant CYP2C8 enzyme (supersomes) was less sensitive than human liver microsomes (HLM) to identify potential mechanism‐based inhibitors and was characterised by a high lot‐to‐lot variability.</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>liver</td>
+      <td></td>
+      <td>Briefly, total protein was obtained by homogenizing 100 mg of liver samples with equal volume of a tissue lysis buffer.</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>intestine<br>liver</td>
+      <td></td>
+      <td>Hepatic (A) and intestinal (B) BCRP/ABCG2 protein expression in rats after DAS administration with or without APG pretreatment.</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Case 1</td>
+      <td></td>
+      <td>The clinicopathological features of Case 1 are illustrated in Tables 1, 2, and 3.</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>P450 enzyme activity</td>
+      <td></td>
+      <td>Potential TDI of P450 enzyme activity by CAW-R61J was determined using the shift in IC50 values between 30-minute preincubations in the presence and absence of NADPH.</td>
+    </tr>
+    <tr>
+      <th>354</th>
+      <td>physical activity</td>
+      <td></td>
+      <td>The BF% data indicated all females who took part were at the lower BF% percentile, indicating that they were physically active, with higher  Although the positive effects of YM on fat-loss outcomes during exercise are found only in single trials, future research could test the longitudinal YM effectiveness, especially when combining regular exercise training with YM treatment.</td>
+    </tr>
+    <tr>
+      <th>209</th>
+      <td>malignancies</td>
+      <td></td>
+      <td>The overexpression or somatic mutations of tyrosine kinases are dysregulated in various malignancies [3].</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>liver</td>
+      <td></td>
+      <td>For example, 120-fold variability of UGT1A6 expression in human liver might result in 13-fold variablity in serotonin glucuronidation [24].</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>HIV</td>
+      <td></td>
+      <td>Based on the centelloid content of CAW-R61J, we expect similar plasma concentrations for these compounds in our clinical studies using this extract.</td>
+    </tr>
+    <tr>
+      <th>315</th>
+      <td>pregnancy</td>
+      <td></td>
+      <td>Female volunteers were excluded if they were pregnant (positive test for serum human chorionic gonadotropin at screening or check-in), breastfeeding, or planning to conceive a child within 30 days of treatment cessation.</td>
+    </tr>
+    <tr>
+      <th>190</th>
+      <td>CBZ</td>
+      <td></td>
+      <td>Although honey was shown to decrease the oral bioavailability of CBZ in rabbits, it had no effect on the pharmacokinetic parameters of CBZ in human [63–65].</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>St. John’s wort</td>
+      <td></td>
+      <td>[17] The single-time point phenotypic ratio approach confirmed what other investigators observed with St. John’s wort when more conventional “area-under-the-curve” methods were utilized to determine midazolam clearance.</td>
+    </tr>
+    <tr>
+      <th>257</th>
+      <td>H. sabdariffa</td>
+      <td></td>
+      <td>Two weeks of coadministration of H. sabdariffa extract is sufficient enough to affect the GSH level or the expression of the PEPT1 transporter.</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>CYP2B6<br>HIV<br>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>Table I  Pre- and Postsupplementation Phenotypic Ratios (means, 95% confidence intervals) Phenotypic Ratio (CYP)\tSupplement\tPresupplementation (mean and 95% CI)\tPostsupplementation.</td>
+    </tr>
+    <tr>
+      <th>200</th>
+      <td>P-glycoprotein</td>
+      <td></td>
+      <td>Neither Samento nor Banderol increased intracellular calcein fluorescence in L-MDR1 cells over-expressing human P-glycoprotein (P-gp), indicating lack of P-gp inhibition (data not shown).</td>
+    </tr>
+    <tr>
+      <th>179</th>
+      <td>warfarin</td>
+      <td></td>
+      <td>These relevant case reports indicated a potential herb-warfarin interaction, but it was difficult to identify a causal relationship.</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>inflammation<br>cancer<br>osteoporosis</td>
+      <td>anticancer, antioxidant, anti-osteoporosis, and anti-inflammatory properties</td>
+      <td>Furthermore, the extract and constituents of KF have been shown to possess anticancer, antioxidant, anti-osteoporosis, and anti-inflammatory properties (Nadia et al., 2012; Fathilah et al., 2013).</td>
+    </tr>
+    <tr>
+      <th>380</th>
+      <td>pharmacodynamic HDI</td>
+      <td></td>
+      <td>When these herbs and drugs are used together, pharmacodynamic HDI (either additive/synergistic) may occur.</td>
+    </tr>
+    <tr>
+      <th>187</th>
+      <td>CBZ</td>
+      <td></td>
+      <td>Despite its clinical popularity, CBZ possesses several pharmacokinetic properties which make it prone to interaction with coadministered substances, including drugs, herbal products, and food [7].</td>
+    </tr>
+    <tr>
+      <th>283</th>
+      <td>Sprague–Dawley rats</td>
+      <td></td>
+      <td>Sixty Sprague–Dawley rats were used to investigate the effects of warfarin (0.2 mg/kg), Danshen (240 or 480 mg/kg) and Gegen (240 or 480 mg/kg) both in isolation and combination.</td>
+    </tr>
+    <tr>
+      <th>361</th>
+      <td>HIV</td>
+      <td></td>
+      <td>The inhibitory and inductive effect of the different phytochemicals in ginseng on CYP3A4 is demonstrated through the observed changes in the AUC and other pharmacokinetic parameters of midazolam in these human studies [27, 88].</td>
+    </tr>
+    <tr>
+      <th>305</th>
+      <td>immunologic disease<br>endocrine disease<br>neurologic disease<br>hematologic disease<br>renal disease<br>cardiovascular disease<br>pulmonary disease<br>gastrointestinal disease<br>hepatic disease<br>dermatologic disease</td>
+      <td>cardiovascular, pulmonary, hepatic, renal, hematologic, gastrointestinal, endocrine, immunologic, dermatologic, or neurologic disease/disorder</td>
+      <td>Volunteers were excluded if they had any clinically significant history or presence of a cardiovascular, pulmonary, hepatic, renal, hematologic, gastrointestinal, endocrine, immunologic, dermatologic, or neurologic disease/disorder.</td>
+    </tr>
+    <tr>
+      <th>139</th>
+      <td>autoimmune diseases</td>
+      <td></td>
+      <td>Uma investigação ampla foi realizada, incluindo LBA, estudos de imagem, detecção de doenças autoimunes, cateterismo cardíaco direito e biópsia miocárdica.</td>
+    </tr>
+    <tr>
+      <th>365</th>
+      <td>CYP3A4</td>
+      <td></td>
+      <td>investigated the ability of SJW to interact with CYP3A4 in a 2-way, open-label crossover study of 21 healthy subjects using midazolam as the probe substrate.</td>
+    </tr>
+    <tr>
+      <th>222</th>
+      <td>lactate level</td>
+      <td></td>
+      <td>In ANOVA results, QMS (p = 0.001) and lactate level (p = 0.038) showed significant interactions.</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>HIV</td>
+      <td>HIV positive</td>
+      <td>More than 50% of adults in KwaZulu-Natal attending public sector facilities for ART initiation disclose using TCAM [10], and similar levels of TCAM use by HIV positive individuals may occur worldwide [11].</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>digoxin</td>
+      <td></td>
+      <td>Although a lot of experience has been accumulated in the clinical application of digoxin over the years, limited research has been conducted on its possible interactions with TCM formulations.</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>menopause</td>
+      <td>menopausal</td>
+      <td>However, further research is needed on the safety of RHC intake for a long period in large-scale menopausal subjects.</td>
+    </tr>
+    <tr>
+      <th>201</th>
+      <td>CYP1A<br>aryl hydrocarbon receptor (AhR)</td>
+      <td></td>
+      <td>To demonstrate possible influences on aryl hydrocarbon receptor (AhR), another important transcription factor regulating e.g., CYP1A, we also tested whether Samento can activate AhR and found only a minor effect compared to the positive control omeprazole (Figure 4B).</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>dopamine</td>
+      <td></td>
+      <td>When CB1Rs on presynaptic neurons are activated, inhibitory neurotransmitter levels are reduced and dopamine levels increase [5,24,25].</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>common cold<br>respiratory problems</td>
+      <td></td>
+      <td>[2526] Iranian borage (E. amoenum) as unformulated and anticough syrups as formulated herbal products were the most used ones in our study population, while common cold and respiratory problems were determined to be the main indications for this trend.</td>
+    </tr>
+    <tr>
+      <th>340</th>
+      <td>T-47D<br>MCF-7</td>
+      <td></td>
+      <td>When combined with TAM, it exhibits a significant synergistic inhibitory effect on MCF-7 and T-47D cell growth (Cho et al., 2010).</td>
+    </tr>
+    <tr>
+      <th>186</th>
+      <td>diabetes</td>
+      <td></td>
+      <td>However, multiple-dose combination of curcumin with gliclazide produced significantly greater reduction in percent blood glucose reduction at 3-, 4-, 6-, 8-, 10-, and 12-hour intervals after treatment in normal rats and rabbits when compared with gliclazide control.</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>CYP3A4</td>
+      <td></td>
+      <td>Thus, the risk of CYP3A4-mediated interactions may be product dependent.</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>M.A.A.</td>
+      <td></td>
+      <td>and M.A.A.</td>
+    </tr>
+    <tr>
+      <th>188</th>
+      <td>CBZ</td>
+      <td></td>
+      <td>In view of all the constraints of the existing literature, a comprehensive systematic review focusing on CBZ and overcoming the mentioned hurdles is warranted for healthcare professionals to make proper decisions.</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>abdominal mass</td>
+      <td></td>
+      <td>In May 2009 he underwent surgical removal of the abdominal mass achieving a complete margin negative (R0) resection.</td>
+    </tr>
+    <tr>
+      <th>192</th>
+      <td>alcohol</td>
+      <td></td>
+      <td>Caution should also be paid for beverage containing alcohol.</td>
+    </tr>
+    <tr>
+      <th>325</th>
+      <td>OSA</td>
+      <td></td>
+      <td>The formation rate of OSA could be significantly suppressed by all the herb/herbal components.</td>
+    </tr>
+    <tr>
+      <th>350</th>
+      <td>obesity</td>
+      <td>healthy</td>
+      <td>Previous studies in human participants have shown promising effects of YM ingestion on metabolic rate and RER acutely [21], and after 12 weeks of ingestion, on blood lipid metabolites in healthy obese participants [11,21].</td>
+    </tr>
+    <tr>
+      <th>189</th>
+      <td>HIV</td>
+      <td></td>
+      <td>2012), Cochrane Database of Systematic Reviews (2005–Dec.</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>digoxin-induced arrhythmias<br>arrhythmia</td>
+      <td>arrhythmias<br>arrhythmia<br>ventricular precontraction, ventricular tachycardia,<br>ventricular arrhythmias<br>ventricular fibrillation</td>
+      <td>used the duration of QRS interval prolongation, ventricular precontraction, ventricular tachycardia, and ventricular fibrillation as markers of arrhythmia to study the effects of C. pinnatifida Bunge (Shanzha) extract on digoxin-induced arrhythmias, and the results showed that the ventricular arrhythmias in the digoxin-induced experimental group of rats all decreased after the administration of C. pinnatifida Bunge (Shanzha) extract, indicating that the flavonoid glycoside and flavane polymers in C. pinnatifida Bunge (Shanzha) extract can antagonize digoxin-induced arrhythmias (Li and Huang, 2016), which may be related to their ability to dilate blood vessels, lower blood pressure, slow down the heart rhythm, and improve the cardiovascular system (Zhang et al., 2021).</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>elderly<br>age-related changes</td>
+      <td></td>
+      <td>Moreover, age-related changes have been observed in the pharmacokinetics of several CYP substrates,[28–30] as well as certain CYP enzymes,[29,30] thus the question remains as to whether such effects may extend to botanical supplements and their effect on drug metabolism in the elderly.</td>
+    </tr>
+    <tr>
+      <th>356</th>
+      <td>CYP450 family<br>DMEs</td>
+      <td></td>
+      <td>Phytoestrogens and other bioactive components of celery can interact with the DMEs, including those in the CYP450 family.</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>rats</td>
+      <td></td>
+      <td>In the present study, the selectivity was examined using independent plasma samples from six different rats.</td>
+    </tr>
+    <tr>
+      <th>140</th>
+      <td>venlafaxina toxicity</td>
+      <td></td>
+      <td>A administração circunstancial de inibidores da isoenzima CYP2D6 e a presença de um fenótipo de metabolização lenta de CYP2D6 podem ter resultado na acumulação tóxica da venlafaxina e na manifestação clínica subsequente.</td>
+    </tr>
+    <tr>
+      <th>138</th>
+      <td>cardiopulmonary toxicity</td>
+      <td>drug-induced cardiopulmonary toxicity</td>
+      <td>This was an important case of drug-induced cardiopulmonary toxicity.</td>
+    </tr>
+    <tr>
+      <th>256</th>
+      <td>genetic polymorphisms</td>
+      <td></td>
+      <td>The significant inter-individual variability of CYP2D6 activity due to genetic polymorphisms was mitigated by the use of pooled microsomes from 50 donors [41].</td>
+    </tr>
+    <tr>
+      <th>173</th>
+      <td>HIV</td>
+      <td></td>
+      <td>In spite of this, studies of clinical pharmacokinetic interactions between antiretroviral agents and botanicals are scarce in the literature.</td>
+    </tr>
+    <tr>
+      <th>206</th>
+      <td>CYP2J2</td>
+      <td></td>
+      <td>Expression of CYP2J2 mRNA was quantified by RT-PCR and results normalized to β2mg and to t = 0.</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>cancer</td>
+      <td>cancer patients</td>
+      <td>Academic Editor: Igho J. Onakpoya In recent popular publications as well as in widely used information websites directed to cancer patients, valerian is claimed to have a potential of adverse interactions with anticancer drugs.</td>
+    </tr>
+    <tr>
+      <th>172</th>
+      <td>CD4+ T-cell count</td>
+      <td></td>
+      <td>The median CD4+ T-cell count was 498 (range, 244 to 962) cells/mm3.</td>
+    </tr>
+    <tr>
+      <th>384</th>
+      <td>CYP2D6</td>
+      <td></td>
+      <td>The O-demethylation of DEX to dextrorphan (DOR) is predominantly mediated by CYP2D6 (Barnhart, 1980; Schadel et al., 1995).</td>
+    </tr>
+    <tr>
+      <th>204</th>
+      <td>Pregane x receptor (PXR)</td>
+      <td></td>
+      <td>(a) Concentration-dependent effect of Samento and the positive control rifampicin (insert) on pregnane x receptor (PXR) activity.</td>
+    </tr>
+    <tr>
+      <th>284</th>
+      <td>VKOR<br>TM</td>
+      <td></td>
+      <td>We also monitored the effects of Danshen/Gegen on the activities and mRNA and protein expression levels of VKOR and TM (for pharmacodynamic analysis).</td>
+    </tr>
+    <tr>
+      <th>207</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>Go to: Discussion  In this study, we examined the CYP2B6 inhibitory effects of woohwangcheongsimwon suspension on the pharmacokinetics of bupropion.</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>drugs metabolized by CYP2C8<br>drugs metabolized by CYP3A4</td>
+      <td></td>
+      <td>Statistical analyses were performed using GraphPad Prism This in vitro study indicated that combining nutraceuticals containing rooibos extracts with drugs metabolized by CYP2C8 and CYP3A4 could potentially alter the pharmacodynamics and safety of these drugs.</td>
+    </tr>
+    <tr>
+      <th>322</th>
+      <td>OS</td>
+      <td></td>
+      <td>To explore more, we would like to investigate the interactions between OS and selected single herbs from these Wen Bing formulas.</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>ART</td>
+      <td></td>
+      <td>However, attention has now shifted from reduction in mortality to improvement of the quality of life for people taking ART [1,2].</td>
+    </tr>
+    <tr>
+      <th>141</th>
+      <td>renal<br>complement proteins<br>hepatic<br>sediment urinary</td>
+      <td></td>
+      <td>Os parâmetros renais e hepáticos, as proteínas do complemento e o sedimento urinário estavam todos normais.</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>warfarin<br>S-warfarin</td>
+      <td></td>
+      <td>[62] CYP2C9 is the principal isoform involved in the biotransformation of warfarin (more particularly the active enantiomer, S-warfarin) and the aforementioned reports hint strongly at a ginseng-mediated induction of this enzyme.</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>C. asiatica</td>
+      <td></td>
+      <td>C. asiatica Plant Material and Preparation of CAW-R61J.</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>CYP2B6</td>
+      <td></td>
+      <td>Genetic polymorphism in CYP2B6 have been implicated in variations in the activity of the enzyme in metabolizing xenobiotics [26].</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>hallucinations<br>Parkinson's disease</td>
+      <td>PD<br>hallucinations</td>
+      <td>Additionally, a previous study evaluated patients with PD and their subsequent reactions to cannabis use, reporting that one out of five patients experienced hallucinations [12].</td>
+    </tr>
+    <tr>
+      <th>333</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>The metabolic inhibition studies performed in rat plasma suggested that all the herbal extracts (500 μg/mL) and all the herbal components (100 μg/mL) could inhibit the hydrolysis of OS in rat plasma, but the % inhibition rate varied between herbs/herbal components.</td>
+    </tr>
+    <tr>
+      <th>366</th>
+      <td>small intestinal enterocytes</td>
+      <td></td>
+      <td>CYP3A4 and P-gp are richly expressed in the human small intestinal enterocytes.</td>
+    </tr>
+    <tr>
+      <th>166</th>
+      <td>glucose levels<br>insulin tolerance<br>hypolipidemic</td>
+      <td></td>
+      <td>Polymethoxylated flavones (PMFs) of C. sinensis have hypolipidemic effects, resulting in a significant reduction of insulin tolerance and glucose levels [61].</td>
+    </tr>
+    <tr>
+      <th>228</th>
+      <td>PXR</td>
+      <td></td>
+      <td>For OATP2B1, we have recently shown that this transporter is not only inhibited by hyperforin but also transports this constituent of SJW (Schäfer, Bock, & Meyer Zu Schwabedissen, 2018), thus influencing the intracellular transactivation of PXR by hyperforin (Schäfer et al., 2019).</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>HIV</td>
+      <td></td>
+      <td>; 3.5 μm) at room temperature.</td>
+    </tr>
+    <tr>
+      <th>272</th>
+      <td>hypertension</td>
+      <td>antihypertensive, antioxidant, and hypocholesterolemic</td>
+      <td>Anthocyanins, particularly delphinidin-3-sambubioside and cyanidin-3-sambubioside, are generally believed to be the active constituents responsible for the antihypertensive, antioxidant, and hypocholesterolemic effects of HS, possibly because they are found in high relative quantities in aqueous extracts [8, 11, 13, 16].</td>
+    </tr>
+    <tr>
+      <th>160</th>
+      <td>antioxidant activity</td>
+      <td></td>
+      <td>In fact, polyphenols determine the antioxidant activity, and this positive relationship renders a trend in many medicinal plants [36].</td>
+    </tr>
+    <tr>
+      <th>254</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>Significances are given relative to the VAEM untreated values (*p < 0.05, **p < 0.01, ***p < 0.001) VAEM, as well as endoxifen, showed a concentration-dependent inhibition of proliferation (Fig.</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>M.P.</td>
+      <td></td>
+      <td>and M.P.</td>
+    </tr>
+    <tr>
+      <th>261</th>
+      <td>diabetes</td>
+      <td>diabetic</td>
+      <td>The present work was carried out to check the safety and efficacy of one of the probable concomitant treatments that a diabetic patient is likely to undertake during the course of his treatment.</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>liver</td>
+      <td></td>
+      <td>The maximum plasma concentration (C Rat liver microsomes were used to determine the metabolic rate of AC.</td>
+    </tr>
+    <tr>
+      <th>291</th>
+      <td>Danshen</td>
+      <td></td>
+      <td>Furthermore, CYP1A-, CYP2C- and CYP3A-inducing agents were found in the ethyl acetate extract, but not in the aqueous extract of Danshen [57].</td>
+    </tr>
+    <tr>
+      <th>260</th>
+      <td>diabetes</td>
+      <td></td>
+      <td>(EJ) are considered to be functional foods owing to their anti-diabetic Several research groups studying the protective and therapeutic effect of EJE and have identified presence of various classes of bioactive constituents like anthocyanins, flavonoids Gliptins are a class of oral anti-diabetic agents which act by competitively antagonizing the enzyme dipeptidyl peptidase-4 (DDP-4).</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>E. purpurea</td>
+      <td></td>
+      <td>For example, alkylamide content is known to vary considerably across different parts of E. purpurea plants [20], and DTAI are more abundant in roots than in leaves.</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>2 above (substituting logEC50 for logIC50).</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>warfarin</td>
+      <td></td>
+      <td>(2007) also investigated the effect of pretreatment with cranberry juice for 5 days on warfarin pharmacokinetics and found no clinically significant change in the AUC of S-warfarin.</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>CYP2C9<br>CYP2D6<br>CYP3A4<br>CYP2C19</td>
+      <td></td>
+      <td>Purified centelloids are weak inhibitors in human liver microsomes and human P450 forms expressed by E. coli of CYP2C19, CYP3A4, CYP2D6, and CYP2C9.</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>drug interactions</td>
+      <td></td>
+      <td>Therefore, herbal products must be assessed for their efficacy and safety, including their potential for interactions with other drugs [14].</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>CYP3A4</td>
+      <td></td>
+      <td>GRT containing higher levels of polyphenols, in particular ASP (12.78% compared to 0.36%), demonstrated a more potent inhibition of CYP3A4 activity than FRE with IC CYP2C9 plays a role in the oxidation of xenobiotic and endogenous compounds and is responsible for the metabolism of 15%–20% of drugs undergoing phase I metabolism [52,53].</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>biliary excretion</td>
+      <td></td>
+      <td>Next, we investigated the effects of RGE on the biliary excretion of Mrp2 substrate drug in rats.</td>
+    </tr>
+    <tr>
+      <th>304</th>
+      <td>HIV</td>
+      <td></td>
+      <td>The following formula determines the half-maximal inhibitory concentration (IC SRM Medical College Hospital and Research Centre and SRM Institute of Science and Technology, Kattankulathur ethics committees approved the protocol (approval No.</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>qi<br>yang<br>blood<br>yin</td>
+      <td></td>
+      <td>When the bias of medicine is greater than that of food, it will inevitably affect the balance of qi, blood, yin and yang of the human body (Jia et al., 2021).</td>
+    </tr>
+    <tr>
+      <th>381</th>
+      <td>sulfur compounds</td>
+      <td></td>
+      <td>It is composed of a large number of sulfur compounds, with suspected bioactive compounds called allyl thiosulfinates (mainly allicin) [65].</td>
+    </tr>
+    <tr>
+      <th>370</th>
+      <td>serum creatinine</td>
+      <td></td>
+      <td>At that time the serum creatinine level was 74.27 µmol/L and was stable.</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>P-gp</td>
+      <td></td>
+      <td>IC Next, we determined the inhibition of P-gp by the extract of L. pumila and the constituents by using the two widely used probes calcein-AM and digoxin (Rautio et al., 2006).</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>CYP2C9<br>CYP3A4<br>CYP2C8</td>
+      <td></td>
+      <td>GRT and FRE inhibited the reaction rate of CYP2C8, CYP2C9, and CYP3A4 as measured over 30 min (Figure 2a–c).</td>
+    </tr>
+    <tr>
+      <th>253</th>
+      <td>other types of cancer<br>breast cancer</td>
+      <td>cancer<br>breast cancer</td>
+      <td>Clinical studies have reported on the benefits of Viscum album extracts (VAE) not only in breast cancer patients but also for other types of cancer [10–13].</td>
+    </tr>
+    <tr>
+      <th>324</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>The incubation system for rat plasma contains 1 μg/mL of OS and 10% rat plasma since the super-fast reaction rate of 100% rat plasma resulted in no discrimination for nearly all the studied herb/herbal components.</td>
+    </tr>
+    <tr>
+      <th>195</th>
+      <td>hepatocellular carcinoma</td>
+      <td>carcinoma</td>
+      <td>HepaRG cell line, derived from a hepatocellular carcinoma, could express a large panel of liver-specific enzymes [5,6,7].</td>
+    </tr>
+    <tr>
+      <th>289</th>
+      <td>CYP enzymes</td>
+      <td></td>
+      <td>CYP enzymes represent some of the most highly conserved entities among different species, with relatively small differences in the primary amino acid sequences of the CYP enzymes across different species [50, 51].</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>DAS 25</td>
+      <td></td>
+      <td>The radical alteration in the pharmacokinetic parameters of DAS 25 mg/kg P.O.</td>
+    </tr>
+    <tr>
+      <th>319</th>
+      <td>cytochrome P450</td>
+      <td></td>
+      <td>[15] to screen natural products for cytochrome P450 inhibition potential with a particular emphasis on the P450 enzymes, CYPs 1A1, 1A2, 1B1, 3A4 and 2D6.</td>
+    </tr>
+    <tr>
+      <th>282</th>
+      <td>cancer</td>
+      <td>anti‐cancer activity</td>
+      <td>Constituents of S. sphenanthera extract also exhibited anti‐cancer activity, although with evidence strictly limited to in vitro data in different cancer cell lines.</td>
+    </tr>
+    <tr>
+      <th>218</th>
+      <td>cytochrome P-450</td>
+      <td></td>
+      <td>Phytochemical-mediated modulation of cytochrome P-450 (CYP) activity may underlie many herb-drug interactions.</td>
+    </tr>
+    <tr>
+      <th>248</th>
+      <td>T cell apoptosis<br>programmed death 1 (PD-1)<br>T helper cell balance<br>Forkhead box protein 3 (Foxp3)</td>
+      <td></td>
+      <td>Multiple mechanisms may be involved, including upregulation of transcription factors such as T-box protein expressed in T cells (T-bet) and GATA-3, which modulate the T helper cell balance [169]; downregulation of Bax expression to reduce caspase 3 activity and T cell apoptosis [170]; and reduction of the expression of negative regulators/transcription factors of immune responses, including Forkhead box protein 3 (Foxp3) and programmed death 1 (PD-1) [171].</td>
+    </tr>
+    <tr>
+      <th>295</th>
+      <td>breast cancer</td>
+      <td>early stage breast cancer</td>
+      <td>There was no difference in the toxicity profile of hormone therapy with ginkgo biloba use in women with early stage breast cancer.</td>
+    </tr>
+    <tr>
+      <th>175</th>
+      <td>E. purpurea</td>
+      <td></td>
+      <td>We found, however, that E. purpurea was well tolerated, with no evident safety issue of concern.</td>
+    </tr>
+    <tr>
+      <th>193</th>
+      <td>hypoglycaemic agents</td>
+      <td></td>
+      <td>Tabular summary of the pharmacological management of the patients' based on their prescribed hypoglycaemic agents.</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>combinations</td>
+      <td></td>
+      <td>Most of these reports and studies are on combinations with Western drugs.</td>
+    </tr>
+    <tr>
+      <th>227</th>
+      <td>depression</td>
+      <td></td>
+      <td>The tail suspension test, which also measures changes in immobility in rodents after antidepressant treatment, was applied by several investigators (Butterweck, Christoffel, et al., 2003; Machado et al., 2008; Tian et al., 2014) and SJW extracts significantly reduced the time of immobility in this test.</td>
+    </tr>
+    <tr>
+      <th>208</th>
+      <td>statins</td>
+      <td></td>
+      <td>The herbal reaction toward different types of statins is varied so that grapefruit or pomegranate was interacted with only some types of statins, but not with all statin types.</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>clotting time</td>
+      <td></td>
+      <td>Percentage factor activity for each sample was obtained from a standard curve constructed using different dilutions of standard human plasma of known factor activity and clotting time.</td>
+    </tr>
+    <tr>
+      <th>262</th>
+      <td>glucose</td>
+      <td></td>
+      <td>Glucose level was determined using GOD-POD Erba diagnostic kits.</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>methotrexate</td>
+      <td></td>
+      <td>Biliary excretion, but not urinary excretion, of methotrexate decreased in the RGE repeated administration group, compared to that in the control group.</td>
+    </tr>
+    <tr>
+      <th>342</th>
+      <td>Mistletoe</td>
+      <td></td>
+      <td>Mistletoe (Viscum album L.) derived medicinal preparations are widely used and registered as medicines in many European countries.</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>warfarin</td>
+      <td></td>
+      <td>(2007) concluded that there were no pharmacodynamic interactions between warfarin and cranberry juice, but they employed a low dose of warfarin (10 mg), which made this end point difficult to assess.</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>HDI</td>
+      <td></td>
+      <td>The present work provides an insight into the mechanism exploration governing HDI between aspirin and PNS.</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>HIV</td>
+      <td></td>
+      <td>Group one was administered 42 mg·kg Data are presented as mean ± standard deviation (SD).</td>
+    </tr>
+    <tr>
+      <th>316</th>
+      <td>drug interactions</td>
+      <td>illnesses</td>
+      <td>Drug interactions can be considered illnesses by themselves.</td>
+    </tr>
+    <tr>
+      <th>277</th>
+      <td>electrolyte levels</td>
+      <td>diuretic effects</td>
+      <td>In addition, electrolyte levels generally are not effected by ingesting HS extracts despite its diuretic effects.</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>CYP2C19<br>CYP2C9<br>CYP1A2</td>
+      <td></td>
+      <td>This study concentrated on investigating the effects of potential interaction between extracts from Newbouldia laevis and Cassia abbreviata on CYP1A2, CYP2C9, and CYP2C19 activities.</td>
+    </tr>
+    <tr>
+      <th>191</th>
+      <td>epilepsy</td>
+      <td>Patients</td>
+      <td>Patients on antiepileptic therapy are usually on a long-term basis.</td>
+    </tr>
+    <tr>
+      <th>346</th>
+      <td>biliary excretion<br>intestinal secretion<br>breast milk</td>
+      <td></td>
+      <td>CIP is a known substrate of the ATP-binding cassette transporters, which have been implicated in its intestinal secretion, biliary excretion and secretion into breast milk (Vance-Bryan et al., 1990; Merino et al., 2006; Ando et al., 2007; Mulgaonkar et al., 2012).</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>GGT</td>
+      <td></td>
+      <td>Therefore, we applied this dose of GGT in our study.</td>
+    </tr>
+    <tr>
+      <th>345</th>
+      <td>CIP</td>
+      <td></td>
+      <td>Approximately 60% of CIP is excreted in unchanged form into the urine (Vance-Bryan et al., 1990).</td>
+    </tr>
+    <tr>
+      <th>368</th>
+      <td>medicinal herbs</td>
+      <td></td>
+      <td>Medicinal herbs are rich sources of natural bioactive compounds that could interact with drugs.</td>
+    </tr>
+    <tr>
+      <th>372</th>
+      <td>HIV</td>
+      <td></td>
+      <td>Previous studies have shown the interactions between sirolimus and drugs that affect the activities of metabolizing enzymes and transporter proteins.</td>
+    </tr>
+    <tr>
+      <th>386</th>
+      <td>CYP3A4</td>
+      <td></td>
+      <td>In conclusion, the significant Asafetida inhibitory effect on CYP3A4 metabolic activity was an important finding of this study.</td>
+    </tr>
+    <tr>
+      <th>263</th>
+      <td>HIV</td>
+      <td></td>
+      <td>3a and b).</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>digoxin</td>
+      <td></td>
+      <td>Based on our analysis of the literature, the mechanism of interaction between TCM formulations and digoxin is as follows: A.</td>
+    </tr>
+    <tr>
+      <th>349</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>PCE significantly increased the tissue to plasma distribution coefficients (K  Tissue distribution profiles of ciprofloxacin (CIP) after intravenous administration of CIP in the absence (A) and presence (B) of PCE to rats, as well as the tissue to plasma distribution coefficients [K  The tissue distribution curves of GA in normal rats after intragastric administration of PCE in the absence and presence of CIP are displayed in Figures 7A,B, respectively.</td>
+    </tr>
+    <tr>
+      <th>181</th>
+      <td>hepatic damage</td>
+      <td></td>
+      <td>Another in vivo study reported that gingko induced CYP enzyme activity in a dose-dependent manner, but did not cause hepatic damage [48].</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>toxicities<br>docetaxel</td>
+      <td>toxicities<br>Adverse Events<br>Cancer</td>
+      <td>The secondary objective was to assess the effect of E. purpurea supplementation on safety parameters, such as grade 3 and 4 toxicities induced by docetaxel [according to National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE, version 3.0)].</td>
+    </tr>
+    <tr>
+      <th>266</th>
+      <td>HIV</td>
+      <td></td>
+      <td>9, Table 2).</td>
+    </tr>
+    <tr>
+      <th>371</th>
+      <td>immunosuppressive drugs</td>
+      <td></td>
+      <td>Therapeutic drug monitoring is required as with other immunosuppressive drugs.</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>antioxidants<br>MDA</td>
+      <td></td>
+      <td>Moreover, hesperidin in C. sinensis increases the levels of antioxidants including SOD and CAT, and decreases the MDA level [19].</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>ginsenosides</td>
+      <td></td>
+      <td>However, other ginsenosides, such as Rg3, Re, and Rh1, were not detected in rat plasma despite their high content in RGE (Table 1 and Table 2).</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>spinal stenosis<br>shoulder pain<br>chronic neck<br>back<br>mild kidney disease</td>
+      <td>spinal stenosis<br>chronic neck, back, and shoulder pain<br>mild kidney disease<br>PD<br>frequent falls<br>vitamin D deficiency</td>
+      <td>In addition to PD, the patient’s past medical history includes spinal stenosis, vitamin D deficiency, frequent falls, a history of nicotine and alcohol dependence, mild kidney disease, and chronic neck, back, and shoulder pain.</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>medicinal cannabis</td>
+      <td></td>
+      <td>This case report highlights the complexity associated with medicinal cannabis and the health risks associated with its use.</td>
+    </tr>
+    <tr>
+      <th>286</th>
+      <td>CYP2C6</td>
+      <td></td>
+      <td>Compared with the vehicle control group, there was a significant increase of 420 % (P < 0.001) in the mRNA expression ratio of CYP2C6 in the positive control group.</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>hypoglycemic effect</td>
+      <td>hypoglycemic</td>
+      <td>The rs1142345 (A>G) SNP in the thiopurine S-methyltransferase (TPMT) gene was significantly associated with the hypoglycemic effect of the drug (P = 0.001, FDR P = 0.043).</td>
+    </tr>
+    <tr>
+      <th>273</th>
+      <td>cholesterol</td>
+      <td></td>
+      <td>Table 5  Cholesterol RCT interventions and effects of cholesterol RCT interventions on total cholesterol, HDL-C, LDL-C, and triglycerides.</td>
+    </tr>
+    <tr>
+      <th>219</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>If so, herb-mediated changes in CYP activity may take on greater clinical relevance in this population.</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>HIV</td>
+      <td></td>
+      <td>After RGE was orally administered to rats at single or multiple doses for 1 or 2 weeks, the plasma concentrations of ginsenosides were also monitored.</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>HIV</td>
+      <td></td>
+      <td>By contrast, for carriers of the CYP2C9*3 allele, the CL/Fs of glipizide (Kidd et al., 1999) and tolbutamide (Kirchheiner et al., 2002a) were significantly different from wild-type subjects, with ratios of 0.18 and 0.58, respectively.</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Oat3<br>Oat1</td>
+      <td></td>
+      <td>Further, unique substrates that interact with Oat1, but not with Oat3 (and vice-versa) have been identified [7].</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>Pgp/MDR1 protein</td>
+      <td></td>
+      <td>The APG-pretreated rats showed significant inhibition of the Pgp/MDR1 protein, that is 65.38% and 69.90% inhibition, respectively, as compared to DAS alone (p < 0.05).</td>
+    </tr>
+    <tr>
+      <th>212</th>
+      <td>DAS<br>APG</td>
+      <td></td>
+      <td>The purpose of the current study was to determine whether or not APG has a pharmacokinetic interaction with DAS, and if so, how they would interact.</td>
+    </tr>
+    <tr>
+      <th>318</th>
+      <td>CYP1A2</td>
+      <td></td>
+      <td>Key phytochemicals were individually assessed for their impact on CYP1A2 activity.</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>HIV-associated opportunistic infections</td>
+      <td></td>
+      <td>To date an increasing number of studies in evaluating HDIs have been reported [11].</td>
+    </tr>
+    <tr>
+      <th>275</th>
+      <td>kidney function<br>liver function</td>
+      <td>hepatotoxic</td>
+      <td>Studies demonstrate that HS consumption does not adversely effect liver and kidney function at lower doses, but may be hepatotoxic at extremely high doses.</td>
+    </tr>
+    <tr>
+      <th>301</th>
+      <td>HIV</td>
+      <td></td>
+      <td>(2000).</td>
+    </tr>
+    <tr>
+      <th>374</th>
+      <td>Epimedium sagittatum extract</td>
+      <td></td>
+      <td>Second, the pretreatment period of Epimedium sagittatum extract might have been too short to identify the possible herbal drug effect.</td>
+    </tr>
+    <tr>
+      <th>221</th>
+      <td>quadriceps muscle strength</td>
+      <td></td>
+      <td>The purpose of this study was to evaluate the effect of SC extract supplementation on quadriceps muscle strength (QMS) and lactate at rest in adult women.</td>
+    </tr>
+    <tr>
+      <th>220</th>
+      <td>elderly</td>
+      <td></td>
+      <td>Concomitant ingestion of botanical supplements with prescription medications, therefore, should be strongly discouraged in the elderly.</td>
+    </tr>
+    <tr>
+      <th>355</th>
+      <td>HDI</td>
+      <td></td>
+      <td>Since the accidental discovery of the ability of grapefruit juice to alter the pharmacokinetic profiles of felodipine through the inhibition of cytochrome P450 (CYP) and P-glycoprotein (P-gp), more studies have elucidated various mechanisms of HDI [11].</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>Y.C.P.</td>
+      <td></td>
+      <td>and Y.C.P.</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>P-gp<br>bile acid receptor<br>bile acid</td>
+      <td></td>
+      <td>Nuclear receptors, such as farnesoid X receptor (FXR, also known as bile acid receptor) and pregnane X receptor (PXR), are known as major regulators of the expression of Bsep and P-gp, respectively [35].</td>
+    </tr>
+    <tr>
+      <th>274</th>
+      <td>hypertension</td>
+      <td>hypertensive</td>
+      <td>One brief 15 day study reported a significant increase in total cholesterol among hypertensive patients administered HS [18].</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>insulin level<br>HIV-associated opportunistic infections<br>HOMA-IR level<br>FBS level<br>HIV</td>
+      <td></td>
+      <td>Moreover, the binary comparison indicated no significant difference in the FBS level (p = 0.212) in group 2, the insulin level (p = 0.842) in group 3, and the HOMA-IR level (p = 0.403) in group 3 compared to group 1.</td>
+    </tr>
+    <tr>
+      <th>226</th>
+      <td>pregnane‐X‐receptor (PXR)</td>
+      <td></td>
+      <td>These interactions were caused by pregnane‐X‐receptor (PXR) activation.</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>COMT Met/Met genotype</td>
+      <td></td>
+      <td>Interestingly, the patient’s PGx results (Table 1) reported a genotype for COMT Met/Met, therefore higher levels of dopamine in his synapses would be expected.</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>warfarin</td>
+      <td></td>
+      <td>Current address: Drug Metabolism and Pharmacokinetics, Covance Laboratories Inc., Madison, WI, USA Patients commonly take complementary medicines in conjunction with warfarin yet evidence supporting the safety or the risk of a herb–drug interaction is lacking.</td>
+    </tr>
+    <tr>
+      <th>258</th>
+      <td>HIV</td>
+      <td></td>
+      <td>(n = 6).</td>
+    </tr>
+    <tr>
+      <th>300</th>
+      <td>Allium sativum</td>
+      <td></td>
+      <td>Though we did not report any inhibition of CYP isoenzymes by Allium sativum, the discrepancies in these reports and ours may be due to the extraction procedure, assay method, concentration and type of the extract used and enzyme sources.</td>
+    </tr>
+    <tr>
+      <th>343</th>
+      <td>TAM-resistant MCF-7 tam-R cells</td>
+      <td></td>
+      <td>In a study involving TAM-resistant cell line MCF-7 tam-R, while 10 Evn-50 is an ethyl acetate extract of Vitex negundo L. When used in combination with TAM to treat TAM-resistant MCF-7/TAM-R cells, it significantly reduces cell viability, inhibits cell growth, induces apoptosis, and reverses TAM resistance of MCF-7/TAM-R cells (Hu et al., 2012).</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>HAART</td>
+      <td></td>
+      <td>However, there are several challenges associated with the chronic nature of HAART administration.</td>
+    </tr>
+    <tr>
+      <th>362</th>
+      <td>kava</td>
+      <td></td>
+      <td>The pharmacological activities of kava have been attributed to kavalactones, which are concentrated in the rhizomes [96].</td>
+    </tr>
+    <tr>
+      <th>278</th>
+      <td>Schisandra</td>
+      <td></td>
+      <td>Interaction between imatinib and Schisandra lignans was unlikely to be of clinical importance.</td>
+    </tr>
+    <tr>
+      <th>329</th>
+      <td>OS<br>OSA</td>
+      <td></td>
+      <td>The results suggested that co-administration with RS could significantly increase the systemic exposure of OS and decrease that of OSA (Fig.</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

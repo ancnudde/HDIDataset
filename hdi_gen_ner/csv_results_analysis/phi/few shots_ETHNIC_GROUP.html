@@ -1,0 +1,624 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<span class="table_title">False Negatives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td></td>
+      <td>Korean</td>
+      <td>In case of ginseng interactions, it was reported that no herb–drug interaction between single oral dose of Korean red ginseng extract (RGE) (0.5–2.0 g/kg) and the probe substrates for five cytochrome P450 (CYP) enzymes (i.e., CYP1A2, 2C9, 2C19, 2D6, 3A) in mouse [12].</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td></td>
+      <td>Chinese</td>
+      <td>These included two conventional databases (EMBASE and MEDLINE), five other English databases (AMED, CINAHL Plus, Cochrane Database of Systematic Reviews, CENTRAL, and SciFinder Scholar) four Chinese databases.</td>
+    </tr>
+  </tbody>
+</table>
+<span class="table_title">False Positives</span>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>generated</th>
+      <th>gold</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>7</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>In vivo, digoxin was administered intravenously to control rats and citronellal pretreated experimental rats, and in vitro, the transcellular transport of   Single TCM: Single TCM formulations that are capable of inhibiting or downregulating P-gP include Conioselinum anthriscoides “Chuanxiong” (Chuanxiong), Vernonia amygdalina (Biantaobanjiuju), Tapinanthus sessilifolius, Carica papaya (Mugua) and Ginkgo biloba L. (Yinxing).</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>Due to public concern regarding the risk of bleeding during treatment with warfarin, as well as the uneasy relationship between allopathic doctors and their patients, no more than 10% of patients with atrial fibrillation take warfarin in China [5].</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Jamaican</td>
+      <td></td>
+      <td>β-Sitosterol, cadina-4,10(15)-dien-3-one and a mix of five lignans comprised of dehydropodophyllotoxin, deoxydehydropodophyllotoxin, 4′-demethyldesoxypodophyllotoxin, 5′-methoxydehydropodophyllotoxin, and dehydro-b-peltatin methyl ether were supplied by the Department of Chemistry, University of the West Indies, Mona Campus, Jamaica.</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>Women</td>
+      <td></td>
+      <td>There was no difference in the toxicity profile of hormone therapy with ginkgo biloba use in women with early stage breast cancer.</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>Unknown</td>
+      <td></td>
+      <td>This herb has been in use for diabetic treatment for almost two millennia [72].</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>A commercially available, standardized and purified Radix Scutellariae extract (RS) was obtained from Shanghai U-sea Biotech Co., Ltd. (Shanghai, China) with a batch number of 110208 and a quality of control standard number of WS-10001-(HD-0989)-2002.</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>General</td>
+      <td></td>
+      <td>It is important to make patients aware of the fact that plants can cause adverse effects and are not safe in every situation by being “natural”.</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>Southern African</td>
+      <td></td>
+      <td>2.1.2.</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Spanish</td>
+      <td></td>
+      <td>V05895B; Arkopharma, Madrid, Spain).</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>Tropical</td>
+      <td></td>
+      <td>Little is known of the effect of most tropical medicinal herbs on the metabolic capacity of CYP isoenzymes.</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>European</td>
+      <td></td>
+      <td>Thanks to J. Kocher, S. Rosenzweig, C. Mueller, A. Fautsch, and T. Rützert for excellent technical assistance, to D. Ballinari (Pharmacia & Upjohn, Milano, Italy) for providing P388 and P388/dx cells, to A. H. Schinkel (The Netherlands Cancer Institute, Amsterdam, The Netherlands) for providing MDCKII-BCRP cells, to D. Keppler (German Cancer Research Centre, Heidelberg, Germany) for providing HEK-OATP1B1 and HEK-OATP1B3 cell lines, to Z. Dvorak (Palycký University, Olomouc, Czech Republic) for providing the AZ-AhR cells, and to D. Theile for careful proofreading of the manuscript.</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>African</td>
+      <td></td>
+      <td>If so, herb-mediated changes in CYP activity may take on greater clinical relevance in this population.</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>English</td>
+      <td></td>
+      <td>In the first phase, after an overnight fast, each subject in the respective groups received a single oral dose of 600 mg quinine sulphate tablets (Maderich Ltd, Surrey, England).</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>Various</td>
+      <td></td>
+      <td>showed that the practice of herbal co-medication with prescription drugs cut across various patient demographics, with 38% of respondents reporting concomitant herbal use [6].</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>Asian</td>
+      <td></td>
+      <td>applied atorvastatin in rats after 3 weeks of drinking green tea or water.</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>Human</td>
+      <td></td>
+      <td>Although these isoforms are expressed in several different species, a high degree of similarity in their gene sequences between rats and human may not automatically result in similar levels of catalytic specificity and activity.</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Southern African</td>
+      <td></td>
+      <td>***P < 0.0001.</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>African</td>
+      <td></td>
+      <td>; supervision, K.M.A.</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Portuguese</td>
+      <td></td>
+      <td>A maioria dos medicamentos cardíacos foi, portanto, descontinuada.</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>South African</td>
+      <td></td>
+      <td>Thabethe, D.A.</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>The interaction study of warfarin and Lycium barbarum L.  Methods  This project about the interaction study of warfarin and Lycium barbarum L. is approved by Fujian Medical University Union Hospital ethics committee (NO: 2015KY002).</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>American</td>
+      <td></td>
+      <td>The reaction was initiated by the addition of NADPH and terminated by placing the tubes on a cooling block (Selleckchem, Houston, TX, USA).</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>North American</td>
+      <td></td>
+      <td>[ HEK293 cells transiently overexpressing OAT1, OAT3, OCT1, OCT2, OATP1B1, and OATP1B3 transporters were purchased from Corning-Gentest (Tewksbury, MA, USA).</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Asian</td>
+      <td></td>
+      <td>C. asiatica Plant Material and Preparation of CAW-R61J.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>African</td>
+      <td></td>
+      <td>Local names for this shrub include Faangum in Cameroon, Sasanemasa/Sesemasa or Esisimansa in Ghana, Lifui in Togo, and Akoko in Nigeria.</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Unspecified</td>
+      <td></td>
+      <td>Meanwhile, the exclusion criteria were: 1) women who became menopausal from surgery or chemotherapy; 2) women who underwent hysterectomy; 3) women with a history of endometrial hyperplasia or endometrial, breast, or sex hormone–related cancers; 4) women with uncontrolled hypertension (160/100 mmHg or higher); 5) women with uncontrolled diabetes mellitus (fasting blood sugar 180 mg/dL or higher, or cases of starting or changing medication due to diabetes within 3 mo); 6) uncontrolled thyroid patients; 7) women who have had severe migraines within the last year or who have been diagnosed with thromboembolism, cerebrovascular disease, or serious cardiovascular disease; 8) women with atypical uterine bleeding after 1 yr of menopause; 9) women who have taken sleep inducers, antidepressants, selective estrogen receptor modulators, antihyperlipidemic drugs, antithrombotic drugs (Aspirin, Warfarin, and Clopidogrel), bisphosphonates, or calcitonin within 4 wk; 10) women who have taken plant hormones (isoflavone, flaxseed, pomegranate, horseradish, white sorghum, red shamrock, and red ginseng products) in the form of supplements or medicines within 4 wk; 11) women who have continuously taken functional foods and herbal medicines that could affect bone health, blood lipid lipids (triglyceride and cholesterol), and blood circulation within 4 wk; 12) women who were administered female hormone formulations within 6 mo; 13) women with alanine aminotransferase (ALT) or aspartate aminotransferase (AST) levels exceeding 3 times the laboratory's normal upper limit; 14) women with creatinine levels exceeding 2 times the laboratory's normal upper limit; 15) women with a history of drug or alcohol abuse; 16) women who have performed intensive exercises (more than 10 h) within 3 mo; 17) women with hypersensitivity to the test drug or its ingredients; 18) women with clinically significant abnormalities based on mammographies or Pap smears (Category 0 or higher than 3 of Breast Imaging Reporting and Data System (BI-RADS)) is confirmed (in the case of BI-RADS Category 0, subject registration is possible after confirming additional test results; in the case of Pap smear, atypical squamous cell of undetermined significance can be registered); 19) women who have participated in other clinical trials within 1 mo of the start of the current study or who are planning to participate in another clinical trial during the study period; and, 20) in cases where the researchers decided that the subject is unsuitable to participate in this study.</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>Rat</td>
+      <td></td>
+      <td>PCE significantly increased the tissue to plasma distribution coefficients (K  Tissue distribution profiles of ciprofloxacin (CIP) after intravenous administration of CIP in the absence (A) and presence (B) of PCE to rats, as well as the tissue to plasma distribution coefficients [K  The tissue distribution curves of GA in normal rats after intragastric administration of PCE in the absence and presence of CIP are displayed in Figures 7A,B, respectively.</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>Southern Indian</td>
+      <td></td>
+      <td>The following formula determines the half-maximal inhibitory concentration (IC SRM Medical College Hospital and Research Centre and SRM Institute of Science and Technology, Kattankulathur ethics committees approved the protocol (approval No.</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>Southern African</td>
+      <td></td>
+      <td>MBI, mechanism‐based inhibition Go to: 4.</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>South African</td>
+      <td></td>
+      <td>Ethical approval was obtained from the University of Cape Town Human Research Ethics committee with number HREC REF: 826/2014.</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>used the duration of QRS interval prolongation, ventricular precontraction, ventricular tachycardia, and ventricular fibrillation as markers of arrhythmia to study the effects of C. pinnatifida Bunge (Shanzha) extract on digoxin-induced arrhythmias, and the results showed that the ventricular arrhythmias in the digoxin-induced experimental group of rats all decreased after the administration of C. pinnatifida Bunge (Shanzha) extract, indicating that the flavonoid glycoside and flavane polymers in C. pinnatifida Bunge (Shanzha) extract can antagonize digoxin-induced arrhythmias (Li and Huang, 2016), which may be related to their ability to dilate blood vessels, lower blood pressure, slow down the heart rhythm, and improve the cardiovascular system (Zhang et al., 2021).</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>Southern African</td>
+      <td></td>
+      <td>Go to: 2.</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>liver cytochrome P450 vitamin K epoxide reductase vitamin K vitamin K thrombomodulin Danshen–Gegen Formula salvianolic acid B phenobarbital beta-naphthoflavone cyclophosphamide enzyme-linked immunosorbent assay Beikang Ge and Zhen Zhang contributed equally to this work BKG, ZZh and ZZu conceived and designed the study.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>North American</td>
+      <td></td>
+      <td>Similarities and differences among current case studies and published cases of black cohosh hepatotoxicity.</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>Moreover, hesperidin in C. sinensis increases the levels of antioxidants including SOD and CAT, and decreases the MDA level [19].</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Human</td>
+      <td></td>
+      <td>Although honey was shown to decrease the oral bioavailability of CBZ in rabbits, it had no effect on the pharmacokinetic parameters of CBZ in human [63–65].</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>General</td>
+      <td></td>
+      <td>Although a lot of experience has been accumulated in the clinical application of digoxin over the years, limited research has been conducted on its possible interactions with TCM formulations.</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>European</td>
+      <td></td>
+      <td>5 mg (VAEM, host tree Malus domestica, Lot 7054/0, total mistletoe lectin concentration 306 ng/mL), and Iscador Qu spec.</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>KY[2017]073).</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>Table 2  Pharmacokinetic parameters of S-warfarin and R-warfarin  \tMean (95% CI)\tGeometric mean ratio (90% CI)  \tWarfarin only\tWarfarin and cranberry\tWarfarin and garlic\tWarfarin and cranberry/warfarin only\tWarfarin and garlic/warfarin only S-warfarin  tmax (h)\t1.4 (1.1–1.6)\t1.9 (1.1–2.7)\t1.3 (1.1–1.6)\tNA\tNA  Cmax (μg mL−1)\t1.8 (1.7–1.9)\t1.7 (1.5–2.0)\t1.9 (1.5–2.2)\t0.94 (0.67–1.29)\t1.06 (0.77–1.47)  t1/2 (h)\t38.6 (35.7–41.5)\t34.9 (31.0–38.8)\t41.2 (35.1–47.3)\t0.94 (0.79–1.12)\t0.99 (0.83–1.18)  AUC (μg mL−1 h)\t60.3 (54.5–66.1)\t63.0 (57.3–68.8)\t65.5 (55.3–75.6)\t1.04 (0.94–1.67)\t1.06 (0.95–1.19)  CL/F (mL h−1)\t213 (193–232)\t204 (183–224)\t202 (175–229)\t0.89 (0.80–0.99)\t1.05 (0.94–1.17)  Fraction unbound (fu)\t0.010 (0.007–0.013)\t0.010 (0.007–0.014)\t0.011 (0.008–0.014)\t1.00 (0.75–1.25)\t1.12 (0.39–1.84)  \t \t \t \t \t  R-warfarin  tmax (h)\t1.4 (1.1–1.6)\t1.9 (1.1–2.7)\t1.8 (0.7–2.9)\tNA\tNA  Cmax (μg mL−1)\t1.8 (1.7–2.0)\t1.7 (1.5–1.9)\t1.9 (1.5–2.2)\t0.90 (0.67–1.21)\t1.02 (0.8–1.4)  t1/2 (h)\t55.6 (46.2–65.0)\t47.7 (41.5–53.9)\t52.6 (47.4–57.9)\t0.93 (0.80–1.08)\t0.98 (0.84–1.14)  AUC (μg mL−1 h)\t108.7 (90.0–127.3)\t105.8 (91.7–119.9)\t105.0 (96.3–113.7)\t1.0 (0.9–1.1)\t0.99 (0.87–1.13)  CL/F (mL h−1)\t123 (106–140)\t124 (109–139)\t121 (112–131)\t0.87 (0.75–0.99)\t0.96 (0.84–1.11)  Fraction unbound (fu)\t0.006 (0.004–0.007)\t0.005 (0.004–0.007)\t0.006 (0.004–0.007)\t0.95 (0.72–1.18)\t1.04 (0.80–1.29) Open in a separate window Abbreviations: AUC, area under the plasma concentration–time curve; CI, confidence interval; CL, clearance; CL/F, apparent clearance; Cmax, maximum concentration; F, bioavailability; NA, not applicable; tmax, time to Cmax.</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>Southern African</td>
+      <td></td>
+      <td>3a and b).</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>In China, Gouqizi is a popular component of the daily diet, making the prohibition of its consumption in patients taking warfarin difficult to implement.</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>To explore more, we would like to investigate the interactions between OS and selected single herbs from these Wen Bing formulas.</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>Water and food (laboratory rodent chow, Shanghai, China) were allowed ad libitum.</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Women</td>
+      <td></td>
+      <td>The purpose of this study was to evaluate the effect of SC extract supplementation on quadriceps muscle strength (QMS) and lactate at rest in adult women.</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>African</td>
+      <td></td>
+      <td>et Zucc.)</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Not specified</td>
+      <td></td>
+      <td>Regarding CAM nonusers, the majority were in the age group of 20–60 years with the male/female ratio of 73/27 percent.</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>South African</td>
+      <td></td>
+      <td>More than 50% of adults in KwaZulu-Natal attending public sector facilities for ART initiation disclose using TCAM [10], and similar levels of TCAM use by HIV positive individuals may occur worldwide [11].</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Asian</td>
+      <td></td>
+      <td>Like G. biloba, Panax ginseng appears to have little effect on the activities of the specific CYP isoforms investigated in this study.</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>Southern African</td>
+      <td></td>
+      <td>34860-2.5L-R) and ammonium acetate (catalog No.</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>U.S. American</td>
+      <td></td>
+      <td>The method was fully validated in compliance with the U.S. Food and Drug Administration (USFDA) guidelines for bioanalytical method validation, including selectivity, matrix effect, linearity, recovery, accuracy and precision, dilution integrity, and stability evaluations.</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>African</td>
+      <td></td>
+      <td>Reduce T cell apoptosis and caspase 3 activity through downregulating Bax expression in T cells [170] Increase in efficacy and survival [20], better symptomatic relief [20] increase in T cells count (CD4, CD4/CD8) [20] Better symptomatic relief [141] and increase appetite [144] Less reduction in WBC (CD3+, CD4+ T cells, NK cells) [141, 144], platelets [144] Pharmacodynamic interactions between medicinal mushrooms and cytotoxic drugs in preclinical studies Increase in tumor inhibition effect [83, 84, 98] and survival time [63] Less decrease in WBC [83, 84, 145], platelets [83] and other bone marrow cells [84] Greater recovery rate from intestinal damage caused by 5-FU [173] Increase in survival [67], cytotoxicity and inhibit metastasis [111] Reduce immunosuppression (reduce the decrease in phagocytic activity, antibody production [111], delayed hypersensitivity [111, 112]) Increase in tumor inhibition and apoptotic rate (dose-related or time-dependent) [98–103], similar effect at lower dose of 5-FU [105] Induce cell cycle arrest at different phases [99, 101], increase caspase 3 and 8 expression and activity [100].</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Southern African</td>
+      <td></td>
+      <td>Table I  Pre- and Postsupplementation Phenotypic Ratios (means, 95% confidence intervals) Phenotypic Ratio (CYP)\tSupplement\tPresupplementation (mean and 95% CI)\tPostsupplementation.</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>North American</td>
+      <td></td>
+      <td>Aliquots of the two filtrates were shipped to Oregon Health & Science University (OHSU, Portland, OR), where they were frozen and lyophilized, yielding 21.4% from dried CA for CAW-R61F (extraction lot 1) and 23.9% from dried CA for CAW-R61H (extraction lot 2).</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>Briefly, 2 × 10 Total RNA was extracted from the cells using the Trizol (CW0581, CWbio, Beijing, China).</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>African</td>
+      <td></td>
+      <td>and M.A.A.</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Mixed gender</td>
+      <td></td>
+      <td>(E/Z)-endoxifen hydrochloride (4-hydroxy-N-desmethyltamoxifen hydrochloride), β-estradiol (E2) and dextrorphan-d Pooled human liver microsomes (HLMs, 50 donors, mixed gender) were purchased from Bioreclamation IVT (Baltimore, USA).</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>Korean</td>
+      <td></td>
+      <td>Co., Seoul, Korea) and their identity was kindly confirmed by Prof. Yeong Bae Seo (a specialist in plant classification, Natural Products Research Institute, Seoul National University, Seoul, Korea).</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Female</td>
+      <td></td>
+      <td>Female volunteers were excluded if they were pregnant (positive test for serum human chorionic gonadotropin at screening or check-in), breastfeeding, or planning to conceive a child within 30 days of treatment cessation.</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>Asian</td>
+      <td></td>
+      <td>), dried orange peel (Citrus aurantium L.), Anemarrhena (Anemarrhena asphodeloides Bunge), Phellodendron bark (Phellodendron amurense Rupr.</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>North American</td>
+      <td></td>
+      <td>Thus, two studies from Canada and the USA were screened to find plants that patients might use.</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>American</td>
+      <td></td>
+      <td>Current address: Drug Metabolism and Pharmacokinetics, Covance Laboratories Inc., Madison, WI, USA Patients commonly take complementary medicines in conjunction with warfarin yet evidence supporting the safety or the risk of a herb–drug interaction is lacking.</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>Southern African</td>
+      <td></td>
+      <td>Significances are given relative to the VAEM untreated values (*p < 0.05, **p < 0.01, ***p < 0.001) VAEM, as well as endoxifen, showed a concentration-dependent inhibition of proliferation (Fig.</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>Li Xin et al.</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>European</td>
+      <td></td>
+      <td>A scientific opinion of EFSA [196] from 2018 states that the common food consumption is safe, as there are only few cases of HILI associated with tea consumption despite the widespread use.</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>Indian</td>
+      <td></td>
+      <td>Ltd., Varanasi, India) is a patented polyherbal formulation developed to manage menopause symptoms that can be taken along with other allopathic medicines.</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>Unspecified</td>
+      <td></td>
+      <td>Despite the general concern about its safety, kava is still popularly consumed for CNS benefits.</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>German</td>
+      <td></td>
+      <td>Valerian, for example, is marketed in Germany, mainly as HMP, and, thus, possibly a great proportion of consumption was not included in the survey by Garcia-Alvarez [7].</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Southern African</td>
+      <td></td>
+      <td>Type of participant.</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>European</td>
+      <td></td>
+      <td>A more detailed description of the regulatory environment in Europe, as well as its practical effects, can be found in the Bilia and Céu Costas review [13].</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Global</td>
+      <td></td>
+      <td>During the past two decades, the world has witnessed an increased rate of conventional medicines integrated with CAM for treatment.</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>Human</td>
+      <td></td>
+      <td>CYP3A4 and P-gp are richly expressed in the human small intestinal enterocytes.</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>N/A</td>
+      <td></td>
+      <td>The plant names in current study were used according to the latest revision in “The Plant List” ( Racemic warfarin, diclofenac sodium and naringin (internal standards) were purchased from Sigma-Aldrich (St. Louis, MO, USA).</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>Asian</td>
+      <td></td>
+      <td>), Licorice (Glycyrrhiza glabra L.), Ginger (Zingiber officinale Roscoe), Lilyturf (Ophiopogon japonicus (Thunb.)</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>Southern African</td>
+      <td></td>
+      <td>(n = 6).</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>Polymethoxylated flavones (PMFs) of C. sinensis have hypolipidemic effects, resulting in a significant reduction of insulin tolerance and glucose levels [61].</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Statistical Analysts</td>
+      <td></td>
+      <td>The terminal elimination rate constant (λ All statistical analyses were conducted using SAS (v. 9.2; SAS Institute).</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>Rat</td>
+      <td></td>
+      <td>The incubation system for rat plasma contains 1 μg/mL of OS and 10% rat plasma since the super-fast reaction rate of 100% rat plasma resulted in no discrimination for nearly all the studied herb/herbal components.</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>sub-Saharan African<br>Indian</td>
+      <td></td>
+      <td>Others such as Alstonia boonei, Bauhinia monandra, and Picralima nitida are frequently used in sub‐Saharan Africa and India in the management of chronic diseases such as hypertension, diabetes, asthma, peptic ulcer, and cancer, as antimalarials and antimicrobials and other minor ailments (Mahomoodally, 2013; Ezuruike & Prieto, 2014; Iwu, 2014).</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Middle-aged</td>
+      <td></td>
+      <td>'s study,[25] which reported that the trend was more prevalent among middle-aged (50–64) patients compared to other age groups.</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>African</td>
+      <td></td>
+      <td>a.</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>African</td>
+      <td></td>
+      <td>The results suggested that co-administration with RS could significantly increase the systemic exposure of OS and decrease that of OSA (Fig.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>In China, 93.4% of cancer patients reported having used CAM in 2009-2010 [4].</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Unknown</td>
+      <td></td>
+      <td>However, it is unknown whether there is an interaction between AC and DST.</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>African</td>
+      <td></td>
+      <td>(2006b) included 7 patients with atrial fibrillation, whereas Ansell et al.</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>African</td>
+      <td></td>
+      <td>particularly illustrated an increase in the SOD, CAT, and GPx levels, while the MDA level more significantly decreased compared to other groups using only one herb [17].</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Korean</td>
+      <td></td>
+      <td>The concentration of total RNA was determined by Nano Vue Plus (GE healthcare Korea, Seoul, Korea).</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>When the bias of medicine is greater than that of food, it will inevitably affect the balance of qi, blood, yin and yang of the human body (Jia et al., 2021).</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>American</td>
+      <td></td>
+      <td>Curcumin commercially available as pure powder capsule (95%) was obtained from Quality Supplements and Vitamins (Fort Lauderdale, FL, USA).</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Southern African</td>
+      <td></td>
+      <td>* p < 0.05, ** p < 0.01.</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>African</td>
+      <td></td>
+      <td>Treatment with EJE and EJE + SITA significantly (p < 0.001) reduced the elevated levels of BUN (Fig.</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Iranian</td>
+      <td></td>
+      <td>[2526] Iranian borage (E. amoenum) as unformulated and anticough syrups as formulated herbal products were the most used ones in our study population, while common cold and respiratory problems were determined to be the main indications for this trend.</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>European</td>
+      <td></td>
+      <td>The European pharmacopoeia monographs pulverized dried bulbs of Allium sativum containing at least 0.45% allicin [154].</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Chinese</td>
+      <td></td>
+      <td>; performing modeling, Q.T.T., H.-m.B., L.T.N., J.-w.C., and H.-y.Y.</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Saudi Arabian</td>
+      <td></td>
+      <td>The research was approved by the Research Ethics Committee of King Saud University College of Pharmacy Riyadh, Saudi Arabia (KSU-SE-21-58).</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

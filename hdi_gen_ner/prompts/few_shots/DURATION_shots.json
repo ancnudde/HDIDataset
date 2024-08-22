@@ -1,1 +1,24 @@
-{"shots": [{"query": "Rats were randomly divided into three groups, i.e., control (n = 6, vehicle treatment), single (n = 6, 1.5 g/kg), and multiple RGE treatments (n = 6, 1.5 g/kg for 7 days).", "answer": "{\"DURATION\": [\"for 7 days\"]}"}, {"query": "Effects of Samento (0.033\u20131%) and the positive control rifampicin (20 \u00b5M) on the protein expression of P-glycoprotein (P-gp) after four days of exposure.", "answer": "{\"DURATION\": [\"after four days\"]}"}, {"query": "Animal model experiments, surveys, and small pilot studies show potential benefits in IBD treatment over short periods (8 weeks), while longer use (6 months) is associated with a higher rate of surgery (reviewed in [123]).", "answer": "{\"DURATION\": [\"8 weeks\", \"6 months\"]}"}, {"query": "Importantly, rats in the multiple RGE group received RGE suspension (1.5 g/kg/3 mL/day) for 7 days via oral gavage, while rats in the single RGE treatment group received water (3 mL/kg) for 6 days via oral gavage and RGE suspension (1.5 g/kg/3 mL) via oral gavage on the day 7.", "answer": "{\"DURATION\": [\"for 7 days\", \"for 6 days\"]}"}, {"query": "In addition, the results of our study showed that supplementation of SC extract for 12 weeks in humans improved muscle strength (mean 7.7% for QMS).", "answer": "{\"DURATION\": [\"for 12 weeks\"]}"}]}
+{
+    "shots": [
+        {
+            "query": "Rats were randomly divided into three groups, i.e., control (n = 6, vehicle treatment), single (n = 6, 1.5 g/kg), and multiple RGE treatments (n = 6, 1.5 g/kg for 7 days).",
+            "answer": "{\"DURATION\": [\"for 7 days\"]}"
+        },
+        {
+            "query": "Effects of Samento (0.033\u20131%) and the positive control rifampicin (20 \u00b5M) on the protein expression of P-glycoprotein (P-gp) after four days of exposure.",
+            "answer": "{\"DURATION\": [\"after four days\"]}"
+        },
+        {
+            "query": "Animal model experiments, surveys, and small pilot studies show potential benefits in IBD treatment over short periods (8 weeks), while longer use (6 months) is associated with a higher rate of surgery (reviewed in [123]).",
+            "answer": "{\"DURATION\": [\"8 weeks\", \"6 months\"]}"
+        },
+        {
+            "query": "Importantly, rats in the multiple RGE group received RGE suspension (1.5 g/kg/3 mL/day) for 7 days via oral gavage, while rats in the single RGE treatment group received water (3 mL/kg) for 6 days via oral gavage and RGE suspension (1.5 g/kg/3 mL) via oral gavage on the day 7.",
+            "answer": "{\"DURATION\": [\"for 7 days\", \"for 6 days\"]}"
+        },
+        {
+            "query": "In addition, the results of our study showed that supplementation of SC extract for 12 weeks in humans improved muscle strength (mean 7.7% for QMS).",
+            "answer": "{\"DURATION\": [\"for 12 weeks\"]}"
+        }
+    ]
+}
